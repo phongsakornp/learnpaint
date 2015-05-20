@@ -1,0 +1,185 @@
+@import '../../bower_components/bourbon/app/assets/stylesheets/_bourbon.scss';
+
+@import '_variables'; // colors, fonts etc...
+
+@import '_mixins'; // custom mixins
+
+@import '_layout'; // responsive grid and media queries
+
+
+/*--------------------
+
+Variables
+
+--------------------*/
+
+// $color-1: #FFEB77;
+// $color-2: #81D39E;
+// $color-8: #3D3E45;
+
+// colors
+
+$main-text: #7f8c97; // main text
+$header-text: #3D3E45; // main text
+$link: #acb7c0; // anchor tags
+$background: #e9f0f5; // body background color
+// $background: white;
+
+// $color-1: #303e49; // blue dark
+$color-1: #FFEB77;
+$color-2: #c03b44; // red
+$color-3: #ffffff; // white
+$color-4: #75ce66; // green
+$color-5: #f0ca45; // yellow
+
+// fonts
+
+$primary-font: 'Droid Serif', serif;
+$secondary-font: 'Open Sans', sans-serif;
+
+/* --------------------------------
+
+...
+
+-------------------------------- */
+
+.video-wrapper {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%; // For ratio 16:9. 75% if ratio is 4:3
+	// padding-top:30px;
+  position: relative;
+
+  embed,
+  object,
+  iframe {
+    @include position(absolute, 0px null null 0px);
+    @include size(100%);
+  }
+}
+
+.video {
+	// padding-top: 15px;
+	height: 100%;
+	// background-color: black;
+
+}
+
+/* --------------------------------
+
+Primary style
+
+-------------------------------- */
+*, *::after, *::before {
+	@include box-sizing(border-box);
+}
+
+html {
+	* {
+			@include font-smoothing;
+	}
+}
+
+body {
+	font: {
+		size: 100%;
+		family: $primary-font; // variables inside partials > _variables.scss
+	}
+	color: $main-text;
+	background-color: $background;
+}
+
+body, html {
+	/* prevent horizontal scrolling */
+	// overflow-x: auto;
+}
+
+a {
+	color: $link;
+	text-decoration: none;
+	font-family: $secondary-font;
+}
+
+img {
+	max-width: 100%;
+}
+
+h1, h2 {
+	font-family: $secondary-font;
+	font-weight: bold;
+	color: $main-text;
+}
+
+
+/* --------------------------------
+
+..
+
+-------------------------------- */
+
+.logo {
+	// margin-left: 50px;
+	position: fixed;
+	top: 20px;
+	left: 50px;
+}
+
+.avatar {
+	position: fixed;
+	bottom:70px;
+	right: 50px;
+
+}
+
+.video {
+	margin-top: 0;
+}
+
+svg {
+	max-width: 100%;
+}
+
+/* --------------------------------
+
+Modules - reusable parts of our design
+
+-------------------------------- */
+
+.cd-container { /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
+	width: 90%;
+	max-width: $L; // breakpoints
+	margin: 0 auto;
+
+	&::after { /* clearfix */
+		content: '';
+		display: table;
+		clear: both;
+	}
+}
+
+/* --------------------------------
+
+Main components
+
+-------------------------------- */
+
+header {
+	height: 200px;
+	line-height: 200px;
+	text-align: center;
+	background: $color-1;
+
+	h1 {
+		color: $header-text;
+		@include font-size(18px);
+	}
+
+	@include MQ(L) {
+		height: 300px;
+		line-height: 300px;
+
+		h1 {
+			@include font-size(24px);
+		}
+	}
+}

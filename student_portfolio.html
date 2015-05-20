@@ -1,0 +1,138 @@
+<div class="sliderContainer">
+  <div id="gallery-t-group" class="royalSlider rsDefaultInv">
+    <a class="rsImg" href="assets/student-portfolio/beach1.png"><img class="rsTmb" src="assets/student-portfolio/beach1.png"></a>
+    <a class="rsImg" href="assets/student-portfolio/beach2.png"><img class="rsTmb" src="assets/student-portfolio/beach2.png"></a>
+    <a class="rsImg" href="assets/student-portfolio/beach3.png"><img class="rsTmb" src="assets/student-portfolio/beach3.png"></a>
+    <a class="rsImg" href="assets/student-portfolio/beach4.png"><img class="rsTmb" src="assets/student-portfolio/beach4.png"></a>
+    <a class="rsImg" href="assets/student-portfolio/beach5.png"><img class="rsTmb" src="assets/student-portfolio/beach5.png"></a>
+    <a class="rsImg" href="assets/student-portfolio/sakura1.png"><img class="rsTmb" src="assets/student-portfolio/sakura1.png"></a>
+    <a class="rsImg" href="assets/student-portfolio/sakura2.png"><img class="rsTmb" src="assets/student-portfolio/sakura2.png"></a>
+    <a class="rsImg" href="assets/student-portfolio/sakura3.png"><img class="rsTmb" src="assets/student-portfolio/sakura3.png"></a>
+    <a class="rsImg" href="assets/student-portfolio/sakura4.png"><img class="rsTmb" src="assets/student-portfolio/sakura4.png"></a>
+    <a class="rsImg" href="assets/student-portfolio/sakura5.png"><img class="rsTmb" src="assets/student-portfolio/sakura5.png"></a>
+    <a class="rsImg" href="assets/student-portfolio/sakura6.png"><img class="rsTmb" src="assets/student-portfolio/sakura6.png"></a>
+
+
+  </div>
+
+  <style type="text/css">
+    #gallery-t-group {
+      width: 100%;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+    .rsDefaultInv,
+    .rsDefaultInv .rsOverflow,
+    .rsDefaultInv .rsSlide,
+    .rsDefaultInv .rsVideoFrameHolder,
+    .rsDefaultInv .rsThumbs {
+      background: #fff;
+    }
+
+    #gallery-t-group .rsThumb {
+      float: left;
+      overflow: hidden;
+      width: 56;
+      height: 56;
+      margin-right: 1px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: #CECECE;
+    }
+    #gallery-t-group .rsThumbs {
+      width: 200px;
+      height: 100%;
+      position: absolute;
+      top: 0px;
+      padding: 0 0 0 1px;
+      right: 0;
+    }
+    /*#gallery-t-group .rsGCaption {
+      right: 285px;
+      line-height: 12px;
+      padding: 1px 7px;
+      font-size: 11px;
+      background: #EEE;
+      position: absolute;
+      width: auto;
+      bottom: 0;
+      float: none;
+      text-align: left;
+    }*/
+    /*@media screen and (min-width: 0px) and (max-width: 1200px) {
+      #gallery-t-group .rsThumbs {
+        width: 228px;
+      }
+      #gallery-t-group .rsGCaption {
+        right: 228px;
+      }
+    }
+    @media screen and (min-width: 0px) and (max-width: 760px) {
+      #gallery-t-group .rsThumbs {
+        left: 0;
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding: 1px 0 0 1px;
+      }
+      #gallery-t-group .rsThumbsContainer {
+        height: auto !important;
+      }
+      #gallery-t-group .rsGCaption {
+        right: 0;
+      }
+
+    }*/
+  </style>
+
+  <script>
+    jQuery(document).ready(function() {
+      var win = $(window);
+      var slider = $('#gallery-t-group').royalSlider({
+        controlNavigation: 'thumbnails',
+        thumbs: {
+          orientation: 'vertical',
+          navigation: true,
+          fitInViewport: (win.width() < 760) ? false : true,
+          spacing: 1,
+          autoCenter: false
+        },
+        deeplinking: {
+          enabled: true,
+          change: true,
+          prefix: 'image-'
+        },
+        globalCaption: false,
+        numImagesToPreload: 2,
+        fadeinLoadedSlide: false,
+        imageAlignCenter: true,
+        imageScaleMode: 'fit',
+        transitionType:'move',
+        autoScaleSlider: true,
+        autoScaleSliderWidth: 900,
+        autoScaleSliderHeight: 400,
+        loop: true,
+        arrowsNav: false,
+        keyboardNavEnabled: true,
+
+
+        /* size of all images http://help.dimsemenov.com/kb/royalslider-jquery-plugin-faq/adding-width-and-height-properties-to-images */
+        // imgWidth: 792,
+        // imgHeight: 479
+      }).data('royalSlider');
+
+      win.resize(function() {
+        if(win.width() < 760) {
+          slider.st.thumbs.fitInViewport = false;
+        } else {
+          slider.st.thumbs.fitInViewport = true;
+        }
+      });
+      $('#btn').click(function() {
+        console.log('click');
+        return false;
+      });
+    });
+  </script>
+</div>

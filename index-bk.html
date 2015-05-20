@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge" />
+  <meta name="viewport" content="user-scalable=yes, initial-scale=1.0, width=device-width" />
+
+  <title>home</title>
+
+  <link rel="stylesheet" href="assets/css/reset.css">
+
+  <style>
+    html {
+      height:100%;
+    }
+    body {
+      background-color: #FFFFFF;
+      margin:0;
+      height:100%;
+    }
+  </style>
+
+  <!-- Hype -->
+
+  <link href='https://fonts.googleapis.com/css?family=Noto+Serif&subset=latin' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Noto+Sans&subset=latin' rel='stylesheet' type='text/css'>
+  <style>
+    @font-face {
+      font-family: 'arabicaregular';
+      src: url('home.hyperesources/arabica-webfont.eot');
+      src: url('home.hyperesources/arabica-webfont.eot?#iefix') format('embedded-opentype'),
+           url('home.hyperesources/arabica-webfont.woff2') format('woff2'),
+           url('home.hyperesources/arabica-webfont.woff') format('woff'),
+           url('home.hyperesources/arabica-webfont.ttf') format('truetype'),
+           url('home.hyperesources/arabica-webfont.svg#arabicaregular') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+  </style>
+  <style>
+    @font-face {
+    font-family: "BoonTook Mon Ultra";
+    src: url(home.hyperesources/BoonTook-Mon-Ultra-Oblique.woff2) format("woff2"),
+         url(home.hyperesources/BoonTook-Mon-Ultra-Oblique.woff) format("woff");
+    font-weight: normal;
+    font-style: oblique;
+    }
+    @font-face {
+    font-family: "BoonTook Mon Ultra";
+    src: url(home.hyperesources/BoonTook-Mon-Ultra.woff2) format("woff2"),
+         url(home.hyperesources/BoonTook-Mon-Ultra.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+    }
+  </style>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="home.hyperesources/noframework.waypoints.min.js"></script>
+
+  <!-- End Hype -->
+
+  <link rel="stylesheet" href="bower_components/magnific-popup/dist/magnific-popup.css">
+  <link rel="stylesheet" href="assets/royalslider/royalslider.css">
+  <link rel="stylesheet" href="assets/royalslider/skins/default-inverted/rs-default-inverted.css">
+
+  </head>
+  <body>
+
+  <!-- Hype -->
+  <div id="home_hype_container" style="margin:auto;position:relative;width:100%;height:4000px;overflow:hidden;" aria-live="polite">
+		<script type="text/javascript" charset="utf-8" src="home.hyperesources/home_hype_generated_script.js?88415"></script>
+	</div>
+
+  <!-- text content for search engines: -->
+
+  	<div style="display:none">
+
+  		<div></div>
+  		<div>กว่า 30 คลิปการสอน
+  เริ่มตั้งแต่ขั้นพื้นฐาน</div>
+  		<div>สามารถเรียนผ่าน
+  แท็บเล็ต</div>
+  		<div>สามารถเรียนผ่าน
+  คอมพิวเตอร์ส่วนบุคคล</div>
+  		<div>บทเรียนการวาดภาพ
+  ด้วยโปรแกรม Paint</div>
+  		<div>ผลงานนักเรียน</div>
+  		<div>การวาดภาพด้วยโปรแกรม Paint</div>
+  		<div>“ การวาดภาพช่วยกระตุ้นจินตนาการ และส่งเสริมความคิดสร้างสรรค์
+   ไมโครซอฟท์เพ้นท์ เป็นโปรแกรมที่มาพร้อมกับวินโดว์ สามารถสร้างสรรค์
+  รูปภาพได้สวยงาม บทเรียนนี้เริ่มสอนตั้งแต่ขั้นพื้นฐาน รู้จักเครื่องมือต่างๆ 
+  ไปจนถึงสามารถวาดภาพบอกเล่าเรื่องราวตามจินตนาการได้ ”
+                                                                                         ครูอภิญญา พรหมรัตน์</div>
+  		<div></div>
+
+  	</div>
+
+  <!-- end text content: -->
+  <!-- End Hype -->
+
+  <script src="bower_components/fastclick/lib/fastclick.js"></script>
+  <script src="assets/royalslider/jquery.royalslider.min.js"></script>
+  <script src="bower_components/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+
+  <script>
+    jQuery(document).ready(function($) {
+
+      $(function() {
+          FastClick.attach(document.body);
+      });
+
+      $('body').on('click', '#student-portfolio', function () {
+
+        $.magnificPopup.open({
+
+          // Ajax
+          items:{
+            type: 'ajax',
+            src: 'student_portfolio.html'
+          },
+          callbacks: {
+            close: function() {
+              // destroy the slider to avoid memory leaks
+              if(this.content) {
+                this.content.find('.royalSlider').data('royalSlider').destroy();
+              }
+
+            }
+          },
+          closeBtnInside: false
+
+
+          // Ajax
+          // items:{
+          //   type: 'ajax',
+          //   src: 'student_portfolio.html'
+          // },
+          // callbacks: {
+          //   close: function() {
+          //     // destroy the slider to avoid memory leaks
+          //     if(this.content) {
+          //       this.content.find('.royalSlider').data('royalSlider').destroy();
+          //     }
+          //
+          //   }
+          // }
+
+          // Simple show image
+          // items: {
+          //   src: 'assets/student-portfolio/beach1.png'
+          // },
+          // type: 'image'
+        });
+
+      });
+    });
+  </script>
+  </body>
+</html>

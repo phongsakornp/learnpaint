@@ -1,0 +1,123 @@
+/*--------------------
+
+Variables
+
+--------------------*/
+/* --------------------------------
+
+...
+
+-------------------------------- */
+.video-wrapper {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative; }
+  .video-wrapper embed,
+  .video-wrapper object,
+  .video-wrapper iframe {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%; }
+
+.video {
+  height: 100%; }
+
+/* --------------------------------
+
+Primary style
+
+-------------------------------- */
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+body {
+  font-size: 100%;
+  font-family: "Droid Serif", serif;
+  color: #7f8c97;
+  background-color: #e9f0f5; }
+
+body, html {
+  /* prevent horizontal scrolling */ }
+
+a {
+  color: #acb7c0;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif; }
+
+img {
+  max-width: 100%; }
+
+h1, h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  color: #7f8c97; }
+
+/* --------------------------------
+
+..
+
+-------------------------------- */
+.logo {
+  position: fixed;
+  top: 20px;
+  left: 50px; }
+
+.avatar {
+  position: fixed;
+  bottom: 70px;
+  right: 50px; }
+
+.video {
+  margin-top: 0; }
+
+svg {
+  max-width: 100%; }
+
+/* --------------------------------
+
+Modules - reusable parts of our design
+
+-------------------------------- */
+.cd-container {
+  /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
+  width: 90%;
+  max-width: 1170px;
+  margin: 0 auto; }
+  .cd-container::after {
+    /* clearfix */
+    content: '';
+    display: table;
+    clear: both; }
+
+/* --------------------------------
+
+Main components
+
+-------------------------------- */
+header {
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  background: #FFEB77; }
+  header h1 {
+    color: #3D3E45;
+    font-size: 18px;
+    font-size: 1.125rem; }
+  @media only screen and (min-width: 1170px) {
+    header {
+      height: 300px;
+      line-height: 300px; }
+      header h1 {
+        font-size: 24px;
+        font-size: 1.5rem; } }
+
+/*# sourceMappingURL=home.css.map */

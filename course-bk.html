@@ -1,0 +1,727 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="assets/css/reset.css">
+
+	<!-- Hype -->
+	<style>
+		@font-face {
+			font-family: "BoonTook Mon Ultra";
+			src: url(course.hyperesources/BoonTook-Mon-Ultra-Oblique.woff2) format("woff2"),
+					url(course.hyperesources/BoonTook-Mon-Ultra-Oblique.woff) format("woff");
+			font-weight: normal;
+			font-style: oblique;
+		}
+		@font-face {
+			font-family: "BoonTook Mon Ultra";
+			src: url(course.hyperesources/BoonTook-Mon-Ultra.woff2) format("woff2"),
+					url(course.hyperesources/BoonTook-Mon-Ultra.woff) format("woff");
+			font-weight: normal;
+			font-style: normal;
+		}
+	</style>
+	<!-- End Hype -->
+
+	<link rel="stylesheet" href="assets/royalslider/royalslider.css">
+  <link rel="stylesheet" href="assets/royalslider/skins/default/rs-default.css">
+	<link rel="stylesheet" href="assets/css/course.css">
+
+	<script src="bower_components/fastclick/lib/fastclick.js"></script>
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="assets/js/modernizr.js"></script> <!-- Modernizr -->
+
+	<script type='text/javascript'>
+		jQuery(document).ready(function($) {
+			$(function() {
+					FastClick.attach(document.body);
+			});
+
+			/*--- Tabbed Navigation ---*/
+
+			var tabItems = $('.cd-tabs-navigation a'),
+				tabContentWrapper = $('.cd-tabs-content');
+
+			tabItems.on('click', function(event){
+				event.preventDefault();
+				var selectedItem = $(this);
+				if( !selectedItem.hasClass('selected') ) {
+					var selectedTab = selectedItem.data('content'),
+						selectedContent = tabContentWrapper.find('li[data-content="'+selectedTab+'"]'),
+						slectedContentHeight = selectedContent.innerHeight();
+
+					tabItems.removeClass('selected');
+					selectedItem.addClass('selected');
+					selectedContent.addClass('selected').siblings('li').removeClass('selected');
+					//animate tabContentWrapper height when content changes
+					tabContentWrapper.animate({
+						'height': slectedContentHeight
+					}, 200);
+
+					var slider = $(".royalSlider").data('royalSlider');
+					slider.stopVideo();
+
+					if(selectedTab == 1) {
+						$('#video-gallery-1').royalSlider({
+							arrowsNav: false,
+							fadeinLoadedSlide: true,
+							controlNavigationSpacing: 0,
+							controlNavigation: 'thumbnails',
+							navigateByClick: false,
+							slidesOrientation: 'vertical',
+							thumbs: {
+								autoCenter: false,
+								fitInViewport: true,
+								orientation: 'vertical',
+								spacing: 0,
+								paddingBottom: 0
+							},
+							keyboardNavEnabled: false,
+							imageScaleMode: 'fill',
+							imageAlignCenter:true,
+							slidesSpacing: 0,
+							loop: false,
+							loopRewind: true,
+							numImagesToPreload: 3,
+							video: {
+								autoHideArrows:true,
+								autoHideControlNav:false,
+								autoHideBlocks: true,
+							},
+							autoScaleSlider: true,
+							autoScaleSliderWidth: 960, //960
+							autoScaleSliderHeight: 450, //450
+
+							/* size of all images http://help.dimsemenov.com/kb/royalslider-jquery-plugin-faq/adding-width-and-height-properties-to-images */
+							imgWidth: 640,
+							imgHeight: 360
+
+						});
+					} else if(selectedTab == 2) {
+						$('#video-gallery-2').royalSlider({
+							arrowsNav: false,
+							fadeinLoadedSlide: true,
+							controlNavigationSpacing: 0,
+							controlNavigation: 'thumbnails',
+							navigateByClick: false,
+							slidesOrientation: 'vertical',
+							thumbs: {
+								autoCenter: false,
+								fitInViewport: true,
+								orientation: 'vertical',
+								spacing: 0,
+								paddingBottom: 0
+							},
+							keyboardNavEnabled: false,
+							imageScaleMode: 'fill',
+							imageAlignCenter:true,
+							slidesSpacing: 0,
+							loop: false,
+							loopRewind: true,
+							numImagesToPreload: 3,
+							video: {
+								autoHideArrows:true,
+								autoHideControlNav:false,
+								autoHideBlocks: true,
+							},
+							autoScaleSlider: true,
+							autoScaleSliderWidth: 960, //960
+							autoScaleSliderHeight: 450, //450
+
+							/* size of all images http://help.dimsemenov.com/kb/royalslider-jquery-plugin-faq/adding-width-and-height-properties-to-images */
+							imgWidth: 640,
+							imgHeight: 360
+
+						});
+					}
+				}
+			});
+
+			//hide the .cd-tabs::after element when tabbed navigation has scrolled to the end (mobile version)
+			checkScrolling($('.cd-tabs nav'));
+			$(window).on('resize', function(){
+				checkScrolling($('.cd-tabs nav'));
+				tabContentWrapper.css('height', 'auto');
+			});
+			$('.cd-tabs nav').on('scroll', function(){
+				checkScrolling($(this));
+			});
+
+			function checkScrolling(tabs){
+				var totalTabWidth = parseInt(tabs.children('.cd-tabs-navigation').width()),
+				 	tabsViewport = parseInt(tabs.width());
+				if( tabs.scrollLeft() >= totalTabWidth - tabsViewport) {
+					tabs.parent('.cd-tabs').addClass('is-ended');
+				} else {
+					tabs.parent('.cd-tabs').removeClass('is-ended');
+				}
+			}
+
+			/*--- End Tabbed Navigation ---*/
+
+			$('#video-gallery-1').royalSlider({
+		    arrowsNav: false,
+		    fadeinLoadedSlide: true,
+		    controlNavigationSpacing: 0,
+		    controlNavigation: 'thumbnails',
+				navigateByClick: false,
+				slidesOrientation: 'vertical',
+		    thumbs: {
+		      autoCenter: false,
+		      fitInViewport: true,
+		      orientation: 'vertical',
+		      spacing: 0,
+		      paddingBottom: 0
+		    },
+		    keyboardNavEnabled: false,
+		    imageScaleMode: 'fill',
+		    imageAlignCenter:true,
+		    slidesSpacing: 0,
+		    loop: false,
+		    loopRewind: true,
+		    numImagesToPreload: 3,
+		    video: {
+		      autoHideArrows:true,
+		      autoHideControlNav:false,
+		      autoHideBlocks: true,
+		    },
+		    autoScaleSlider: true,
+		    autoScaleSliderWidth: 960, //960
+		    autoScaleSliderHeight: 450, //450
+
+		    /* size of all images http://help.dimsemenov.com/kb/royalslider-jquery-plugin-faq/adding-width-and-height-properties-to-images */
+		    imgWidth: 640,
+		    imgHeight: 360
+
+  		});
+
+			// $('#video-gallery-2').royalSlider({
+			// 	arrowsNav: false,
+			// 	fadeinLoadedSlide: true,
+			// 	controlNavigationSpacing: 0,
+			// 	controlNavigation: 'thumbnails',
+			// 	navigateByClick: false,
+			// 	slidesOrientation: 'vertical',
+			// 	thumbs: {
+			// 		autoCenter: false,
+			// 		fitInViewport: true,
+			// 		orientation: 'vertical',
+			// 		spacing: 0,
+			// 		paddingBottom: 0
+			// 	},
+			// 	keyboardNavEnabled: false,
+			// 	imageScaleMode: 'fill',
+			// 	imageAlignCenter:true,
+			// 	slidesSpacing: 0,
+			// 	loop: false,
+			// 	loopRewind: true,
+			// 	numImagesToPreload: 3,
+			// 	video: {
+			// 		autoHideArrows:true,
+			// 		autoHideControlNav:false,
+			// 		autoHideBlocks: true,
+			// 	},
+			// 	autoScaleSlider: true,
+			// 	autoScaleSliderWidth: 960, //960
+			// 	autoScaleSliderHeight: 450, //450
+			//
+			// 	/* size of all images http://help.dimsemenov.com/kb/royalslider-jquery-plugin-faq/adding-width-and-height-properties-to-images */
+			// 	imgWidth: 640,
+			// 	imgHeight: 360
+			//
+			// });
+
+			$('#video-gallery-3').royalSlider({
+				arrowsNav: false,
+				fadeinLoadedSlide: true,
+				controlNavigationSpacing: 0,
+				controlNavigation: 'thumbnails',
+				navigateByClick: false,
+				slidesOrientation: 'vertical',
+				thumbs: {
+					autoCenter: false,
+					fitInViewport: true,
+					orientation: 'vertical',
+					spacing: 0,
+					paddingBottom: 0
+				},
+				keyboardNavEnabled: false,
+				imageScaleMode: 'fill',
+				imageAlignCenter:true,
+				slidesSpacing: 0,
+				loop: false,
+				loopRewind: true,
+				numImagesToPreload: 3,
+				video: {
+					autoHideArrows:true,
+					autoHideControlNav:false,
+					autoHideBlocks: true,
+				},
+				autoScaleSlider: true,
+				autoScaleSliderWidth: 960, //960
+				autoScaleSliderHeight: 450, //450
+
+				/* size of all images http://help.dimsemenov.com/kb/royalslider-jquery-plugin-faq/adding-width-and-height-properties-to-images */
+				imgWidth: 640,
+				imgHeight: 360
+
+			});
+
+		});
+	</script>
+
+	<title>LearnPaint | Course</title>
+</head>
+<body>
+	<!-- <header class="cd-header" id="course_hype_container">
+			<a class="logo" href="/">
+			<img src="assets/img/logo.png" alt="Learn Patin">
+			</a>
+		<h1>บทเรียนการวาดภาพด้วยโปรแกรม Paint</h1>
+
+		<div id="course_hype_container" style="margin:auto;position:relative;width:100%;overflow:hidden;" aria-live="polite">
+			<script type="text/javascript" charset="utf-8" src="course.hyperesources/course_hype_generated_script.js?27280"></script>
+		</div>
+
+	</header> -->
+
+	<div class="cd-tabs">
+		<nav>
+			<ul class="cd-tabs-navigation">
+				<li><a data-content="1" class="selected" href="#0">ฉันคือเพ้นท์</a></li>
+				<li><a data-content="2" href="#0">New</a></li>
+				<li><a data-content="3" href="#0">Gallery</a></li>
+				<li><a data-content="store" href="#0">Store</a></li>
+				<li><a data-content="settings" href="#0">Settings</a></li>
+				<li><a data-content="trash" href="#0">Trash</a></li>
+			</ul> <!-- cd-tabs-navigation -->
+		</nav>
+
+		<ul class="cd-tabs-content">
+			<li data-content="1" class="selected">
+
+					<section id="lp-course-1" class="lp-course-wrapper">
+
+						<div class="lp-course-header">
+							<div class="lp-course-side">
+								<img src="assets/img/avatar.png" />
+								<h1>ฉันคือ Paint</h1>
+							</div>
+							<div class="lp-course-info">
+								<h1>รู้จักวิธีการเปิด, การปิด, การบันทึกภาพ และเครื่องมือต่างๆ ของโปรแกรม</h1>
+							</div>
+						</div>
+
+						<div id="video-gallery-1" class="royalSlider videoGallery rsDefault">
+							<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="https://vimeo.com/128063072" href="assets/img/video-backdrop.png">
+							<div class="rsTmb">
+									<h5>โปรแกรมเพ้นท์คือ?</h5>
+								</div>
+							</a>
+							<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="https://vimeo.com/128061835" href="assets/img/video-backdrop.png">
+								<div class="rsTmb">
+									<h5>การเปิดโปรแกรม</h5>
+								</div>
+							</a>
+							<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="https://vimeo.com/128061378" href="assets/img/video-backdrop.png">
+								<div class="rsTmb">
+									<h5>การปิดโปรแกรม</h5>
+								</div>
+							</a>
+							<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="https://vimeo.com/128058781" href="assets/img/video-backdrop.png">
+								<div class="rsTmb">
+									<h5>ส่วนประกอบของโปรแกรม</h5>
+								</div>
+							</a>
+							<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="https://vimeo.com/128067963" href="assets/img/video-backdrop.png">
+								<div class="rsTmb">
+									<h5>การบันทึกภาพ</h5>
+								</div>
+							</a>
+							<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="https://vimeo.com/128049972" href="assets/img/video-backdrop.png">
+								<div class="rsTmb">
+									<h5>การเปิดภาพ</h5>
+								</div>
+							</a>
+							<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="https://vimeo.com/128062536" href="assets/img/video-backdrop.png">
+								<div class="rsTmb">
+									<h5>การกำหนดภาพพื้นหลัง</h5>
+								</div>
+							</a>
+
+						</div> <!-- End Video Gallery -->
+					</section> <!-- End Section 1 -->
+
+			</li>
+
+			<li data-content="2">
+
+					<section id="lp-course-2" class="lp-course-wrapper">
+
+						<div class="lp-course-header">
+							<div class="lp-course-side">
+								<img src="assets/img/avatar.png" />
+								<h1>เครื่องมือวิเศษ</h1>
+							</div>
+							<div class="lp-course-info">
+								<h1>สอนการใช้เครื่องมือต่างๆ โดยให้ผู้เรียนได้ฝึกวาดภาพด้วยเครื่องมือที่หลากหลาย</div>
+						</div>
+
+						<div id="video-gallery-2" class="royalSlider videoGallery rsDefault">
+							<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+							<div class="rsTmb">
+									<h5>เครื่องมือดินสอ</h5>
+								</div>
+							</a>
+							<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+								<div class="rsTmb">
+									<h5>เครื่องมือแปรงทาสี</h5>
+								</div>
+							</a>
+							<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+								<div class="rsTmb">
+									<h5>เครื่องมือถังสี</h5>
+								</div>
+							</a>
+							<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+								<div class="rsTmb">
+									<h5>วาดภาพชายทะเล</h5>
+								</div>
+							</a>
+							<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+								<div class="rsTmb">
+									<h5>เครื่องมือเส้นตรง</h5>
+								</div>
+							</a>
+							<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+								<div class="rsTmb">
+									<h5>เครื่องมือเส้นโค้ง</h5>
+								</div>
+							</a>
+							<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+								<div class="rsTmb">
+									<h5>การพิมพ์ข้อความ</h5>
+								</div>
+							</a>
+							<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+								<div class="rsTmb">
+									<h5>เครื่องมือยางลบ</h5>
+								</div>
+							</a>
+							<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+								<div class="rsTmb">
+									<h5>วาดภาพร้านกาแฟ</h5>
+								</div>
+							</a>
+							<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+								<div class="rsTmb">
+									<h5>เครื่องมือสี่เหลี่ยม</h5>
+								</div>
+							</a>
+							<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+								<div class="rsTmb">
+									<h5>เครื่องมือสามเหลี่ยม</h5>
+								</div>
+							</a>
+							<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+								<div class="rsTmb">
+									<h5>เครื่องมือวงรี</h5>
+								</div>
+							</a>
+							<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+								<div class="rsTmb">
+									<h5>วาดภาพรถไฟ</h5>
+								</div>
+							</a>
+							<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+								<div class="rsTmb">
+									<h5>การเลือก และย้ายภาพ</h5>
+								</div>
+							</a>
+							<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+								<div class="rsTmb">
+									<h5>การคัดลอกภาพ</h5>
+								</div>
+							</a>
+							<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+								<div class="rsTmb">
+									<h5>วาดภาพองุ่น</h5>
+								</div>
+							</a>
+							<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+								<div class="rsTmb">
+									<h5>การหมุน และพลิกภาพ</h5>
+								</div>
+							</a>
+							<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+								<div class="rsTmb">
+									<h5>การย่อ และขยายภาพ</h5>
+								</div>
+							</a>
+							<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+								<div class="rsTmb">
+									<h5>วาดภาพดอกซากุระ</h5>
+								</div>
+							</a>
+						</div> <!-- End Video Gallery -->
+					</section> <!-- End Section 2 -->
+			</li>
+
+			<li data-content="gallery">
+				<p>Gallery Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque tenetur aut, cupiditate, libero eius rerum incidunt dolorem quo in officia.</p>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ipsa vero, culpa doloremque voluptatum consectetur mollitia, atque expedita unde excepturi id, molestias maiores delectus quos molestiae. Ab iure provident adipisci eveniet quisquam ratione libero nam inventore error pariatur optio facilis assumenda sint atque cumque, omnis perspiciatis. Maxime minus quam voluptatum provident aliquam voluptatibus vel rerum. Soluta nulla tempora aspernatur maiores! Animi accusamus officiis neque exercitationem dolore ipsum maiores delectus asperiores reprehenderit pariatur placeat, quaerat sed illum optio qui enim odio temporibus, nulla nihil nemo quod dicta consectetur obcaecati vel. Perspiciatis animi corrupti quidem fugit deleniti, atque mollitia labore excepturi ut.</p>
+			</li>
+
+			<li data-content="store">
+				<p>Store Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum recusandae rem animi accusamus quisquam reprehenderit sed voluptates, numquam, quibusdam velit dolores repellendus tempora corrupti accusantium obcaecati voluptate totam eveniet laboriosam?</p>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, enim, pariatur. Ab assumenda, accusantium! Consequatur magni placeat quae eos dicta, cum expedita sunt facilis est impedit possimus dolorum sequi nostrum nobis sit praesentium molestias nulla laudantium fugit corporis nam ut saepe harum ipsam? Debitis accusantium, omnis repudiandae modi, distinctio illo voluptatibus aperiam odio veritatis, quam perferendis eaque ullam. Temporibus tempore ad voluptates explicabo ea sit deleniti ipsum quos dolores tempora odio, ab corporis molestiae, eaque optio, perferendis! Cumque libero quia modi! Totam magni rerum id iusto explicabo distinctio, magnam, labore sed nemo expedita velit quam, perspiciatis non temporibus sit minus voluptatum. Iste, cumque sunt suscipit facere iusto asperiores, ullam dolorum excepturi quidem ea quibusdam deserunt illo. Nesciunt voluptates repellat ipsam.</p>
+			</li>
+
+			<li data-content="settings">
+				<p>Settings Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam nam magni, ullam nihil a suscipit, ex blanditiis, adipisci tempore deserunt maiores. Nostrum officia, ratione enim eaque nihil quis ea, officiis iusto repellendus. Animi illo in hic, maxime deserunt unde atque a nesciunt? Non odio quidem deserunt animi quod impedit nam, voluptates eum, voluptate consequuntur sit vel, et exercitationem sint atque dolores libero dolorem accusamus ratione iste tenetur possimus excepturi. Accusamus vero, dignissimos beatae tempore mollitia officia voluptate quam animi vitae.</p>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique ipsam eum reprehenderit minima at sapiente ad ipsum animi doloremque blanditiis unde omnis, velit molestiae voluptas placeat qui provident ab facilis.</p>
+			</li>
+
+			<li data-content="trash">
+				<p>Trash Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque a iure nostrum animi praesentium, numquam quidem, nemo, voluptatem, aspernatur incidunt. Fugiat aspernatur excepturi fugit aut, dicta reprehenderit temporibus, nobis harum consequuntur quo sed, illum.</p>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima doloremque optio tenetur, natus voluptatum error vel dolorem atque perspiciatis aliquam nemo id libero dicta est saepe laudantium provident tempore ipsa, accusamus similique laborum, consequatur quia, aut non maiores. Consectetur minus ipsum aliquam pariatur dolorem rerum laudantium minima perferendis in vero voluptatem suscipit cum labore nemo explicabo, itaque nobis debitis molestias officiis? Impedit corporis voluptates reiciendis deleniti, magnam, fuga eveniet! Velit ipsa quo labore molestias mollitia, quidem, alias nisi architecto dolor aliquid qui commodi tempore deleniti animi repellat delectus hic. Alias obcaecati fuga assumenda nihil aliquid sed vero, modi, voluptatem? Vitae voluptas aperiam nostrum quo harum numquam earum facilis sequi. Labore maxime laboriosam omnis delectus odit harum recusandae sint incidunt, totam iure commodi ducimus similique doloremque! Odio quaerat dolorum, alias nihil quam iure delectus repellendus modi cupiditate dolore atque quasi obcaecati quis magni excepturi vel, non nemo consequatur, mollitia rerum amet in. Nesciunt placeat magni, provident tempora possimus ut doloribus ullam!</p>
+			</li>
+		</ul> <!-- cd-tabs-content -->
+	</div> <!-- cd-tabs -->
+
+	<section id="lp-course-1" class="lp-course-wrapper">
+
+		<div class="lp-course-header">
+			<div class="lp-course-side">
+				<img src="assets/img/avatar.png" />
+				<h1>ฉันคือ Paint</h1>
+			</div>
+			<div class="lp-course-info">
+				<h1>รู้จักวิธีการเปิด, การปิด, การบันทึกภาพ และเครื่องมือต่างๆ ของโปรแกรม</h1>
+			</div>
+		</div>
+
+		<div id="video-gallery-1" class="royalSlider videoGallery rsDefault">
+			<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="https://vimeo.com/128063072" href="assets/img/video-backdrop.png">
+			<div class="rsTmb">
+					<h5>โปรแกรมเพ้นท์คือ?</h5>
+				</div>
+			</a>
+			<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="https://vimeo.com/128061835" href="assets/img/video-backdrop.png">
+				<div class="rsTmb">
+					<h5>การเปิดโปรแกรม</h5>
+				</div>
+			</a>
+			<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="https://vimeo.com/128061378" href="assets/img/video-backdrop.png">
+				<div class="rsTmb">
+					<h5>การปิดโปรแกรม</h5>
+				</div>
+			</a>
+			<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="https://vimeo.com/128058781" href="assets/img/video-backdrop.png">
+				<div class="rsTmb">
+					<h5>ส่วนประกอบของโปรแกรม</h5>
+				</div>
+			</a>
+			<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="https://vimeo.com/128067963" href="assets/img/video-backdrop.png">
+				<div class="rsTmb">
+					<h5>การบันทึกภาพ</h5>
+				</div>
+			</a>
+			<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="https://vimeo.com/128049972" href="assets/img/video-backdrop.png">
+				<div class="rsTmb">
+					<h5>การเปิดภาพ</h5>
+				</div>
+			</a>
+			<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="https://vimeo.com/128062536" href="assets/img/video-backdrop.png">
+				<div class="rsTmb">
+					<h5>การกำหนดภาพพื้นหลัง</h5>
+				</div>
+			</a>
+
+		</div> <!-- End Video Gallery -->
+	</section> <!-- End Section 1 -->
+
+
+	<section id="lp-course-2" class="lp-course-wrapper">
+
+		<div class="lp-course-header">
+			<div class="lp-course-side">
+				<img src="assets/img/avatar.png" />
+				<h1>เครื่องมือวิเศษ</h1>
+			</div>
+			<div class="lp-course-info">
+				<h1>สอนการใช้เครื่องมือต่างๆ โดยให้ผู้เรียนได้ฝึกวาดภาพด้วยเครื่องมือที่หลากหลาย</div>
+		</div>
+
+		<div id="video-gallery-2" class="royalSlider videoGallery rsDefault">
+			<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+			<div class="rsTmb">
+					<h5>เครื่องมือดินสอ</h5>
+				</div>
+			</a>
+			<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+				<div class="rsTmb">
+					<h5>เครื่องมือแปรงทาสี</h5>
+				</div>
+			</a>
+			<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+				<div class="rsTmb">
+					<h5>เครื่องมือถังสี</h5>
+				</div>
+			</a>
+			<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+				<div class="rsTmb">
+					<h5>วาดภาพชายทะเล</h5>
+				</div>
+			</a>
+			<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+				<div class="rsTmb">
+					<h5>เครื่องมือเส้นตรง</h5>
+				</div>
+			</a>
+			<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+				<div class="rsTmb">
+					<h5>เครื่องมือเส้นโค้ง</h5>
+				</div>
+			</a>
+			<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+				<div class="rsTmb">
+					<h5>การพิมพ์ข้อความ</h5>
+				</div>
+			</a>
+			<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+				<div class="rsTmb">
+					<h5>เครื่องมือยางลบ</h5>
+				</div>
+			</a>
+			<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+				<div class="rsTmb">
+					<h5>วาดภาพร้านกาแฟ</h5>
+				</div>
+			</a>
+			<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+				<div class="rsTmb">
+					<h5>เครื่องมือสี่เหลี่ยม</h5>
+				</div>
+			</a>
+			<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+				<div class="rsTmb">
+					<h5>เครื่องมือสามเหลี่ยม</h5>
+				</div>
+			</a>
+			<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+				<div class="rsTmb">
+					<h5>เครื่องมือวงรี</h5>
+				</div>
+			</a>
+			<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+				<div class="rsTmb">
+					<h5>วาดภาพรถไฟ</h5>
+				</div>
+			</a>
+			<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+				<div class="rsTmb">
+					<h5>การเลือก และย้ายภาพ</h5>
+				</div>
+			</a>
+			<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+				<div class="rsTmb">
+					<h5>การคัดลอกภาพ</h5>
+				</div>
+			</a>
+			<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+				<div class="rsTmb">
+					<h5>วาดภาพองุ่น</h5>
+				</div>
+			</a>
+			<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+				<div class="rsTmb">
+					<h5>การหมุน และพลิกภาพ</h5>
+				</div>
+			</a>
+			<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+				<div class="rsTmb">
+					<h5>การย่อ และขยายภาพ</h5>
+				</div>
+			</a>
+			<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+				<div class="rsTmb">
+					<h5>วาดภาพดอกซากุระ</h5>
+				</div>
+			</a>
+		</div> <!-- End Video Gallery -->
+	</section> <!-- End Section 2 -->
+
+	<section id="lp-course-3" class="lp-course-wrapper">
+
+		<div class="lp-course-header">
+			<div class="lp-course-side">
+				<img src="assets/img/avatar.png" />
+				<h1>ภาพสวยด้วยเพ้นท์</h1>
+			</div>
+			<div class="lp-course-info">
+				<h1>เมื่อผู้เรียนได้รู้พื้นฐาน และการใช้เครื่องมือต่างๆ ของโปรแกรมแล้ว ผู้เรียนสามารถสร้างสรรค์ชิ้นงานได้ตามจินตนาการ</div>
+		</div>
+
+		<div id="video-gallery-3" class="royalSlider videoGallery rsDefault">
+			<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+			<div class="rsTmb">
+					<h5>เครื่องมือดินสอ</h5>
+				</div>
+			</a>
+			<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+				<div class="rsTmb">
+					<h5>เครื่องมือแปรงทาสี</h5>
+				</div>
+			</a>
+			<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+				<div class="rsTmb">
+					<h5>เครื่องมือถังสี</h5>
+				</div>
+			</a>
+			<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+				<div class="rsTmb">
+					<h5>วาดรูปชายทะเล</h5>
+				</div>
+			</a>
+			<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+				<div class="rsTmb">
+					<h5>เครื่องมือเส้นตรง</h5>
+				</div>
+			</a>
+			<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+				<div class="rsTmb">
+					<h5>เครื่องมือเส้นโค้ง</h5>
+				</div>
+			</a>
+			<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+				<div class="rsTmb">
+					<h5>การพิมพ์ข้อความ</h5>
+				</div>
+			</a>
+			<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+				<div class="rsTmb">
+					<h5>เครื่องมือยางลบ</h5>
+				</div>
+			</a>
+			<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="" href="assets/img/video-backdrop.png">
+				<div class="rsTmb">
+					<h5>วาดรูปร้านกาแฟ</h5>
+				</div>
+			</a>
+		</div> <!-- End Video Gallery -->
+	</section> <!-- End Section 3 -->
+
+	<script src="assets/royalslider/jquery.royalslider.min.js"></script>
+	<script src="assets/js/tab-navigation.js"></script>
+	<script src="assets/js/course.js"></script> <!-- Resource jQuery -->
+
+</body>
+</html>

@@ -1,0 +1,251 @@
+@import url(../font/thaisansneu.css);
+
+#slider-with-blocks-1 {
+  @include fill-parent;
+
+  // Try to fullscrenn height but set viewport still buggy in iOS safari.
+  // https://bugs.webkit.org/show_bug.cgi?id=141832
+  // http://nicolas-hoizey.com/2015/02/viewport-height-is-taller-than-the-visible-part-of-the-document-in-some-mobile-browsers.html
+  // See the _tabbed-navigation.scss > .cd-tabs-content
+  height: 100vh;
+
+}
+
+.rsContent {
+  color: #FFF;
+  font-size: 24px;
+  line-height: 32px;
+  float: left;
+}
+.bContainer {
+  position: relative;
+}
+.rsABlock {
+  position: relative;
+  display: block;
+  left: auto;
+  top: auto;
+}
+.blockHeadline {
+  font-family: 'thaisans_neueblack_italic', 'Noto Sans Thai', 'sans-serif';
+  font-size: 3em;
+}
+.blockSubHeadline {
+  font-size: 32px;
+  line-height: 40px
+}
+.txtCent {
+  text-align: center;
+  width: 100%;
+}
+
+.slide1 {
+  background: #3EA4A6;
+}
+.slide1 .bContainer {
+  top: 18%;
+}
+.slide1 .blockHeadline {
+  font-family: 'thaisans_neueblack', 'Noto Sans Thai', 'sans-serif';
+  font-size: 1em;
+  margin-top: 5%;
+  font-style: normal;
+  @include MQ(L) {
+    font-size: 2.8em;
+    margin-top: 2%;
+  }
+}
+
+.slide2 {
+    background: #7CBF5B;
+    color:white;
+}
+.slide2 .bContainer {
+  // top: 24px;
+}
+.slide2 .blockHeadline {
+  font-size: 0.9em;
+  margin-top: 45%;
+
+  @include MQ(L) {
+    font-size: 2.2em;
+    margin-top: 22%;
+  }
+}
+
+.slide3 {
+    background: #E24444;
+    color:white;
+}
+.slide3 .bContainer {
+  //  top: 24px;
+}
+.slide3 span {
+  line-height: 44px;
+}
+.slide3 .blockHeadline {
+  font-size: 0.9em;
+  margin-top: 25%;
+
+  @include MQ(L) {
+    font-size: 2.2em;
+    margin-top: 20%;
+  }
+}
+
+.slide4 {
+    background: #44C0E3;
+    color:white;
+}
+.slide4 .bContainer {
+   top: 24px;
+}
+.slide4 span {
+  line-height: 44px;
+}
+.slide4 .blockHeadline {
+  // font-family: 'BoonTook Mon Ultra', 'Noto Sans Thai', 'sans-serif';
+  font-size: 0.9em;
+  margin-top: 25%;
+
+  @include MQ(L) {
+    font-size: 2.2em;
+    margin-top: 20%;
+  }
+}
+
+.photoCopy {
+  position: absolute;
+  line-height: 24px;
+  font-size: 12px;
+  background: black;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 0px 10px;
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+  top: auto;
+  border-radius: 2px;
+  z-index: 25;
+}
+.photoCopy a {
+  color: #FFF;
+}
+
+.logoImg {
+  left: 0;
+  top: 0;
+  width: 185px;
+  height: 127px;
+  bottom: auto;
+  position: absolute;
+
+}
+
+.sceneImg {
+  margin: 0 auto;
+  top: 27%;
+  max-width: 95%;
+}
+
+.artist-actor {
+  margin: 0 auto;
+  top: 18%;
+  left: 20%;
+  max-width: 24%;
+
+}
+
+.student-notebook-actor {
+  margin: 0 auto;
+  top: 15%;
+  right: 20%;
+  max-width: 24%;
+
+}
+
+.student-tablet-actor {
+  margin: 0 auto;
+  top: 15%;
+  left: 15%;
+
+  max-width: 24%;
+
+}
+
+// iPad in landscape
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 1) {
+  .sceneImg {
+    top: 25%;
+    max-width: 90%;
+  }
+  .student-tablet-actor {
+    top: 20%;
+    max-width: 28%;
+  }
+  .student-notebook-actor {
+    top: 20%;
+    max-width: 28%;
+  }
+
+  .slide1 .blockHeadline {
+    font-size: 2.3em;
+    margin-top: 2%;
+  }
+  .slide2 .blockHeadline {
+    font-size: 1.8em;
+    margin-top: 25%;
+  }
+  .slide3 .blockHeadline {
+    font-size: 1.8em;
+    margin-top: 23%;
+  }
+  .slide4 .blockHeadline {
+    font-size: 2em;
+    margin-top: 21%;
+  }
+}
+
+// iPad in portrait
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 1) {
+  .sceneImg {
+    top: 33%;
+    max-width: 90%;
+  }
+  .artist-actor {
+    max-width: 30%;
+  }
+  .student-notebook-actor {
+    top: 25%;
+    max-width: 40%;
+  }
+  .student-tablet-actor {
+    top: 25%;
+    max-width: 40%;
+  }
+  .slide1 .blockHeadline {
+    font-size: 2em;
+    margin-top: 12%;
+  }
+  .slide2 .blockHeadline {
+    font-size: 1.5em;
+    margin-top: 50%;
+  }
+  .slide3 .blockHeadline {
+    font-size: 1.5em;
+    margin-top: 45%;
+  }
+  .slide4 .blockHeadline {
+    font-size: 2em;
+    margin-top: 45%;
+  }
+}
