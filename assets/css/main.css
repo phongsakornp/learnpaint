@@ -603,12 +603,13 @@ Student Portfolio
   -moz-user-select: none;
   user-select: none; }
 
+/* This is not working. Will fixed in the next version. */
 .iOSdevicesStudentPortfolioFixed {
   height: calc(90vh - 90px) !important; }
 
 /*--------------------------------
 
-RoyalSlider Video Gallery
+Override RoyalSlider Video Gallery
 
 -------------------------------- */
 #video-gallery-1,
@@ -676,5 +677,23 @@ RoyalSlider Video Gallery
 .rsDefault.rsWithThumbsVer .rsThumbsArrow {
   width: 100%;
   height: 40px; }
+
+/*--------------------------------
+
+Override nprogress
+
+-------------------------------- */
+#nprogress .bar {
+  background: #343839;
+  height: 3px; }
+
+#nprogress .spinner-icon {
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+  border: solid 3px transparent;
+  border-top-color: #343839;
+  border-left-color: #343839;
+  border-radius: 50%; }
 
 /*# sourceMappingURL=main.css.map */
