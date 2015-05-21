@@ -1,6 +1,6 @@
 @import url(../font/thaisansneu.css);
 
-#slider-with-blocks-1 {
+#intro-slider {
   @include fill-parent;
 
   // Try to fullscrenn height but set viewport still buggy in iOS safari.

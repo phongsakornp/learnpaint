@@ -9,228 +9,21 @@
 	<link rel="stylesheet" href="assets/royalslider/royalslider.css">
   <link rel="stylesheet" href="assets/royalslider/skins/default/rs-default.css">
 	<link rel="stylesheet" href="assets/royalslider/skins/minimal-white/rs-minimal-white.css">
-	<link rel="stylesheet" href="assets/css/course.css">
+	<link rel="stylesheet" href="assets/css/main.css">
 
-	<script src="bower_components/fastclick/lib/fastclick.js"></script>
-	<script src="bower_components/jquery/dist/jquery.min.js"></script>
-	<script src="assets/js/modernizr.js"></script> <!-- Modernizr -->
-	<script src="home.hyperesources/noframework.waypoints.min.js"></script>
+	<script type="application/javascript" src="bower_components/fastclick/lib/fastclick.js"></script>
+	<script type="application/javascript" src="assets/js/modernizr.js"></script> <!-- Modernizr -->
+	<script type="application/javascript">
+		window.addEventListener('load', function() {
+				FastClick.attach(document.body);
 
-
-
-	<script type='text/javascript'>
-		jQuery(document).ready(function($) {
-
-			$(function() {
-					FastClick.attach(document.body);
-			});
-
-			// Fix iOS Safari browser with viewport height (vh).
-			if( /iPhone|iPad|iPod/i.test(navigator.userAgent) ) {
-
-				var isSafari = !!navigator.userAgent.match(/Version\/[\d\.]+.*Safari/);
-
-				if(isSafari) {
-
-					$("#video-gallery-1").addClass('iOSdevicesCourseFixed');
-					$("#video-gallery-2").addClass('iOSdevicesCourseFixed');
-					$("#video-gallery-3").addClass('iOSdevicesCourseFixed');
-
-					$("#slider-with-blocks-1").addClass('iOSdevicesFullSlideFixed');
-
-					$("#student-portfolio-gallery").addClass('iOSdevicesStudentPortfolioFixed');
-				}
-			}
-
-			function initCourseSlider(slideNumber) {
-				var vd = '#video-gallery-' + slideNumber;
-				$(vd).royalSlider({
-			    arrowsNav: false,
-			    fadeinLoadedSlide: true,
-			    controlNavigationSpacing: 0,
-			    controlNavigation: 'thumbnails',
-					navigateByClick: false,
-					slidesOrientation: 'vertical',
-			    thumbs: {
-			      autoCenter: false,
-			      fitInViewport: true,
-			      orientation: 'vertical',
-			      spacing: 0,
-			      paddingBottom: 0
-			    },
-			    keyboardNavEnabled: false,
-			    imageScaleMode: 'fill',
-			    imageAlignCenter:true,
-			    slidesSpacing: 0,
-			    loop: false,
-			    loopRewind: true,
-			    numImagesToPreload: 3,
-			    video: {
-			      autoHideArrows:true,
-			      autoHideControlNav:false,
-			      autoHideBlocks: true,
-			    },
-			    autoScaleSlider: false,
-					// for fill height,
-					// see http://help.dimsemenov.com/kb/royalslider-jquery-plugin-faq/how-stretch-slider-to-full-browser-width-and-height
-			    // autoScaleSliderWidth: 960, //960
-			    // autoScaleSliderHeight: 450, //450,
-					autoHeight: false
-
-	  		}).data('royalSlider');
-			} // End init slider
-
-
-			initCourseSlider(1);
-			initCourseSlider(2);
-			initCourseSlider(3);
-
-
-			/*---	Tabbed Navigation	---*/
-			var tabItems = $('.cd-tabs-navigation a'),
-				tabContentWrapper = $('.cd-tabs-content');
-
-			tabItems.on('click', function(event){
-
-				event.preventDefault();
-
-				var selectedItem = $(this);
-				if( !selectedItem.hasClass('selected') ) {
-
-					var selectedTab = selectedItem.data('content'),
-						selectedContent = tabContentWrapper.find('li[data-content="'+selectedTab+'"]'),
-						slectedContentHeight = selectedContent.innerHeight();
-
-						tabItems.removeClass('selected');
-						selectedItem.addClass('selected');
-						selectedContent.addClass('selected').siblings('li').removeClass('selected');
-						//animate tabContentWrapper height when content changes
-						// tabContentWrapper.animate({
-						// 	'height': slectedContentHeight
-						// }, 200);
-
-						$('.royalSlider').each(function(index){
-
-							var slider = $(this).data('royalSlider');
-							if(slider != undefined) {
-								slider.stopVideo();
-								slider.updateSliderSize(true);
-							}
-
-						});
-
-					// if(selectedTab != 0) {
-					//
-					// 	event.preventDefault();
-					//
-					// }else {
-					// 	window.location.href = "/";
-					// }
-				}
-
-			}); // End Tab Click function
-
-			//hide the .cd-tabs::after element when tabbed navigation has scrolled to the end (mobile version)
-			checkScrolling($('.cd-tabs nav'));
-			$(window).on('resize', function(){
-				checkScrolling($('.cd-tabs nav'));
-				tabContentWrapper.css('height', 'auto');
-			});
-			$('.cd-tabs nav').on('scroll', function(){
-				checkScrolling($(this));
-			});
-
-			function checkScrolling(tabs){
-				var totalTabWidth = parseInt(tabs.children('.cd-tabs-navigation').width()),
-				 	tabsViewport = parseInt(tabs.width());
-				if( tabs.scrollLeft() >= totalTabWidth - tabsViewport) {
-					tabs.parent('.cd-tabs').addClass('is-ended');
-				} else {
-					tabs.parent('.cd-tabs').removeClass('is-ended');
-				}
-			}
-			/*---	End Tabbed Navigation	---*/
-
-
-			/*---	Home Slider	---*/
-			jQuery.rsCSS3Easing.easeOutBack = 'cubic-bezier(0.175, 0.885, 0.320, 1.275)';
-			  $('#slider-with-blocks-1').royalSlider({
-			    arrowsNav: true,
-			    arrowsNavAutoHide: false,
-			    fadeinLoadedSlide: false,
-			    controlNavigationSpacing: 0,
-			    controlNavigation: 'bullets',
-			    imageScaleMode: 'fill',
-			    imageAlignCenter:true,
-			    blockLoop: true,
-			    loop: true,
-			    numImagesToPreload: 6,
-			    transitionType: 'fade',
-			    keyboardNavEnabled: true,
-			    block: {
-			      delay: 500
-			    },autoPlay: {
-		    		// autoplay options go gere
-		    		enabled: true,
-		    		pauseOnHover: true,
-						delay: 5000
-		    	},
-					autoScaleSlider:false,
-					autoHeight: false
-			  });
-				/*---End Home Slider	---*/
-
-				/*---Student Portfolio Slider	---*/
-				// Fix iOS Safari browser with viewport height (vh).
-
-				$('#student-portfolio-gallery').royalSlider({
-			    fullscreen: {
-			      enabled: true,
-			      nativeFS: true
-			    },
-			    controlNavigation: 'thumbnails',
-			    autoScaleSlider: false,
-					autoHeight: false,
-			    loop: false,
-			    imageScaleMode: 'fit',
-			    navigateByClick: true,
-			    numImagesToPreload:2,
-			    arrowsNav:true,
-			    arrowsNavAutoHide: true,
-			    arrowsNavHideOnTouch: true,
-			    keyboardNavEnabled: true,
-			    fadeinLoadedSlide: true,
-			    globalCaption: false,
-			    globalCaptionInside: false,
-			    thumbs: {
-			      appendSpan: true,
-			      firstMargin: true,
-			      paddingBottom: 4
-			    },
-					usePreloader: true,
-			  });
-
-		}); // End jQuery ready.
+			}, false);
 	</script>
 
 	<title>LearnPaint</title>
 </head>
 <body>
-	<!-- <header class="cd-header" id="course_hype_container">
-			<a class="logo" href="/">
-			<img src="assets/img/logo.png" alt="Learn Patin">
-			</a>
-		<h1>บทเรียนการวาดภาพด้วยโปรแกรม Paint</h1>
 
-		<div id="course_hype_container" style="margin:auto;position:relative;width:100%;overflow:hidden;" aria-live="polite">
-			<script type="text/javascript" charset="utf-8" src="course.hyperesources/course_hype_generated_script.js?27280"></script>
-		</div>
-
-	</header> -->
-
-	<!-- <header>
-		<a href="/" class="home-btn"></a>
-	</header> -->
 	<div class="cd-tabs">
 		<nav>
 			<ul class="cd-tabs-navigation">
@@ -245,12 +38,7 @@
 
 		<ul class="cd-tabs-content">
 			<li data-content="0" class="selected">
-
-				<!-- <div id="home_hype_container" style="margin:auto;position:relative;width:100%;height:auto;overflow:hidden;" aria-live="polite">
-					<script type="text/javascript" charset="utf-8" src="home.hyperesources/home_hype_generated_script.js?88415"></script>
-				</div> -->
-
-				<div id="slider-with-blocks-1" class="royalSlider rsMinW">
+				<div id="intro-slider" class="royalSlider rsMinW">
 				  <div class="rsContent slide1">
 						<div class="bContainer">
 				      <strong class="rsABlock txtCent blockHeadline" data-move-effect="left">การวาดภาพด้วยโปรแกรมเพ้นท์</strong>
@@ -282,63 +70,59 @@
 			</li>
 
 			<li data-content="1">
-
-					<section id="lp-course-1" class="lp-course-wrapper">
-
-						<div class="lp-course-header">
-							<div class="lp-course-side">
-								<img src="assets/img/avatar.png" />
-								<h1>ฉันคือ Paint</h1>
-							</div>
-							<div class="lp-course-info">
-								<h1>รู้จักวิธีการเปิด, การปิด, การบันทึกภาพ และเครื่องมือต่างๆ ของโปรแกรม</h1>
-							</div>
+				<section id="lp-course-1" class="lp-course-wrapper">
+					<div class="lp-course-header">
+						<div class="lp-course-side">
+							<img src="assets/img/avatar.png" />
+							<h1>ฉันคือ Paint</h1>
 						</div>
+						<div class="lp-course-info">
+							<h1>รู้จักวิธีการเปิด, การปิด, การบันทึกภาพ และเครื่องมือต่างๆ ของโปรแกรม</h1>
+						</div>
+					</div>
 
-						<div id="video-gallery-1" class="royalSlider videoGallery rsDefault">
-							<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="https://vimeo.com/128063072" href="assets/img/video-backdrop.png">
+					<div id="video-gallery-1" class="royalSlider videoGallery rsDefault">
+						<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="https://vimeo.com/128063072" href="assets/img/video-backdrop.png">
+						<div class="rsTmb">
+								<h5>โปรแกรมเพ้นท์คือ?</h5>
+							</div>
+						</a>
+						<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="https://vimeo.com/128061835" href="assets/img/video-backdrop.png">
 							<div class="rsTmb">
-									<h5>โปรแกรมเพ้นท์คือ?</h5>
-								</div>
-							</a>
-							<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="https://vimeo.com/128061835" href="assets/img/video-backdrop.png">
-								<div class="rsTmb">
-									<h5>การเปิดโปรแกรม</h5>
-								</div>
-							</a>
-							<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="https://vimeo.com/128061378" href="assets/img/video-backdrop.png">
-								<div class="rsTmb">
-									<h5>การปิดโปรแกรม</h5>
-								</div>
-							</a>
-							<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="https://vimeo.com/128058781" href="assets/img/video-backdrop.png">
-								<div class="rsTmb">
-									<h5>ส่วนประกอบของโปรแกรม</h5>
-								</div>
-							</a>
-							<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="https://vimeo.com/128067963" href="assets/img/video-backdrop.png">
-								<div class="rsTmb">
-									<h5>การบันทึกภาพ</h5>
-								</div>
-							</a>
-							<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="https://vimeo.com/128049972" href="assets/img/video-backdrop.png">
-								<div class="rsTmb">
-									<h5>การเปิดภาพ</h5>
-								</div>
-							</a>
-							<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="https://vimeo.com/128062536" href="assets/img/video-backdrop.png">
-								<div class="rsTmb">
-									<h5>การกำหนดภาพพื้นหลัง</h5>
-								</div>
-							</a>
+								<h5>การเปิดโปรแกรม</h5>
+							</div>
+						</a>
+						<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="https://vimeo.com/128061378" href="assets/img/video-backdrop.png">
+							<div class="rsTmb">
+								<h5>การปิดโปรแกรม</h5>
+							</div>
+						</a>
+						<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="https://vimeo.com/128058781" href="assets/img/video-backdrop.png">
+							<div class="rsTmb">
+								<h5>ส่วนประกอบของโปรแกรม</h5>
+							</div>
+						</a>
+						<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="https://vimeo.com/128067963" href="assets/img/video-backdrop.png">
+							<div class="rsTmb">
+								<h5>การบันทึกภาพ</h5>
+							</div>
+						</a>
+						<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="https://vimeo.com/128049972" href="assets/img/video-backdrop.png">
+							<div class="rsTmb">
+								<h5>การเปิดภาพ</h5>
+							</div>
+						</a>
+						<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="https://vimeo.com/128062536" href="assets/img/video-backdrop.png">
+							<div class="rsTmb">
+								<h5>การกำหนดภาพพื้นหลัง</h5>
+							</div>
+						</a>
 
-						</div> <!-- End Video Gallery -->
-					</section> <!-- End Section 1 -->
-
+					</div> <!-- End Video Gallery -->
+				</section> <!-- End Section 1 -->
 			</li>
 
 			<li data-content="2">
-
 					<section id="lp-course-2" class="lp-course-wrapper">
 
 						<div class="lp-course-header">
@@ -451,7 +235,6 @@
 			</li>
 
 			<li data-content="3">
-
 					<section id="lp-course-3" class="lp-course-wrapper">
 
 						<div class="lp-course-header">
@@ -511,7 +294,6 @@
 							</a>
 						</div> <!-- End Video Gallery -->
 					</section> <!-- End Section 3 -->
-
 			</li>
 
 			<li data-content="4">
@@ -581,12 +363,11 @@
 				</section>
 			</li>
 	</div> <!-- cd-tabs -->
-	<!-- <footer>
 
-	</footer> -->
+	<script type="application/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="application/javascript" src="assets/royalslider/jquery.royalslider.min.js"></script>
+	<script type="application/javascript" src="assets/royalslider/jquery.easing-1.3.js"></script>
+	<script type="application/javascript" src="assets/js/min/main-min.js"></script>
 
-	<script src="assets/royalslider/jquery.royalslider.min.js"></script>
-	<script src="assets/royalslider/jquery.easing-1.3.js"></script>
-	<script src="assets/js/course.js"></script>
 </body>
 </html>
