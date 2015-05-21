@@ -149,8 +149,9 @@ jQuery(document).ready(function($) {
       },autoPlay: {
         // autoplay options go gere
         enabled: true,
-        pauseOnHover: true,
-        delay: 5000
+        pauseOnHover: false,
+        delay: 5000,
+        stopAtAction: false,
       },
       autoScaleSlider:false,
       autoHeight: false
