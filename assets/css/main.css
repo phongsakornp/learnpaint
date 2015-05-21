@@ -696,4 +696,8 @@ Override nprogress
   border-left-color: #343839;
   border-radius: 50%; }
 
+.jBox-Tooltip {
+  font-family: 'Noto Sans Thai', 'sans-serif';
+  font-size: 1.2em; }
+
 /*# sourceMappingURL=main.css.map */

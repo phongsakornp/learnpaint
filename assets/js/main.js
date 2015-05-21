@@ -1,8 +1,13 @@
 jQuery(document).ready(function($) {
 
-  // $(function() {
-  //     FastClick.attach(document.body);
-  // });
+  $('.tooltip').jBox('Tooltip', {
+    position: {
+        x: 'left',
+        y: 'center'
+    },
+    outside: 'x',
+    animation: 'tada',
+  });
 
   // Fix iOS Safari browser with viewport height (vh).
   if( /iPhone|iPad|iPod/i.test(navigator.userAgent) ) {
