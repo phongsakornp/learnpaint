@@ -7,6 +7,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'/ >
 
 	<script type="text/javascript">
+	
 		//http://stackoverflow.com/questions/5916900/how-can-you-detect-the-version-of-a-browser
 		function get_browser_info(){
 		    var ua=navigator.userAgent,tem,M=ua.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*(\d+)/i) || []; 
@@ -25,11 +26,14 @@
 		      version: M[1]
 		    };
 		 }
-		var browser=get_browser_info();
+		var browser = get_browser_info();
+
 		var notSupportIe = browser.name == "MSIE" && browser.version <=8;
+
 		if(notSupportIe) {
 			window.location = "notsupport.html"
 		}
+
 	</script>
 
 	<link rel="stylesheet" href="assets/css/reset.css" />
@@ -396,6 +400,17 @@
 				</section>
 			</li>
 	</div> <!-- cd-tabs -->
+
+	<div style="display: none" id="jNotify">
+		<p>แนะนำ Browser เพื่อใช้งาน Learn Paint ได้อย่างสมบูรณ์</p>
+		<p>ถ้าคุณใช้ Windows เราแนะนำให้ใช้ Google Chrome</p>
+		<p>ถ้าคุณใช้ Mac เราแนะนำให้ใช้ Safari</p>
+    	<p class="download-browser">
+    		DOWNLOAD NOW
+    		<a class="chrome-download-icon" href="https://www.google.com/chrome/browser"><img src="assets/img/google-chrome-64.png" /></a>
+    		<a class="safari-download-icon" href="https://support.apple.com/downloads/safari"><img src="assets/img/safari-128.png" /></a>
+    	</p>
+	</div>
 
 	<script type="application/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
 	<script type="application/javascript" src="bower_components/nprogress/nprogress.js"></script>

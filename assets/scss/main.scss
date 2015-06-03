@@ -436,7 +436,40 @@ Override nprogress
   border-radius: 50%;
 }
 
+/*--------------------------------
+
+jBox
+
+-------------------------------- */
+
 .jBox-Tooltip  {
 	font-family: 'Noto Sans Thai', 'sans-serif';
 	font-size: 1.2em;
+}
+
+#jNotify {
+	font-size: 1em;
+	line-height: 1.5em;
+	margin-top: 10px
+}
+
+#jNotify .download-browser {
+	margin: 20px 20px 10px 0px;
+}
+
+#jNotify .chrome-download-icon img {
+	width: 64px;
+	height: 64px;
+	margin: 4px 30px;
+	vertical-align: middle;
+}
+
+
+#jNotify .safari-download-icon img {
+	width: 76px;
+	height: 76px;
+	margin: 4px;
+
+
+	vertical-align: middle;
 }

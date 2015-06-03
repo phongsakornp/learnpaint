@@ -51,6 +51,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/google-chrome-64.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2952,
+		"inputAbbreviatedPath": "\/assets\/img\/google-chrome-64.png",
+		"outputAbbreviatedPath": "\/assets\/img\/google-chrome-64.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/logo-big.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -80,6 +91,28 @@
 		"initialSize": 9765,
 		"inputAbbreviatedPath": "\/assets\/img\/logo.png",
 		"outputAbbreviatedPath": "\/assets\/img\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/safari-128.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8592,
+		"inputAbbreviatedPath": "\/assets\/img\/safari-128.png",
+		"outputAbbreviatedPath": "\/assets\/img\/safari-128.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/safari-64.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3775,
+		"inputAbbreviatedPath": "\/assets\/img\/safari-64.png",
+		"outputAbbreviatedPath": "\/assets\/img\/safari-64.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4626,6 +4659,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/notsupport.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/notsupport.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
