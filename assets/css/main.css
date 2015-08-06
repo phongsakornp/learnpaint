@@ -452,7 +452,7 @@ Modified by: PhongsakornP.
       padding: 4em 10%; } }
   @media only screen and (min-width: 1170px) {
     .cd-modal .cd-modal-content {
-      padding: 6em 20%; }
+      padding: 4em 20%; }
     .cd-modal p {
       font-size: 2rem;
       line-height: 2; } }
@@ -554,7 +554,7 @@ Modified by: PhongsakornP.
     transform: scale(1); }
   @media only screen and (min-width: 768px) {
     .cd-modal-close {
-      top: 70px; } }
+      top: 30px; } }
 
 /* --------------------------------
 
@@ -930,5 +930,122 @@ jBox
   height: 76px;
   margin: 4px;
   vertical-align: middle; }
+
+/*--------------------------------
+
+Multiple Choice Quiz Engine
+
+-------------------------------- */
+.mcq-col-12 {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 100%; }
+  .mcq-col-12::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .mcq-col-12:last-child {
+    margin-right: 0; }
+
+.mcq-row-table {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+  width: 100%;
+  table-layout: fixed; }
+  .mcq-row-table::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.mcq-row-table-col-6 {
+  display: table-cell;
+  width: 50%; }
+
+.mcq-p-16 {
+  font-size: 16px;
+  line-height: 21px; }
+
+.mcq-p-24 {
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: 25px !important;
+  margin-bottom: 25px !important; }
+
+.mcq-optionBox {
+  background: white;
+  padding: 8px;
+  border: none;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  overflow: hidden !important; }
+
+.mcq-optionOver {
+  background: #8AC63F;
+  padding: 8px;
+  border: none;
+  border-radius: 0px;
+  -moz-border-radius: 0px; }
+
+.mcq-optionOver p {
+  color: #4b4b40; }
+
+.mcq-optionOut {
+  background: white;
+  color: #fff;
+  padding: 8px;
+  border: none;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-transition: background-color 500ms linear;
+  -moz-transition: background-color 500ms linear;
+  -o-transition: background-color 500ms linear;
+  -ms-transition: background-color 500ms linear;
+  transition: background-color 500ms linear; }
+
+.mcq-nextQuestionBox {
+  background: #2B9BD3;
+  padding: 2px;
+  border: none;
+  border-radius: 30px;
+  -moz-border-radius: 30px;
+  overflow: hidden !important; }
+
+.mcq-nextQuestionBox p {
+  color: white !important;
+  margin: 7px 33px !important; }
+
+.mcq-nextQuestionOver {
+  background: #1E6E96;
+  padding: 2px;
+  border: none;
+  border-radius: 30px;
+  -moz-border-radius: 30px; }
+
+.mcq-nextQuestionOver p {
+  color: white !important;
+  margin: 7px 33px !important; }
+
+.mcq-nextQuestionOut {
+  background: #2B9BD3;
+  color: white;
+  padding: 2px;
+  border: none;
+  border-radius: 30px;
+  -moz-border-radius: 30px;
+  -webkit-transition: background-color 500ms linear;
+  -moz-transition: background-color 500ms linear;
+  -o-transition: background-color 500ms linear;
+  -ms-transition: background-color 500ms linear;
+  transition: background-color 500ms linear; }
+
+.mcq-nextQuestionOut p {
+  color: white !important;
+  margin: 7px 33px !important; }
 
 /*# sourceMappingURL=main.css.map */

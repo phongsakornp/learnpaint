@@ -1,3 +1,12 @@
+/*--------------------------------
+
+Morphing Modal Window
+http://codyhouse.co/gem/morphing-modal-window/
+
+Modified by: PhongsakornP.
+
+-------------------------------- */
+
 jQuery(document).ready(function($){
 	//trigger the animation - open modal window
 	$('[data-type="modal-trigger"]').on('click', function(){

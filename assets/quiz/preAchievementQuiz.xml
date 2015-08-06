@@ -1,40 +1,120 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <data>
 	<events>
-        <event id="begin">
+    	<event id="screenloaded">
+			<click>
+				<function name="begin"></function>
+			</click>
+		</event>
+		<event id="btnover">
+			<rollover>
+				<css name="mcq-btnOver">this</css>
+			</rollover>
+			
+			<rollout>
+				<css name="mcq-btnOut">this</css>
+			</rollout>
+		</event>
+		<event id="optionover">
+			<rollover>
+				<css name="mcq-optionOver">this</css>
+			</rollover>
+			
+			<rollout>
+				<css name="mcq-optionOut">this</css>
+			</rollout>
+		</event>
+		<event id="selectandsubmit">
+			<click>
+				<css name="mcq-optionOver">this</css>
+				<function name="select">this</function>
+				<function name="submit">this</function>
+			</click>
+		</event>
+		<event id="nextQuestionOver">
+			<rollover>
+				<css name="mcq-nextQuestionOver">this</css>
+			</rollover>
+			
+			<rollout>
+				<css name="mcq-nextQuestionOut">this</css>
+			</rollout>
+		</event>		
+		<event id="loadNextQuestion">
             <click>
-                <anim type="remove" animtime="0" oncomplete="0">openingText</anim>
-                <function name="begin">this</function>
+                <function name="loadNextQuestion">this</function>
             </click>
         </event>
 	</events>
-	<!--opening text-->
-    <box id="openingText" position="relative" margin-top="30" anim="top" animtime="1" ease="Bounce.easeOut" class="" z-index="1">
 
-    	<image id="img" position="relative" margin-bottom="30" anim="none" class=""><![CDATA[http://www.placehold.it/300x200]]></image>
+	<custom type="quiz" id="myquiz" position="relative" x="0" y="0" class="">
+		
+		<settings timer="false"  />
 
-    	<text id="title" position="relative" anim="none"><![CDATA[<h1 class="">Multiple Choice Quiz</h1><p class="">Welcome to this short quiz.</p><p class="">Start when you're ready and good luck!</p>]]></text>
+		<question id="q1" event="">
 
-    	<button id="goBtn" position="relative" height="40" margin-top="20" display="inline-block" width="100" anim="none" event="begin" target="title" class=""><![CDATA[Let's go!]]></button>
-    </box>
+    		<box id="row1" position="relative" class="mcq-col-12" />
+    		<box id="row2" position="relative" class="mcq-row-table" />		    		
+			<box id="row2-col1" target="row2" position="relative" class="mcq-row-table-col-6" />
+			<box id="row2-col2" target="row2" position="relative" class="mcq-row-table-col-6" />    		
+    		<box id="row3" position="relative" class="mcq-col-12" />				
 
-	 <custom type="quiz" id="myquiz" position="relative" x="0" y="0" class="">
-	 	<question id="q1" event="">
-			<image id="img" position="relative" margin-top="30" margin-bottom="40" anim="show" animtime="1" animdelay="0" class=""><![CDATA[http://www.placehold.it/300x200]]></image>
+			<image id="img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="show" animtime="1" animdelay="0" class="">
+				<![CDATA[http://www.placehold.it/200x150]]>
+			</image>
 
-    		<text id="question" position="relative" x="0" margin-bottom="30" anim="show" animtime="1" animdelay="0.1" clear="both"><![CDATA[<p class="">Will I need to be a JavaScript programmer to build a quiz?</p>]]></text>
+			<text id="question" position="relative" target="row1" margin-bottom="10" anim="show" animtime="1" animdelay="0.1" clear="both">
+				<![CDATA[<p class="mcq-p-24">ขั้นตอนการเปิดโปรแกรมเพ้นท์ เรียงลำดับอย่างไร?</p>]]>
+			</text>
 
-    		<box id="hcenter" position="relative" height="80" width="210" margin="0 auto" anim="none"/>
+			<!-- <box id="hcenter" position="relative" height="80" width="210" margin="0 auto" anim="none"/> -->
 
 			<!--option 1 -->
 			<option correct="false">
-				<text id="option1_1" target="hcenter" position="absolute" width="100" margin-right="10" anim="show" animtime="1" animdelay="0.2" event="" class=""><![CDATA[<p class="p_16 white">Yes</p>]]></text>
+				<text id="option1_1" target="row2-col1" position="relative" anim="show" animtime="1" animdelay="0.2" event="optionover,selectandsubmit" class="mcq-optionBox">
+					<![CDATA[<p class="mcq-p-16 white">ก.</p>]]>
+				</text>
 			</option>
 			
 			<!--option 2 -->	
-			<option correct="true">
-				<text id="option1_2" target="hcenter" position="absolute" x="110" width="100" margin-bottom="30" anim="show" animtime="1" animdelay="0.3" event="" class=""><![CDATA[<p class="p_16 white">No</p>]]></text>
+			<option correct="false">
+				<text id="option1_2" target="row2-col2" position="relative" anim="show" animtime="1" animdelay="0.3" event="optionover,selectandsubmit" class="mcq-optionBox">
+					<![CDATA[<p class="mcq-p-16 white">ข.</p>]]>
+				</text>
 			</option>
-	 	</question>
-	 </custom>
+
+			<!--option 3 -->	
+			<option correct="false">
+				<text id="option1_3" target="row2-col1" position="relative" anim="show" animtime="1" animdelay="0.3" event="optionover,selectandsubmit" class="mcq-optionBox">
+					<![CDATA[<p class="mcq-p-16 white">ค.</p>]]>
+				</text>
+			</option>
+
+			<!--option 4 -->	
+			<option correct="true">
+				<text id="option1_4" target="row2-col2" position="relative" anim="show" animtime="1" animdelay="0.3" event="optionover,selectandsubmit" class="mcq-optionBox">
+					<![CDATA[<p class="mcq-p-16 white">ง.</p>]]>
+				</text>
+			</option>			
+			<!--/options -->
+
+			<!-- feedbacks -->
+			<fb id="pass" event="">	
+				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5" width="150">		
+					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="mcq-nextQuestionBox">
+						<![CDATA[<p class="mcq-p-16 white">ข้อถัดไป</p>]]>
+					</text>					
+				</box>
+			</fb>
+			
+			<fb id="fail" event="">				
+				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5" width="150">
+					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="mcq-nextQuestionBox">
+						<![CDATA[<p class="mcq-p-16 white">ข้อถัดไป</p>]]>
+					</text>							
+				</box>
+			</fb>			
+		</question>
+
+	</custom>
 </data>

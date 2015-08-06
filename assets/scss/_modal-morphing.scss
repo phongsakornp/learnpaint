@@ -109,7 +109,7 @@ $cd-mm-bg-color: #fff; // White
 	@include MQ(L) {
 
 		.cd-modal-content { 
-			padding: 6em 20%;
+			padding: 4em 20%;
 		}
 
 		p {
@@ -208,6 +208,6 @@ $cd-mm-bg-color: #fff; // White
 	}
 
 	@include MQ(M) {
-		top: 70px;
+		top: 30px;
 	}
 }

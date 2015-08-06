@@ -129,17 +129,10 @@
 
 								<div class="cd-modal">
 									<div class="cd-modal-content">
-										<p>
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad modi repellendus, optio eveniet eligendi molestiae? Fugiat, temporibus! A rerum pariatur neque laborum earum, illum voluptatibus eum voluptatem fugiat, porro animi tempora? Sit harum nulla, nesciunt molestias, iusto aliquam aperiam est qui possimus reprehenderit ipsam ea aut assumenda inventore iste! Animi quaerat facere repudiandae earum quisquam accusamus tempora, delectus nesciunt, provident quae aliquam, voluptatum beatae quis similique in maiores repellat eligendi voluptas veniam optio illum vero! Eius, dignissimos esse eligendi veniam.
-										</p>
-
-										<p>
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad modi repellendus, optio eveniet eligendi molestiae? Fugiat, temporibus! A rerum pariatur neque laborum earum, illum voluptatibus eum voluptatem fugiat, porro animi tempora? Sit harum nulla, nesciunt molestias, iusto aliquam aperiam est qui possimus reprehenderit ipsam ea aut assumenda inventore iste! Animi quaerat facere repudiandae earum quisquam accusamus tempora, delectus nesciunt, provident quae aliquam, voluptatum beatae quis similique in maiores repellat eligendi voluptas veniam optio illum vero! Eius, dignissimos esse eligendi veniam.
-										</p>
-
-										<p>
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad modi repellendus, optio eveniet eligendi molestiae? Fugiat, temporibus! A rerum pariatur neque laborum earum, illum voluptatibus eum voluptatem fugiat, porro animi tempora? Sit harum nulla, nesciunt molestias, iusto aliquam aperiam est qui possimus reprehenderit ipsam ea aut assumenda inventore iste! Animi quaerat facere repudiandae earum quisquam accusamus tempora, delectus nesciunt, provident quae aliquam, voluptatum beatae quis similique in maiores repellat eligendi voluptas veniam optio illum vero! Eius, dignissimos esse eligendi veniam.
-										</p>
+										<div id="lp-course-pre-quiz-content-wrapper">
+											<div id="lp-course-pre-quiz-content">
+											</div>
+										</div>										
 									</div> <!-- cd-modal-content -->
 								</div> <!-- cd-modal -->
 
@@ -147,10 +140,7 @@
 							</section> <!-- .cd-section -->
 						</div>
 					</div>				
-<!-- 					<div id="lp-course-pre-quiz-content-wrapper">
-						<div id="lp-course-pre-quiz-content">
-						</div>
-					</div>	 -->				
+				
 				</section>
 			</li>
 
@@ -502,22 +492,18 @@
 
 		$(document).ready(function() {
 
-			// var quiz = new Screen({id:"preAchivementQuiz", xmlPath:"assets/quiz/preAchievementQuiz.xml"});
+			var quiz = new Screen({id:"preAchivementQuiz", xmlPath:"assets/quiz/preAchievementQuiz.xml"});
 
-			// var targetDiv = get("lp-course-pre-quiz-content");					
-			// quiz.load(targetDiv, false);
+			var targetDiv = get("lp-course-pre-quiz-content");					
+			quiz.load(targetDiv, false);
 
 			$(".cd-tabs-navigation li a").click(function(){
-				console.log($(this));
+				// console.log($(this));
 				var index = $(this).data('conent');
 
 				if (index == 1) {
 					// quiz.restart();
 				};
-			});
-
-			$("#open-pre-quiz-button").click(function(){
-
 			});
 		});
 
