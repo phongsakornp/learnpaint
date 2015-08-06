@@ -2,7 +2,11 @@
 
 Responsive Tabbed Navigation
 http://codyhouse.co/demo/responsive-tabbed-navigation/index.html
+
+Modified by: PhongsakornP.
+
 -------------------------------- */
+
 $color-1: #f8f7ee; // light yellow
 $color-2: #f05451; // red
 $color-3: #29324e; // dark blue
@@ -106,9 +110,9 @@ $tabs-btn-width-L: auto;  // tab button width on large devices
 
 .cd-tabs-navigation {
 	@include clearfix;
-
-  width: $tabs-btn-width-S;
-  float: left;
+	
+	width: $tabs-btn-width-S;
+	float: left;
 
 	li {
 		float: left;
@@ -133,14 +137,14 @@ $tabs-btn-width-L: auto;  // tab button width on large devices
 
 		&.selected {
 			background-color: $color-4 !important;
-      box-shadow: inset 3px 0 0 $color-2;
+			box-shadow: inset 3px 0 0 $color-2;
 			color: $color-3;
 		}
 
 		&::before {
 			/* icons */
 			position: absolute;
-      top: 14px;
+      		top: 14px;
 			left: 24px;
 			margin-left: -10px;
 			display: inline-block;
@@ -148,66 +152,58 @@ $tabs-btn-width-L: auto;  // tab button width on large devices
 			width: 32px;
 			// background-image: url('../img/paint.png');
 			background-repeat: no-repeat;
-      background-size:   cover;
-      background-position: center center;
+      		background-size:   cover;
+      		background-position: center center;
 		}
 
-    &[data-content='0']::before {
-      // background-position: 0 0;
-      background-image: url('../img/home@32px.svg');
-    }
+	    &[data-content='0']::before {
+	    	// background-position: 0 0;
+	     	background-image: url('../img/home@32px.svg');
+	    }
 
 		&[data-content='1']::before {
 			// background-position: 0 0;
-      background-image: url('../img/paint@32px.svg');
+      		background-image: url('../img/paint@32px.svg');
 		}
 
 		&[data-content='2']::before {
-      background-image: url('../img/tools@32px.svg');
+      		background-image: url('../img/paint@32px.svg');
 		}
 
 		&[data-content='3']::before {
-      background-image: url('../img/draw@32px.svg');
+      		background-image: url('../img/tools@32px.svg');
 		}
 
 		&[data-content='4']::before {
-			background-image: url('../img/student-portfolio@32px.svg');
+      		background-image: url('../img/draw@32px.svg');
 		}
 
 		&[data-content='5']::before {
-
+			background-image: url('../img/student-portfolio@32px.svg');
 		}
 
-		&[data-content='6']::before {
+	    &[data-content='0'].selected::before {
+	    	background-image: url('../img/home-selected@32px.svg');
+	    }
 
-		}
-
-    &[data-content='0'].selected::before {
-      background-image: url('../img/home-selected@32px.svg');
-    }
-
-		&[data-content='1'].selected::before {
-      background-image: url('../img/paint-selected@32px.svg');
+	    &[data-content='1'].selected::before {
+      		background-image: url('../img/paint-selected@32px.svg');
 		}
 
 		&[data-content='2'].selected::before {
-      background-image: url('../img/tools-selected@32px.svg');
+      		background-image: url('../img/paint-selected@32px.svg');
 		}
 
 		&[data-content='3'].selected::before {
-      background-image: url('../img/draw-selected@32px.svg');
+      		background-image: url('../img/tools-selected@32px.svg');
 		}
 
 		&[data-content='4'].selected::before {
-			background-image: url('../img/student-portfolio-selected@32px.svg');
+      		background-image: url('../img/draw-selected@32px.svg');
 		}
 
 		&[data-content='5'].selected::before {
-			background-position: -80px -20px;
-		}
-
-		&[data-content='6'].selected::before {
-			background-position: -100px -20px;
+			background-image: url('../img/student-portfolio-selected@32px.svg');
 		}
 	}
 

@@ -1,0 +1,213 @@
+/*--------------------------------
+
+Morphing Modal Window
+http://codyhouse.co/gem/morphing-modal-window/
+
+Modified by: PhongsakornP.
+
+-------------------------------- */
+
+$cd-mm-button-bg-color: #34383c; // Outer Space
+$cd-mm-outer-space-bg-color: #f2f2f2; // Outer Space
+// $cd-mm-paragraph-text-color: #03bb91; // Caribbean Green
+$cd-mm-paragraph-text-color: #000;
+$cd-mm-bg-color: #fff; // White
+
+*, *::after, *::before {
+	@include box-sizing(border-box);
+}
+
+.cd-section {
+	padding: 2em 5%;
+	text-align: center;
+	background-color: $cd-mm-bg-color;
+	// background-color:red;
+
+	p {
+		margin: 2em 0;
+		line-height: 1.6;
+		color: $cd-mm-paragraph-text-color !important;
+		@include font-smoothing;
+		font-size: 2rem !important;
+	}
+
+	// @include MQ(M) {
+	// 	padding: 4em 10%;
+
+	// 	p {
+	// 		font-size: 1.8rem;
+	// 		line-height: 2;
+	// 	}
+	// }
+
+	// @include MQ(L) {
+	// 	padding: 4em 20%;	
+	// }
+}
+
+.cd-modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+	visibility: hidden;
+	opacity: 0;
+	pointer-events: none;
+
+	@include transition(visibility 0s .3s, opacity .3s 0s, z-index 0s .3s);
+
+	&::after {
+		/* gradient overlay at bottom of modal window */
+		content: '';
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		height: 60px;
+		pointer-events: none;
+		background: transparent;
+		@include background(linear-gradient(to top,rgba($cd-mm-outer-space-bg-color, 1), rgba($cd-mm-outer-space-bg-color, 0)));
+	}
+
+	.cd-modal-content {
+		height: 100%;
+		width: 100%;
+		padding: 3em 5%;
+		text-align: left;
+		overflow-y: auto; 
+		@include font-smoothing; // see partials > mixins.scss
+	}
+
+	p {
+		color: $cd-mm-bg-color;
+		line-height: 1.6;
+		margin: 2em 0;
+	}
+
+	.modal-is-visible & {
+		z-index: 1;
+		visibility: visible;
+		opacity: 1;
+		pointer-events: auto;
+		
+		@include transition(visibility 0s 0s, opacity .3s 0s, z-index 0s 0s);
+
+		.cd-modal-content {
+			-webkit-overflow-scrolling: touch;
+		}
+	}
+
+	@include MQ(M) {
+
+		.cd-modal-content { 
+			padding: 4em 10%;
+		}
+	}
+
+	@include MQ(L) {
+
+		.cd-modal-content { 
+			padding: 6em 20%;
+		}
+
+		p {
+			font-size: 2rem;
+			line-height: 2;
+		}
+	}
+}
+
+.cd-modal-action {
+	position: relative;
+
+	.btn {
+		display: inline-block;
+		height: 4em;
+		background-color: $cd-mm-button-bg-color;
+	}
+
+	.cd-modal-bg {
+		display: inline-block;
+		height: 4em;
+		background-color: $cd-mm-outer-space-bg-color;
+	}
+	
+	.btn {
+		width: 12.5em;
+		border-radius: 5em;
+
+		color: $cd-mm-bg-color;
+		line-height: 4em;
+		white-space: nowrap;
+		font-weight: 700;
+		@include font-smoothing;
+		
+		@include transition(color .2s .3s, width .3s 0s);
+
+		&.to-circle {
+			width: 4em;
+			color: transparent;
+			@include transition(color .2s 0s, width .3s .2s);
+		}
+	}
+
+	.cd-modal-bg {
+		position: absolute;
+		z-index: 1;
+		left: 50%;
+    	top: 0;
+		width: 4em;
+		border-radius: 50%;
+		opacity: 0;
+		visibility: hidden;
+    	@include transform(translateZ(0));
+    	@include transform(translateX(-2em));
+		@include transition(visibility 0s .5s);
+
+		&.is-visible {
+			opacity: 1;
+			visibility: visible;
+		}
+	}
+}
+
+.cd-modal-close {
+	position: fixed;
+	z-index: 1;
+	top: 20px;
+	right: 5%;
+
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	
+	background: rgba(#000, .3) url(../img/cd-icon-close.svg) no-repeat center center;
+	
+	/* image replacement */
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+
+	visibility: hidden;
+	opacity: 0;
+	@include transform(translateZ(0));
+	@include transform(scale(0));
+	@include transition(transform .3s 0s, visibility 0s .3s, opacity .3s 0s);
+
+	.no-touch &:hover {
+		background-color: rgba(#000, .5);
+	}
+
+	.modal-is-visible & {
+		visibility: visible;
+		opacity: 1;
+		@include transition(transform .3s 0s, visibility 0s 0s, opacity .3s 0s);
+		@include transform(scale(1));
+	}
+
+	@include MQ(M) {
+		top: 70px;
+	}
+}

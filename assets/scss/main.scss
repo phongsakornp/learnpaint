@@ -41,6 +41,7 @@ Import
 @import '_royalslider-animatedblocks';
 @import '_royalslider-videogallery';
 @import '_tabbed-navigation';
+@import '_modal-morphing';
 @import url(../font/thaisansneu.css);
 
 /* --------------------------------
@@ -227,6 +228,24 @@ section.lp-course-wrapper {
 
 #lp-course-3 .lp-course-info {
 	background: #FEF6D1;
+}
+
+#lp-course-pre-quiz .lp-course-info {
+	background: blue;
+}
+
+#lp-course-pre-quiz-intro-wrapper {
+  /*@include fill-parent;*/
+	@include outer-container;  
+	height: calc(100vh - 130px);		
+
+	// background: red;
+}
+
+#lp-course-pre-quiz-intro {
+	@include span-columns(6);
+	@include shift(3);
+	// background: green;		
 }
 
 /*--------------------------------
