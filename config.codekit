@@ -249,6 +249,61 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/assets\/quiz\/preAchievement\/q1-a1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2800,
+		"inputAbbreviatedPath": "\/assets\/quiz\/preAchievement\/q1-a1.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/preAchievement\/q1-a1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/quiz\/preAchievement\/q1-a2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2956,
+		"inputAbbreviatedPath": "\/assets\/quiz\/preAchievement\/q1-a2.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/preAchievement\/q1-a2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/quiz\/preAchievement\/q1-a3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2909,
+		"inputAbbreviatedPath": "\/assets\/quiz\/preAchievement\/q1-a3.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/preAchievement\/q1-a3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/quiz\/preAchievement\/q1-a4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2827,
+		"inputAbbreviatedPath": "\/assets\/quiz\/preAchievement\/q1-a4.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/preAchievement\/q1-a4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/quiz\/preAchievement\/q1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10685,
+		"inputAbbreviatedPath": "\/assets\/quiz\/preAchievement\/q1.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/preAchievement\/q1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/royalslider\/grab.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4774,7 +4829,7 @@
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
 	"displayValue": "learnpaint",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "compass_gray"
 	},
 "projectSettings": {

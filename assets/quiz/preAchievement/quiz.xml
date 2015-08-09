@@ -51,6 +51,7 @@
 		
 		<settings timer="false"  />
 
+		<!-- Questino 1 -->
 		<question id="q1" event="">
 
     		<box id="row1" position="relative" class="mcq-col-12" />
@@ -59,48 +60,49 @@
 			<box id="row2-col2" target="row2" position="relative" class="mcq-row-table-col-6" />    		
     		<box id="row3" position="relative" class="mcq-col-12" />				
 
-			<image id="img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="show" animtime="1" animdelay="0" class="">
-				<![CDATA[http://www.placehold.it/200x150]]>
-			</image>
-
-			<text id="question" position="relative" target="row1" margin-bottom="10" anim="show" animtime="1" animdelay="0.1" clear="both">
+			<text id="q1-q" position="relative" target="row1" margin-bottom="10" anim="show" animtime="1" animdelay="0.1" clear="both">
 				<![CDATA[<p class="mcq-p-24">ขั้นตอนการเปิดโปรแกรมเพ้นท์ เรียงลำดับอย่างไร?</p>]]>
 			</text>
 
-			<!-- <box id="hcenter" position="relative" height="80" width="210" margin="0 auto" anim="none"/> -->
+			<image id="q1-img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="show" animtime="1" animdelay="0" class="">
+				<![CDATA[assets/quiz/preAchievement/q1.png]]>
+			</image>
 
 			<!--option 1 -->
 			<option correct="false">
-				<text id="option1_1" target="row2-col1" position="relative" anim="show" animtime="1" animdelay="0.2" event="optionover,selectandsubmit" class="mcq-optionBox">
+				<image id="q1-opt1" target="row2-col1" position="relative" anim="show" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="mcq-optionBox">
+					<![CDATA[assets/quiz/preAchievement/q1-a1.png]]>
+				</image>				
+<!-- 				<text id="option1_1" target="row2-col1" position="relative" anim="show" animtime="1" animdelay="0.2" event="optionover,selectandsubmit" class="mcq-optionBox">
 					<![CDATA[<p class="mcq-p-16 white">ก.</p>]]>
-				</text>
+				</text> -->
 			</option>
 			
 			<!--option 2 -->	
 			<option correct="false">
-				<text id="option1_2" target="row2-col2" position="relative" anim="show" animtime="1" animdelay="0.3" event="optionover,selectandsubmit" class="mcq-optionBox">
-					<![CDATA[<p class="mcq-p-16 white">ข.</p>]]>
-				</text>
+				<image id="q1-opt2" target="row2-col2" position="relative" anim="show" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="mcq-optionBox">
+					<![CDATA[assets/quiz/preAchievement/q1-a2.png]]>
+				</image>				
 			</option>
 
 			<!--option 3 -->	
 			<option correct="false">
-				<text id="option1_3" target="row2-col1" position="relative" anim="show" animtime="1" animdelay="0.3" event="optionover,selectandsubmit" class="mcq-optionBox">
-					<![CDATA[<p class="mcq-p-16 white">ค.</p>]]>
-				</text>
+				<image id="q1-opt3" target="row2-col1" position="relative" anim="show" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="mcq-optionBox">
+					<![CDATA[assets/quiz/preAchievement/q1-a3.png]]>
+				</image>				
 			</option>
 
 			<!--option 4 -->	
 			<option correct="true">
-				<text id="option1_4" target="row2-col2" position="relative" anim="show" animtime="1" animdelay="0.3" event="optionover,selectandsubmit" class="mcq-optionBox">
-					<![CDATA[<p class="mcq-p-16 white">ง.</p>]]>
-				</text>
+				<image id="q1-opt4" target="row2-col2" position="relative" anim="show" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="mcq-optionBox">
+					<![CDATA[assets/quiz/preAchievement/q1-a4.png]]>
+				</image>				
 			</option>			
 			<!--/options -->
 
 			<!-- feedbacks -->
 			<fb id="pass" event="">	
-				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5" width="150">		
+				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">		
 					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="mcq-nextQuestionBox">
 						<![CDATA[<p class="mcq-p-16 white">ข้อถัดไป</p>]]>
 					</text>					
@@ -108,7 +110,7 @@
 			</fb>
 			
 			<fb id="fail" event="">				
-				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5" width="150">
+				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">
 					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="mcq-nextQuestionBox">
 						<![CDATA[<p class="mcq-p-16 white">ข้อถัดไป</p>]]>
 					</text>							

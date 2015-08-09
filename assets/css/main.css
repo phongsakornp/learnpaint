@@ -711,28 +711,17 @@ section.lp-course-wrapper {
 #lp-course-3 .lp-course-info {
   background: #FEF6D1; }
 
-#lp-course-pre-quiz .lp-course-info {
-  background: blue; }
+#lp-course-pre-achievement-quiz .lp-course-side {
+  background: #2B9BD3; }
 
-#lp-course-pre-quiz-intro-wrapper {
-  /*@include fill-parent;*/
-  max-width: 68em;
-  margin-left: auto;
-  margin-right: auto;
-  height: calc(100vh - 130px); }
-  #lp-course-pre-quiz-intro-wrapper::after {
-    clear: both;
-    content: "";
-    display: table; }
+#lp-course-pre-achievement-quiz .lp-course-info {
+  background: #61C4F6; }
 
-#lp-course-pre-quiz-intro {
-  float: left;
-  display: block;
-  margin-right: 2.3576515979%;
-  width: 48.821174201%;
-  margin-left: 25.5894128995%; }
-  #lp-course-pre-quiz-intro:last-child {
-    margin-right: 0; }
+#lp-course-pre-achievement-quiz-intro-wrapper {
+  width: 100%;
+  height: calc(100vh - 130px);
+  position: relative;
+  z-index: 10; }
 
 /*--------------------------------
 
@@ -978,7 +967,7 @@ Multiple Choice Quiz Engine
   margin-bottom: 25px !important; }
 
 .mcq-optionBox {
-  background: white;
+  background: transparent;
   padding: 8px;
   border: none;
   border-radius: 0px;
@@ -986,7 +975,7 @@ Multiple Choice Quiz Engine
   overflow: hidden !important; }
 
 .mcq-optionOver {
-  background: #8AC63F;
+  background: #FCD056;
   padding: 8px;
   border: none;
   border-radius: 0px;
@@ -996,7 +985,7 @@ Multiple Choice Quiz Engine
   color: #4b4b40; }
 
 .mcq-optionOut {
-  background: white;
+  background: transparent !important;
   color: #fff;
   padding: 8px;
   border: none;
@@ -1009,30 +998,34 @@ Multiple Choice Quiz Engine
   transition: background-color 500ms linear; }
 
 .mcq-nextQuestionBox {
-  background: #2B9BD3;
+  background: #DD2843;
   padding: 2px;
   border: none;
   border-radius: 30px;
   -moz-border-radius: 30px;
-  overflow: hidden !important; }
+  overflow: hidden !important;
+  height: 50px !important; }
 
 .mcq-nextQuestionBox p {
   color: white !important;
-  margin: 7px 33px !important; }
+  margin: 7px 0 !important;
+  text-align: center !important; }
 
 .mcq-nextQuestionOver {
-  background: #1E6E96;
+  background: #BA2C41;
   padding: 2px;
   border: none;
   border-radius: 30px;
-  -moz-border-radius: 30px; }
+  -moz-border-radius: 30px;
+  height: 50px !important; }
 
 .mcq-nextQuestionOver p {
   color: white !important;
-  margin: 7px 33px !important; }
+  margin: 7px 0 !important;
+  text-align: center !important; }
 
 .mcq-nextQuestionOut {
-  background: #2B9BD3;
+  background: #DD2843;
   color: white;
   padding: 2px;
   border: none;
@@ -1042,10 +1035,12 @@ Multiple Choice Quiz Engine
   -moz-transition: background-color 500ms linear;
   -o-transition: background-color 500ms linear;
   -ms-transition: background-color 500ms linear;
-  transition: background-color 500ms linear; }
+  transition: background-color 500ms linear;
+  height: 50px !important; }
 
 .mcq-nextQuestionOut p {
   color: white !important;
-  margin: 7px 33px !important; }
+  margin: 7px 0 !important;
+  text-align: center !important; }
 
 /*# sourceMappingURL=main.css.map */

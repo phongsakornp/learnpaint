@@ -230,22 +230,29 @@ section.lp-course-wrapper {
 	background: #FEF6D1;
 }
 
-#lp-course-pre-quiz .lp-course-info {
-	background: blue;
+#lp-course-pre-achievement-quiz .lp-course-side {
+	background: #2B9BD3;
 }
 
-#lp-course-pre-quiz-intro-wrapper {
-  /*@include fill-parent;*/
-	@include outer-container;  
-	height: calc(100vh - 130px);		
-
-	// background: red;
+#lp-course-pre-achievement-quiz .lp-course-info {
+	background: #61C4F6;
 }
 
-#lp-course-pre-quiz-intro {
-	@include span-columns(6);
-	@include shift(3);
-	// background: green;		
+#lp-course-pre-achievement-quiz-intro-wrapper {
+  // /*@include fill-parent;*/
+	// @include outer-container;  
+	@include fill-parent;		
+	height: calc(100vh - 130px);	
+
+	// http://stackoverflow.com/a/7421801/4382179	
+	position: relative;
+	z-index: 10;	
+}
+
+#lp-course-pre-achievement-quiz-intro {
+	// @include span-columns(6);
+	// @include shift(3);	
+	// @include row();	
 }
 
 /*--------------------------------
@@ -498,22 +505,6 @@ jBox
 Multiple Choice Quiz Engine
 
 -------------------------------- */
-// div, p, a, li, td { -webkit-text-size-adjust:none; }
-// p{font-size:14px;line-height:21px;margin-bottom:12px;color:#4b4b40;}
-// p:last-child{margin-bottom:0px;}
-
-// input#btn{
-// 	background:#4b4b40;
-// 	font-size:14px;
-// 	font-weight:bold;
-// 	color:#fff;padding:6px 10px 6px 10px;
-// 	border:none;
-// 	-webkit-appearance:none;
-// 	border-radius:0px; 
-// 	-moz-border-radius:0px;
-// 	// font-family: 'Roboto Condensed', sans-serif;
-// 	font-family: 'thaisans_neueblack', 'Noto Sans Thai', 'sans-serif';	
-// }
 
 .mcq-col-12 {
 	@include outer-container;
@@ -543,7 +534,7 @@ Multiple Choice Quiz Engine
 }
 
 .mcq-optionBox {
-	background:white; //#4b4b40
+	background:transparent; 
 	padding:8px;
 	border:none;
 	border-radius:0px; 
@@ -551,7 +542,7 @@ Multiple Choice Quiz Engine
 	overflow:hidden !important;
 } 
 .mcq-optionOver{
-	background:#8AC63F;
+	background:#FCD056;
 	padding:8px;
 	border:none;
 	border-radius:0px; 
@@ -561,7 +552,7 @@ Multiple Choice Quiz Engine
 	color:#4b4b40;
 }
 .mcq-optionOut {
-	background:white;
+	background:transparent !important;
 	color:#fff;
 	padding:8px;
 	border:none;
@@ -574,30 +565,35 @@ Multiple Choice Quiz Engine
     transition: background-color 500ms linear;
 }
 .mcq-nextQuestionBox {
-	background:#2B9BD3;
+	background:#DD2843;
 	padding:2px;
 	border:none;
 	border-radius:30px; 
 	-moz-border-radius:30px;
-	overflow:hidden !important;
+	overflow:hidden !important;	
+	height:50px !important;
 } 
+
 .mcq-nextQuestionBox p {
 	color:white !important;
-	margin:7px 33px !important;
+	margin:7px 0 !important;
+	text-align:center !important;
 }
 .mcq-nextQuestionOver {
-	background:#1E6E96;
+	background:#BA2C41;
 	padding:2px;
 	border:none;
 	border-radius:30px; 
 	-moz-border-radius:30px;
+	height:50px !important;	
 }
 .mcq-nextQuestionOver p {
 	color:white !important;
-	margin:7px 33px !important;	
+	margin:7px 0 !important;	
+	text-align:center !important;	
 }
 .mcq-nextQuestionOut {
-	background:#2B9BD3;
+	background:#DD2843;
 	color:white;
 	padding:2px;
 	border:none;
@@ -608,9 +604,11 @@ Multiple Choice Quiz Engine
     -o-transition: background-color 500ms linear;
     -ms-transition: background-color 500ms linear;
     transition: background-color 500ms linear;
+	height:50px !important;    
 } 
 .mcq-nextQuestionOut p {
 	color:white !important;
-	margin:7px 33px !important;	
+	margin:7px 0 !important;
+	text-align:center !important;	
 }
   
