@@ -321,7 +321,7 @@ Modified by: PhongsakornP.
     .cd-tabs-navigation a[data-content='0']::before {
       background-image: url("../img/home@32px.svg"); }
     .cd-tabs-navigation a[data-content='1']::before {
-      background-image: url("../img/paint@32px.svg"); }
+      background-image: url("../img/pre-achievement-quiz@32px.svg"); }
     .cd-tabs-navigation a[data-content='2']::before {
       background-image: url("../img/paint@32px.svg"); }
     .cd-tabs-navigation a[data-content='3']::before {
@@ -333,7 +333,7 @@ Modified by: PhongsakornP.
     .cd-tabs-navigation a[data-content='0'].selected::before {
       background-image: url("../img/home-selected@32px.svg"); }
     .cd-tabs-navigation a[data-content='1'].selected::before {
-      background-image: url("../img/paint-selected@32px.svg"); }
+      background-image: url("../img/pre-achievement-quiz-selected@32px.svg"); }
     .cd-tabs-navigation a[data-content='2'].selected::before {
       background-image: url("../img/paint-selected@32px.svg"); }
     .cd-tabs-navigation a[data-content='3'].selected::before {

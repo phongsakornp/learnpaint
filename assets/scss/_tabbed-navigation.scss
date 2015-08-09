@@ -163,7 +163,7 @@ $tabs-btn-width-L: auto;  // tab button width on large devices
 
 		&[data-content='1']::before {
 			// background-position: 0 0;
-      		background-image: url('../img/paint@32px.svg');
+      		background-image: url('../img/pre-achievement-quiz@32px.svg');
 		}
 
 		&[data-content='2']::before {
@@ -187,7 +187,7 @@ $tabs-btn-width-L: auto;  // tab button width on large devices
 	    }
 
 	    &[data-content='1'].selected::before {
-      		background-image: url('../img/paint-selected@32px.svg');
+      		background-image: url('../img/pre-achievement-quiz-selected@32px.svg');
 		}
 
 		&[data-content='2'].selected::before {
