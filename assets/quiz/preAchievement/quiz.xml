@@ -61,7 +61,7 @@
     		<box id="row3" position="relative" class="mcq-col-12" />				
 
 			<text id="q1-q" position="relative" target="row1" margin-bottom="10" anim="show" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="mcq-p-24">ขั้นตอนการเปิดโปรแกรมเพ้นท์ เรียงลำดับอย่างไร?</p>]]>
+				<![CDATA[<p class="mcq-p-24">1. ขั้นตอนการเปิดโปรแกรมเพ้นท์ เรียงลำดับอย่างไร?</p>]]>
 			</text>
 
 			<image id="q1-img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="show" animtime="1" animdelay="0" class="">
