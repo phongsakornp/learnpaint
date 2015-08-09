@@ -304,6 +304,94 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/quiz\/preAchievement\/q2-a1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3427,
+		"inputAbbreviatedPath": "\/assets\/quiz\/preAchievement\/q2-a1.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/preAchievement\/q2-a1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/quiz\/preAchievement\/q2-a2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3822,
+		"inputAbbreviatedPath": "\/assets\/quiz\/preAchievement\/q2-a2.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/preAchievement\/q2-a2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/quiz\/preAchievement\/q2-a3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3532,
+		"inputAbbreviatedPath": "\/assets\/quiz\/preAchievement\/q2-a3.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/preAchievement\/q2-a3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/quiz\/preAchievement\/q2-a4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3384,
+		"inputAbbreviatedPath": "\/assets\/quiz\/preAchievement\/q2-a4.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/preAchievement\/q2-a4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/quiz\/preAchievement\/q3-a1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1448,
+		"inputAbbreviatedPath": "\/assets\/quiz\/preAchievement\/q3-a1.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/preAchievement\/q3-a1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/quiz\/preAchievement\/q3-a2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1807,
+		"inputAbbreviatedPath": "\/assets\/quiz\/preAchievement\/q3-a2.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/preAchievement\/q3-a2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/quiz\/preAchievement\/q3-a3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2301,
+		"inputAbbreviatedPath": "\/assets\/quiz\/preAchievement\/q3-a3.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/preAchievement\/q3-a3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/quiz\/preAchievement\/q3-a4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2201,
+		"inputAbbreviatedPath": "\/assets\/quiz\/preAchievement\/q3-a4.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/preAchievement\/q3-a4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/royalslider\/grab.png": {
 		"fileType": 32768,
 		"ignore": 0,

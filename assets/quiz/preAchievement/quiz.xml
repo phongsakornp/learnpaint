@@ -51,7 +51,7 @@
 		
 		<settings timer="false"  />
 
-		<!-- Questino 1 -->
+		<!-- Question 1 -->
 		<question id="q1" event="">
 
     		<box id="row1" position="relative" class="mcq-col-12" />
@@ -73,9 +73,6 @@
 				<image id="q1-opt1" target="row2-col1" position="relative" anim="show" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="mcq-optionBox">
 					<![CDATA[assets/quiz/preAchievement/q1-a1.png]]>
 				</image>				
-<!-- 				<text id="option1_1" target="row2-col1" position="relative" anim="show" animtime="1" animdelay="0.2" event="optionover,selectandsubmit" class="mcq-optionBox">
-					<![CDATA[<p class="mcq-p-16 white">ก.</p>]]>
-				</text> -->
 			</option>
 			
 			<!--option 2 -->	
@@ -117,6 +114,312 @@
 				</box>
 			</fb>			
 		</question>
+		<!-- End Question 1 -->
+
+		<!-- Question 2 -->
+		<question id="q2" event="">
+
+    		<box id="row1" position="relative" class="mcq-col-12" />
+    		<box id="row2" position="relative" class="mcq-row-table" />		    		
+			<box id="row2-col1" target="row2" position="relative" class="mcq-row-table-col-6" />
+			<box id="row2-col2" target="row2" position="relative" class="mcq-row-table-col-6" />    		
+    		<box id="row3" position="relative" class="mcq-col-12" />				
+
+			<text id="q2-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
+				<![CDATA[<p class="mcq-p-24">2. ขั้นตอนแรกของการคัดลอกภาพคือข้อใด?</p>]]>
+			</text>
+
+			<!--option 1 -->
+			<option correct="false">
+				<image id="q2-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="mcq-optionBox">
+					<![CDATA[assets/quiz/preAchievement/q2-a1.png]]>
+				</image>				
+			</option>
+			
+			<!--option 2 -->	
+			<option correct="true">
+				<image id="q2-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="mcq-optionBox">
+					<![CDATA[assets/quiz/preAchievement/q2-a2.png]]>
+				</image>				
+			</option>
+
+			<!--option 3 -->	
+			<option correct="false">
+				<image id="q2-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="mcq-optionBox">
+					<![CDATA[assets/quiz/preAchievement/q2-a3.png]]>
+				</image>				
+			</option>
+
+			<!--option 4 -->	
+			<option correct="false">
+				<image id="q2-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="mcq-optionBox">
+					<![CDATA[assets/quiz/preAchievement/q2-a4.png]]>
+				</image>				
+			</option>			
+			<!--/options -->
+
+			<!-- feedbacks -->
+			<fb id="pass" event="">	
+				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">		
+					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="mcq-nextQuestionBox">
+						<![CDATA[<p class="mcq-p-16 white">ข้อถัดไป</p>]]>
+					</text>					
+				</box>
+			</fb>
+			
+			<fb id="fail" event="">				
+				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">
+					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="mcq-nextQuestionBox">
+						<![CDATA[<p class="mcq-p-16 white">ข้อถัดไป</p>]]>
+					</text>							
+				</box>
+			</fb>			
+		</question>
+		<!-- End Question 2 -->
+
+		<!-- Question 3 -->
+		<question id="q3" event="">
+
+    		<box id="row1" position="relative" class="mcq-col-12" />
+    		<box id="row2" position="relative" class="mcq-row-table" />		    		
+			<box id="row2-col1" target="row2" position="relative" class="mcq-row-table-col-6" />
+			<box id="row2-col2" target="row2" position="relative" class="mcq-row-table-col-6" />    		
+    		<box id="row3" position="relative" class="mcq-col-12" />				
+
+			<text id="q3-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
+				<![CDATA[<p class="mcq-p-24">3. คำสั่งใดใช้ยกเลิกการทำงานหลังสุด?</p>]]>
+			</text>
+
+			<!--option 1 -->
+			<option correct="true">
+				<image id="q3-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="mcq-optionBox">
+					<![CDATA[assets/quiz/preAchievement/q3-a1.png]]>
+				</image>				
+			</option>
+			
+			<!--option 2 -->	
+			<option correct="false">
+				<image id="q3-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="mcq-optionBox">
+					<![CDATA[assets/quiz/preAchievement/q3-a2.png]]>
+				</image>				
+			</option>
+
+			<!--option 3 -->	
+			<option correct="false">
+				<image id="q3-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="mcq-optionBox">
+					<![CDATA[assets/quiz/preAchievement/q3-a3.png]]>
+				</image>				
+			</option>
+
+			<!--option 4 -->	
+			<option correct="false">
+				<image id="q3-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="mcq-optionBox">
+					<![CDATA[assets/quiz/preAchievement/q3-a4.png]]>
+				</image>				
+			</option>			
+			<!--/options -->
+
+			<!-- feedbacks -->
+			<fb id="pass" event="">	
+				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">		
+					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="mcq-nextQuestionBox">
+						<![CDATA[<p class="mcq-p-16 white">ข้อถัดไป</p>]]>
+					</text>					
+				</box>
+			</fb>
+			
+			<fb id="fail" event="">				
+				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">
+					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="mcq-nextQuestionBox">
+						<![CDATA[<p class="mcq-p-16 white">ข้อถัดไป</p>]]>
+					</text>							
+				</box>
+			</fb>			
+		</question>
+		<!-- End Question 3 -->
+
+		<!-- Question 4 -->
+		<question id="q4" event="">
+
+    		<box id="row1" position="relative" class="mcq-col-12" />
+    		<box id="row2" position="relative" class="mcq-row-table" />		    		
+			<box id="row2-col1" target="row2" position="relative" class="mcq-row-table-col-6" />
+			<box id="row2-col2" target="row2" position="relative" class="mcq-row-table-col-6" />    		
+    		<box id="row3" position="relative" class="mcq-col-12" />				
+
+			<text id="q4-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
+				<![CDATA[<p class="mcq-p-24">4. คำสั่งใดอยู่ในเมนูหลัก?</p>]]>
+			</text>
+
+			<!--option 1 -->
+			<option correct="true">
+				<image id="q4-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="mcq-optionBox">
+					<![CDATA[assets/quiz/preAchievement/q4-a1.png]]>
+				</image>				
+			</option>
+			
+			<!--option 2 -->	
+			<option correct="false">
+				<image id="q4-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="mcq-optionBox">
+					<![CDATA[assets/quiz/preAchievement/q4-a2.png]]>
+				</image>				
+			</option>
+
+			<!--option 3 -->	
+			<option correct="false">
+				<image id="q4-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="mcq-optionBox">
+					<![CDATA[assets/quiz/preAchievement/q4-a3.png]]>
+				</image>				
+			</option>
+
+			<!--option 4 -->	
+			<option correct="false">
+				<image id="q4-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="mcq-optionBox">
+					<![CDATA[assets/quiz/preAchievement/q4-a4.png]]>
+				</image>				
+			</option>			
+			<!--/options -->
+
+			<!-- feedbacks -->
+			<fb id="pass" event="">	
+				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">		
+					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="mcq-nextQuestionBox">
+						<![CDATA[<p class="mcq-p-16 white">ข้อถัดไป</p>]]>
+					</text>					
+				</box>
+			</fb>
+			
+			<fb id="fail" event="">				
+				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">
+					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="mcq-nextQuestionBox">
+						<![CDATA[<p class="mcq-p-16 white">ข้อถัดไป</p>]]>
+					</text>							
+				</box>
+			</fb>			
+		</question>
+		<!-- End Question 4 -->
+
+		<!-- Question 5 -->
+		<question id="q5" event="">
+
+    		<box id="row1" position="relative" class="mcq-col-12" />
+    		<box id="row2" position="relative" class="mcq-row-table" />		    		
+			<box id="row2-col1" target="row2" position="relative" class="mcq-row-table-col-6" />
+			<box id="row2-col2" target="row2" position="relative" class="mcq-row-table-col-6" />    		
+    		<box id="row3" position="relative" class="mcq-col-12" />				
+
+			<text id="q5-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
+				<![CDATA[<p class="mcq-p-24">5. คำสั่งใดใช้สำหรับบันทึก?</p>]]>
+			</text>
+
+			<!--option 1 -->
+			<option correct="false">
+				<image id="q5-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="mcq-optionBox">
+					<![CDATA[assets/quiz/preAchievement/q5-a1.png]]>
+				</image>				
+			</option>
+			
+			<!--option 2 -->	
+			<option correct="false">
+				<image id="q5-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="mcq-optionBox">
+					<![CDATA[assets/quiz/preAchievement/q5-a2.png]]>
+				</image>				
+			</option>
+
+			<!--option 3 -->	
+			<option correct="true">
+				<image id="q5-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="mcq-optionBox">
+					<![CDATA[assets/quiz/preAchievement/q5-a3.png]]>
+				</image>				
+			</option>
+
+			<!--option 4 -->	
+			<option correct="false">
+				<image id="q5-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="mcq-optionBox">
+					<![CDATA[assets/quiz/preAchievement/q5-a4.png]]>
+				</image>				
+			</option>			
+			<!--/options -->
+
+			<!-- feedbacks -->
+			<fb id="pass" event="">	
+				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">		
+					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="mcq-nextQuestionBox">
+						<![CDATA[<p class="mcq-p-16 white">ข้อถัดไป</p>]]>
+					</text>					
+				</box>
+			</fb>
+			
+			<fb id="fail" event="">				
+				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">
+					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="mcq-nextQuestionBox">
+						<![CDATA[<p class="mcq-p-16 white">ข้อถัดไป</p>]]>
+					</text>							
+				</box>
+			</fb>			
+		</question>
+		<!-- End Question 5 -->
+
+		<!-- Question 6 -->
+		<question id="q6" event="">
+
+    		<box id="row1" position="relative" class="mcq-col-12" />
+    		<box id="row2" position="relative" class="mcq-row-table" />		    		
+			<box id="row2-col1" target="row2" position="relative" class="mcq-row-table-col-6" />
+			<box id="row2-col2" target="row2" position="relative" class="mcq-row-table-col-6" />    		
+    		<box id="row3" position="relative" class="mcq-col-12" />				
+
+			<text id="q6-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
+				<![CDATA[<p class="mcq-p-24">6. โปรแกรมที่ใช้สำหรับวาดภาพ คือข้อใด?</p>]]>
+			</text>
+
+			<!--option 1 -->
+			<option correct="false">
+				<image id="q6-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="mcq-optionBox">
+					<![CDATA[assets/quiz/preAchievement/q6-a1.png]]>
+				</image>				
+			</option>
+			
+			<!--option 2 -->	
+			<option correct="true">
+				<image id="q6-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="mcq-optionBox">
+					<![CDATA[assets/quiz/preAchievement/q6-a2.png]]>
+				</image>				
+			</option>
+
+			<!--option 3 -->	
+			<option correct="false">
+				<image id="q6-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="mcq-optionBox">
+					<![CDATA[assets/quiz/preAchievement/q6-a3.png]]>
+				</image>				
+			</option>
+
+			<!--option 4 -->	
+			<option correct="false">
+				<image id="q6-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="mcq-optionBox">
+					<![CDATA[assets/quiz/preAchievement/q6-a4.png]]>
+				</image>				
+			</option>			
+			<!--/options -->
+
+			<!-- feedbacks -->
+			<fb id="pass" event="">	
+				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">		
+					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="mcq-nextQuestionBox">
+						<![CDATA[<p class="mcq-p-16 white">ข้อถัดไป</p>]]>
+					</text>					
+				</box>
+			</fb>
+			
+			<fb id="fail" event="">				
+				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">
+					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="mcq-nextQuestionBox">
+						<![CDATA[<p class="mcq-p-16 white">ข้อถัดไป</p>]]>
+					</text>							
+				</box>
+			</fb>			
+		</question>
+		<!-- End Question 6 -->
 
 		<!--score screen-->
         <score masteryscore="80">
