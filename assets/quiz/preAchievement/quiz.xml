@@ -431,7 +431,7 @@
     		<box id="row3" position="relative" class="mcq-col-12" />				
 
 			<text id="q7-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="mcq-p-24">7. คำสั่ง Copy ต้องใช้คู่กับคำสั่งใด?</p>]]>
+				<![CDATA[<p class="mcq-p-24">7. คำสั่งตามภาพด้านล่าง ต้องใช้คู่กับคำสั่งใด?</p>]]>
 			</text>
 
 			<image id="q7-img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="none" animtime="1" animdelay="0" class="">
@@ -740,7 +740,7 @@
     		<box id="row3" position="relative" class="mcq-col-12" />				
 
 			<text id="q12-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="mcq-p-24">12. เครื่องมือดินสอตามภาพด้านล่างมีลักษณะการใช้งานคล้ายกับเครื่องมือใด?</p>]]>
+				<![CDATA[<p class="mcq-p-24">12. เครื่องมือดินสอตามภาพด้านล่าง มีลักษณะการใช้งานคล้ายกับเครื่องมือใด?</p>]]>
 			</text>
 			<image id="q12-img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="none" animtime="1" animdelay="0" class="">
 				<![CDATA[assets/quiz/preAchievement/q12.png]]>
@@ -865,7 +865,7 @@
     		<box id="row3" position="relative" class="mcq-col-12" />				
 
 			<text id="q14-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="mcq-p-24">14. เครื่องมือถังสีตามภาพด้านล่างมีหน้าที่อย่างไร?</p>]]>
+				<![CDATA[<p class="mcq-p-24">14. เครื่องมือถังสีตามภาพด้านล่าง มีหน้าที่อย่างไร?</p>]]>
 			</text>
 			<image id="q14-img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="none" animtime="1" animdelay="0" class="">
 				<![CDATA[assets/quiz/preAchievement/q14.png]]>
@@ -1057,7 +1057,7 @@
     		<box id="row3" position="relative" class="mcq-col-12" />				
 
 			<text id="q17-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="mcq-p-24">17. รูปร่างใดใช้วาดภาพส้ม?</p>]]>
+				<![CDATA[<p class="mcq-p-24">17. รูปร่างใดใช้วาดภาพส้มด้านล่าง?</p>]]>
 			</text>
 			<image id="q17-img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="none" animtime="1" animdelay="0" class="">
 				<![CDATA[assets/quiz/preAchievement/q17.png]]>
@@ -1121,7 +1121,7 @@
     		<box id="row3" position="relative" class="mcq-col-12" />				
 
 			<text id="q18-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="mcq-p-24">18. รูปร่างใดใช้วาดภาพดอกไม้?</p>]]>
+				<![CDATA[<p class="mcq-p-24">18. รูปร่างใดใช้วาดภาพดอกไม้ด้านล่าง?</p>]]>
 			</text>
 			<image id="q18-img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="none" animtime="1" animdelay="0" class="">
 				<![CDATA[assets/quiz/preAchievement/q18.png]]>
@@ -2553,16 +2553,15 @@
 		</question>
 		<!-- End Question 40 -->		
 
-
 		<!--Score screen-->
-        <score masteryscore="80">
+        <score masteryscore="70">
            <fb id="pass" event="">
             	<box id="center" position="relative" height="100%">
 	            	<box id="passTextBox" position="relative" height="350" margin-top="0" margin-bottom="20" anim="left" animtime="0.5" 
 	            		class="">
 						
 					<text id="pass_txt" position="relative" x="10" margin-top="30" margin-bottom="20" anim="none">
-						<![CDATA[<p class="p_30 white glow">CONGRATULATIONS!</p><p class="p_24 orange glow">You scored [score]%</p>]]>
+						<![CDATA[<p class="mcq-p-30 mcq-text-orange mcq-text-glow">นักเรียนได้คะแนน [score]/40</p>]]>
 					</text>
 
 	                </box>
@@ -2575,7 +2574,7 @@
 	            		class="">
 
 	                    <text id="fail_txt" position="relative" x="10" margin-top="30" margin-bottom="20" anim="none">
-	                    	<![CDATA[<p class="p_32 white glow">Bad luck! You scored [score]%</p><p class="p_24 orange glow">Why not have another go?</p>]]>
+						<![CDATA[<p class="mcq-p-30 mcq-text-orange mcq-text-glow">นักเรียนได้คะแนน [score]/40</p>]]>
 	                    </text>
 
 	                </box> 

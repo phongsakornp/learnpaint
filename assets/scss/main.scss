@@ -522,6 +522,14 @@ Multiple Choice Quiz Engine
 	@include span-columns(6);
 }
 
+.mcq-text-glow {
+	text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+
+.mcq-text-orange{ 
+	color:#f7c160;
+}
+
 .mcq-p-16 {
 	font-size:16px;
 	line-height:21px;
@@ -531,6 +539,13 @@ Multiple Choice Quiz Engine
 	line-height:30px;
 	margin-top:25px !important;
 	margin-bottom:25px !important;
+}
+
+.mcq-p-30{
+	font-size:30px;
+	line-height:35px;
+	margin-top:30px !important;
+	margin-bottom:30px !important;
 }
 
 .mcq-optionBox {
