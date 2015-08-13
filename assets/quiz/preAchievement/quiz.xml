@@ -2538,7 +2538,7 @@
 			<fb id="pass" event="">	
 				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">		
 					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="mcq-nextQuestionBox">
-						<![CDATA[<p class="mcq-p-16 white">ข้อถัดไป</p>]]>
+						<![CDATA[<p class="mcq-p-16 white">สรุปคะแนน/p>]]>
 					</text>					
 				</box>
 			</fb>
@@ -2546,7 +2546,7 @@
 			<fb id="fail" event="">				
 				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">
 					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="mcq-nextQuestionBox">
-						<![CDATA[<p class="mcq-p-16 white">ข้อถัดไป</p>]]>
+						<![CDATA[<p class="mcq-p-16 white">สรุปคะแนน</p>]]>
 					</text>							
 				</box>
 			</fb>			
