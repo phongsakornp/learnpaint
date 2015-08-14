@@ -431,12 +431,8 @@
     		<box id="row3" position="relative" class="mcq-col-12" />				
 
 			<text id="q7-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="mcq-p-24">7. คำสั่งตามภาพด้านล่าง ต้องใช้คู่กับคำสั่งใด?</p>]]>
+				<![CDATA[<p class="mcq-p-24">7. คำสั่งคัดลอก (Copy) ต้องใช้คู่กับคำสั่งใด?</p>]]>
 			</text>
-
-			<image id="q7-img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="none" animtime="1" animdelay="0" class="">
-				<![CDATA[assets/quiz/preAchievement/q7.png]]>
-			</image>
 
 			<!--option 1 -->
 			<option correct="false">
@@ -740,11 +736,8 @@
     		<box id="row3" position="relative" class="mcq-col-12" />				
 
 			<text id="q12-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="mcq-p-24">12. เครื่องมือดินสอตามภาพด้านล่าง มีลักษณะการใช้งานคล้ายกับเครื่องมือใด?</p>]]>
+				<![CDATA[<p class="mcq-p-24">12. เครื่องมือดินสอมีลักษณะการใช้งานคล้ายกับเครื่องมือใด?</p>]]>
 			</text>
-			<image id="q12-img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="none" animtime="1" animdelay="0" class="">
-				<![CDATA[assets/quiz/preAchievement/q12.png]]>
-			</image>
 
 			<!--option 1 -->
 			<option correct="false">
@@ -865,11 +858,8 @@
     		<box id="row3" position="relative" class="mcq-col-12" />				
 
 			<text id="q14-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="mcq-p-24">14. เครื่องมือถังสีตามภาพด้านล่าง มีหน้าที่อย่างไร?</p>]]>
+				<![CDATA[<p class="mcq-p-24">14. เครื่องมือถังสี มีหน้าที่อย่างไร?</p>]]>
 			</text>
-			<image id="q14-img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="none" animtime="1" animdelay="0" class="">
-				<![CDATA[assets/quiz/preAchievement/q14.png]]>
-			</image>
 
 			<!--option 1 -->
 			<option correct="false">
@@ -929,11 +919,8 @@
     		<box id="row3" position="relative" class="mcq-col-12" />				
 
 			<text id="q15-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="mcq-p-24">15. ภาพในข้อใดใช้เส้นโค้งตามภาพด้านล่างในการวาด?</p>]]>
+				<![CDATA[<p class="mcq-p-24">15. ภาพในข้อใดใช้รูปร่างเส้นโค้ง?</p>]]>
 			</text>
-			<image id="q15-img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="none" animtime="1" animdelay="0" class="">
-				<![CDATA[assets/quiz/preAchievement/q15.png]]>
-			</image>
 
 			<!--option 1 -->
 			<option correct="true">
@@ -993,11 +980,8 @@
     		<box id="row3" position="relative" class="mcq-col-12" />				
 
 			<text id="q16-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="mcq-p-24">16. ภาพในข้อใดใช้วงรีตามภาพด้านล่างในการวาด?</p>]]>
+				<![CDATA[<p class="mcq-p-24">16. ภาพในข้อใดใช้รูปร่างวงรี?</p>]]>
 			</text>
-			<image id="q16-img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="none" animtime="1" animdelay="0" class="">
-				<![CDATA[assets/quiz/preAchievement/q16.png]]>
-			</image>
 
 			<!--option 1 -->
 			<option correct="false">
@@ -1057,7 +1041,7 @@
     		<box id="row3" position="relative" class="mcq-col-12" />				
 
 			<text id="q17-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="mcq-p-24">17. รูปร่างใดใช้วาดภาพส้มด้านล่าง?</p>]]>
+				<![CDATA[<p class="mcq-p-24">17. รูปร่างใดใช้วาดภาพส้ม?</p>]]>
 			</text>
 			<image id="q17-img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="none" animtime="1" animdelay="0" class="">
 				<![CDATA[assets/quiz/preAchievement/q17.png]]>
@@ -1121,7 +1105,7 @@
     		<box id="row3" position="relative" class="mcq-col-12" />				
 
 			<text id="q18-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="mcq-p-24">18. รูปร่างใดใช้วาดภาพดอกไม้ด้านล่าง?</p>]]>
+				<![CDATA[<p class="mcq-p-24">18. รูปร่างใดใช้วาดภาพดอกไม้?</p>]]>
 			</text>
 			<image id="q18-img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="none" animtime="1" animdelay="0" class="">
 				<![CDATA[assets/quiz/preAchievement/q18.png]]>
@@ -1246,11 +1230,8 @@
     		<box id="row3" position="relative" class="mcq-col-12" />				
 
 			<text id="q20-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="mcq-p-24">20. คำสั่งตามภาพด้านล่างมีหน้าที่อย่างไร?</p>]]>
+				<![CDATA[<p class="mcq-p-24">20. คำสั่ง Resize มีหน้าที่อย่างไร?</p>]]>
 			</text>
-			<image id="q20-img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="none" animtime="1" animdelay="0" class="">
-				<![CDATA[assets/quiz/preAchievement/q20.png]]>
-			</image>
 
 			<!--option 1 -->
 			<option correct="false">
@@ -1676,7 +1657,7 @@
     		<box id="row3" position="relative" class="mcq-col-12" />				
 
 			<text id="q27-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="mcq-p-24">27. ข้อใดคือผลที่ได้จากการใช้คำสั่งพลิกภาพ (Rotate) ด้านล่าง?</p>]]>
+				<![CDATA[<p class="mcq-p-24">27. ข้อใดคือผลที่ได้จากการใช้คำสั่งพลิกภาพ (Rotate)?</p>]]>
 			</text>
 			<image id="q27-img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="none" animtime="1" animdelay="0" class="">
 				<![CDATA[assets/quiz/preAchievement/q27.png]]>
@@ -1740,7 +1721,7 @@
     		<box id="row3" position="relative" class="mcq-col-12" />				
 
 			<text id="q28-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="mcq-p-24">28. ข้อใดคือผลที่ได้จากการใช้คำสั่งย่อภาพ (Resize) ด้านล่าง?</p>]]>
+				<![CDATA[<p class="mcq-p-24">28. ข้อใดคือผลที่ได้จากการใช้คำสั่งย่อภาพ (Resize)?</p>]]>
 			</text>
 			<image id="q28-img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="none" animtime="1" animdelay="0" class="">
 				<![CDATA[assets/quiz/preAchievement/q28.png]]>
@@ -1804,7 +1785,7 @@
     		<box id="row3" position="relative" class="mcq-col-12" />				
 
 			<text id="q29-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="mcq-p-24">29. รูปร่างวงรีใช้วาดส่วนใดของภาพด้านล่าง?</p>]]>
+				<![CDATA[<p class="mcq-p-24">29. รูปร่างวงรีใช้วาดส่วนใดของภาพ?</p>]]>
 			</text>
 			<image id="q29-img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="none" animtime="1" animdelay="0" class="">
 				<![CDATA[assets/quiz/preAchievement/q29.png]]>
@@ -1868,7 +1849,7 @@
     		<box id="row3" position="relative" class="mcq-col-12" />				
 
 			<text id="q30-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="mcq-p-24">30. รูปร่างเส้นโค้งใช้วาดส่วนใดของภาพด้านล่าง?</p>]]>
+				<![CDATA[<p class="mcq-p-24">30. รูปร่างเส้นโค้งใช้วาดส่วนใดของภาพ?</p>]]>
 			</text>
 			<image id="q30-img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="none" animtime="1" animdelay="0" class="">
 				<![CDATA[assets/quiz/preAchievement/q30.png]]>
@@ -1932,7 +1913,7 @@
     		<box id="row3" position="relative" class="mcq-col-12" />				
 
 			<text id="q31-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="mcq-p-24">31. จากภาพด้านล่างใช้เครื่องมือใดวาด?</p>]]>
+				<![CDATA[<p class="mcq-p-24">31. จากภาพใช้เครื่องมือใดวาด?</p>]]>
 			</text>
 			<image id="q31-img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="none" animtime="1" animdelay="0" class="">
 				<![CDATA[assets/quiz/preAchievement/q31.png]]>
@@ -1996,7 +1977,7 @@
     		<box id="row3" position="relative" class="mcq-col-12" />				
 
 			<text id="q32-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="mcq-p-24">32. จากภาพด้านล่างใช้เครื่องมือใดวาด?</p>]]>
+				<![CDATA[<p class="mcq-p-24">32. จากภาพใช้เครื่องมือใดวาด?</p>]]>
 			</text>
 			<image id="q32-img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="none" animtime="1" animdelay="0" class="">
 				<![CDATA[assets/quiz/preAchievement/q32.png]]>
@@ -2060,7 +2041,7 @@
     		<box id="row3" position="relative" class="mcq-col-12" />				
 
 			<text id="q33-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="mcq-p-24">33. จากภาพด้านล่างเครื่องมือใดใช้วาดหนวด?</p>]]>
+				<![CDATA[<p class="mcq-p-24">33. จากภาพเครื่องมือใดใช้วาดหนวด?</p>]]>
 			</text>
 			<image id="q33-img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="none" animtime="1" animdelay="0" class="">
 				<![CDATA[assets/quiz/preAchievement/q33.png]]>
@@ -2246,7 +2227,7 @@
     		<box id="row3" position="relative" class="mcq-col-12" />				
 
 			<text id="q36-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="mcq-p-24">36. จากภาพด้านล่างใช้เครื่องมือใดวาด?</p>]]>
+				<![CDATA[<p class="mcq-p-24">36. จากภาพใช้เครื่องมือใดวาด?</p>]]>
 			</text>
 			<image id="q36-img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="none" animtime="1" animdelay="0" class="">
 				<![CDATA[assets/quiz/preAchievement/q36.png]]>
@@ -2310,7 +2291,7 @@
     		<box id="row3" position="relative" class="mcq-col-12" />				
 
 			<text id="q37-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="mcq-p-24">37. จากภาพด้านล่างใช้เครื่องมือใดวาด?</p>]]>
+				<![CDATA[<p class="mcq-p-24">37. จากภาพใช้เครื่องมือใดวาด?</p>]]>
 			</text>
 			<image id="q37-img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="none" animtime="1" animdelay="0" class="">
 				<![CDATA[assets/quiz/preAchievement/q37.png]]>
@@ -2374,7 +2355,7 @@
     		<box id="row3" position="relative" class="mcq-col-12" />				
 
 			<text id="q38-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="mcq-p-24">38. จากภาพด้านล่างใช้เครื่องมือใดวาด?</p>]]>
+				<![CDATA[<p class="mcq-p-24">38. จากภาพใช้เครื่องมือใดวาด?</p>]]>
 			</text>
 			<image id="q38-img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="none" animtime="1" animdelay="0" class="">
 				<![CDATA[assets/quiz/preAchievement/q38.png]]>
@@ -2438,7 +2419,7 @@
     		<box id="row3" position="relative" class="mcq-col-12" />				
 
 			<text id="q39-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="mcq-p-24">39. เครื่องมือดินสอใช้วาดส่วนใดของภาพด้านล่าง?</p>]]>
+				<![CDATA[<p class="mcq-p-24">39. เครื่องมือดินสอใช้วาดส่วนใดของภาพ?</p>]]>
 			</text>
 			<image id="q39-img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="none" animtime="1" animdelay="0" class="">
 				<![CDATA[assets/quiz/preAchievement/q39.png]]>
