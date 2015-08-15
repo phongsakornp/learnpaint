@@ -49,7 +49,7 @@
 
 	<custom type="quiz" id="myquiz" position="relative" x="0" y="0" class="">
 		
-		<settings timer="false"  />
+		<settings timer="false" timerx="-300" timery="0" />
 
 		<!-- Question 1 -->
 		<question id="q1" event="">
@@ -60,38 +60,38 @@
 			<box id="row2-col2" target="row2" position="relative" class="mcq-row-table-col-6" />    		
     		<box id="row3" position="relative" class="mcq-col-12" />				
 
-			<text id="q1-q" position="relative" target="row1" margin-bottom="10" anim="show" animtime="1" animdelay="0.1" clear="both">
+			<text id="q1-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
 				<![CDATA[<p class="mcq-p-24">1. ขั้นตอนการเปิดโปรแกรมเพ้นท์ เรียงลำดับอย่างไร?</p>]]>
 			</text>
 
-			<image id="q1-img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="show" animtime="1" animdelay="0" class="">
+			<image id="q1-img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="none" animtime="1" animdelay="0" class="">
 				<![CDATA[assets/quiz/preAchievement/q1.png]]>
 			</image>
 
 			<!--option 1 -->
 			<option correct="false">
-				<image id="q1-opt1" target="row2-col1" position="relative" anim="show" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="mcq-optionBox">
+				<image id="q1-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="mcq-optionBox">
 					<![CDATA[assets/quiz/preAchievement/q1-a1.png]]>
 				</image>				
 			</option>
 			
 			<!--option 2 -->	
 			<option correct="false">
-				<image id="q1-opt2" target="row2-col2" position="relative" anim="show" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="mcq-optionBox">
+				<image id="q1-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="mcq-optionBox">
 					<![CDATA[assets/quiz/preAchievement/q1-a2.png]]>
 				</image>				
 			</option>
 
 			<!--option 3 -->	
 			<option correct="false">
-				<image id="q1-opt3" target="row2-col1" position="relative" anim="show" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="mcq-optionBox">
+				<image id="q1-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="mcq-optionBox">
 					<![CDATA[assets/quiz/preAchievement/q1-a3.png]]>
 				</image>				
 			</option>
 
 			<!--option 4 -->	
 			<option correct="true">
-				<image id="q1-opt4" target="row2-col2" position="relative" anim="show" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="mcq-optionBox">
+				<image id="q1-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="mcq-optionBox">
 					<![CDATA[assets/quiz/preAchievement/q1-a4.png]]>
 				</image>				
 			</option>			
