@@ -401,6 +401,133 @@ Student Portfolio
 
 /*--------------------------------
 
+LearnPain Quiz
+With Multiple Choice Quiz Engine
+
+-------------------------------- */
+
+.lp-quiz-layout-column12 {
+	@include outer-container;
+	@include span-columns(12);
+}
+
+.lp-quiz-layout-table-row {
+	@include outer-container;
+	@include row(table);
+}
+
+.lp-quiz-layout-table-row-column6 {
+	@include span-columns(6);
+}
+
+.lp-quiz-text-glow {
+	text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+
+.lp-quiz-text-orange { 
+	color:#f7c160;
+}
+
+.lp-quiz-p16 {
+	font-size:16px;
+	line-height:21px;
+}
+.lp-quiz-p24 {
+	font-size:24px;
+	line-height:30px;
+	margin-top:25px !important;
+	margin-bottom:25px !important;
+}
+
+.lp-quiz-p30{
+	font-size:30px;
+	line-height:35px;
+	margin-top:30px !important;
+	margin-bottom:30px !important;
+}
+
+.lp-quiz-option-box {
+	background:transparent; 
+	padding:8px;
+	border:none;
+	border-radius:0px; 
+	-moz-border-radius:0px;
+	overflow:hidden !important;
+} 
+.lp-quiz-option-over {
+	background:#FCD056;
+	padding:8px;
+	border:none;
+	border-radius:0px; 
+	-moz-border-radius:0px;
+}
+.lp-quiz-option-over p {
+	color:#4b4b40;
+}
+.lp-quiz-option-out {
+	background:transparent !important;
+	color:#fff;
+	padding:8px;
+	border:none;
+	border-radius:0px; 
+	-moz-border-radius:0px;
+	-webkit-transition: background-color 500ms linear;
+    -moz-transition: background-color 500ms linear;
+    -o-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+}
+.lp-quiz-next-question-box {
+	background:#DD2843;
+	padding:2px;
+	border:none;
+	border-radius:30px; 
+	-moz-border-radius:30px;
+	overflow:hidden !important;	
+	height:50px !important;
+} 
+
+.lp-quiz-next-question-box p {
+	color:white !important;
+	margin:7px 0 !important;
+	text-align:center !important;
+}
+.lp-quiz-next-question-over {
+	background:#BA2C41;
+	padding:2px;
+	border:none;
+	border-radius:30px; 
+	-moz-border-radius:30px;
+	height:50px !important;	
+}
+.lp-quiz-next-question-over p {
+	color:white !important;
+	margin:7px 0 !important;	
+	text-align:center !important;	
+}
+.lp-quiz-next-question-out {
+	background:#DD2843;
+	color:white;
+	padding:2px;
+	border:none;
+	border-radius:30px; 
+	-moz-border-radius:30px;
+	-webkit-transition: background-color 500ms linear;
+    -moz-transition: background-color 500ms linear;
+    -o-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+	height:50px !important;    
+} 
+.lp-quiz-next-question-out p {
+	color:white !important;
+	margin:7px 0 !important;
+	text-align:center !important;	
+}
+
+
+/*--------------------------------
+
 Override RoyalSlider Video Gallery
 
 -------------------------------- */
@@ -537,128 +664,3 @@ jBox
 	vertical-align: middle;
 }
 
-/*--------------------------------
-
-Multiple Choice Quiz Engine
-
--------------------------------- */
-
-.mcq-col-12 {
-	@include outer-container;
-	@include span-columns(12);
-}
-
-.mcq-row-table {
-	@include outer-container;
-	@include row(table);
-}
-
-.mcq-row-table-col-6 {
-	@include span-columns(6);
-}
-
-.mcq-text-glow {
-	text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
-}
-
-.mcq-text-orange{ 
-	color:#f7c160;
-}
-
-.mcq-p-16 {
-	font-size:16px;
-	line-height:21px;
-}
-.mcq-p-24{
-	font-size:24px;
-	line-height:30px;
-	margin-top:25px !important;
-	margin-bottom:25px !important;
-}
-
-.mcq-p-30{
-	font-size:30px;
-	line-height:35px;
-	margin-top:30px !important;
-	margin-bottom:30px !important;
-}
-
-.mcq-optionBox {
-	background:transparent; 
-	padding:8px;
-	border:none;
-	border-radius:0px; 
-	-moz-border-radius:0px;
-	overflow:hidden !important;
-} 
-.mcq-optionOver{
-	background:#FCD056;
-	padding:8px;
-	border:none;
-	border-radius:0px; 
-	-moz-border-radius:0px;
-}
-.mcq-optionOver p {
-	color:#4b4b40;
-}
-.mcq-optionOut {
-	background:transparent !important;
-	color:#fff;
-	padding:8px;
-	border:none;
-	border-radius:0px; 
-	-moz-border-radius:0px;
-	-webkit-transition: background-color 500ms linear;
-    -moz-transition: background-color 500ms linear;
-    -o-transition: background-color 500ms linear;
-    -ms-transition: background-color 500ms linear;
-    transition: background-color 500ms linear;
-}
-.mcq-nextQuestionBox {
-	background:#DD2843;
-	padding:2px;
-	border:none;
-	border-radius:30px; 
-	-moz-border-radius:30px;
-	overflow:hidden !important;	
-	height:50px !important;
-} 
-
-.mcq-nextQuestionBox p {
-	color:white !important;
-	margin:7px 0 !important;
-	text-align:center !important;
-}
-.mcq-nextQuestionOver {
-	background:#BA2C41;
-	padding:2px;
-	border:none;
-	border-radius:30px; 
-	-moz-border-radius:30px;
-	height:50px !important;	
-}
-.mcq-nextQuestionOver p {
-	color:white !important;
-	margin:7px 0 !important;	
-	text-align:center !important;	
-}
-.mcq-nextQuestionOut {
-	background:#DD2843;
-	color:white;
-	padding:2px;
-	border:none;
-	border-radius:30px; 
-	-moz-border-radius:30px;
-	-webkit-transition: background-color 500ms linear;
-    -moz-transition: background-color 500ms linear;
-    -o-transition: background-color 500ms linear;
-    -ms-transition: background-color 500ms linear;
-    transition: background-color 500ms linear;
-	height:50px !important;    
-} 
-.mcq-nextQuestionOut p {
-	color:white !important;
-	margin:7px 0 !important;
-	text-align:center !important;	
-}
-  
