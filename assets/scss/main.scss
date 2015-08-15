@@ -113,13 +113,47 @@ footer {
 
 /*--------------------------------
 
-LearnPaint Course
+LearnPaint
 
 -------------------------------- */
 
-section.lp-course-wrapper {
-	// @include outer-container;
+.lp-btn {
+	display: inline-block;
+	height: 3em;
+	background-color: #34383c;
+
+	width: 10.5em;
+	border-radius: 5em;
+
+	color: #fff;
+	line-height: 2.8em;
+	white-space: nowrap;
+	font-weight: 700;
+	text-align:center;
+
+	@include font-smoothing;
+
+	@include transition(color .2s .3s, width .3s 0s);
+
+	&.to-circle {
+		width: 4em;
+		color: transparent;
+		@include transition(color .2s 0s, width .3s .2s);
+	}
+}
+
+.lp-course {
 	@include fill-parent;
+}
+
+.lp-course-content {
+	@include fill-parent;		
+	height: calc(100vh - 130px);	
+
+	// Set content to the most front.
+	// http://stackoverflow.com/a/7421801/4382179	
+	position: relative;
+	z-index: 10;	
 }
 
 .lp-course-header {
@@ -127,8 +161,7 @@ section.lp-course-wrapper {
 	margin: 0;
 	height: 130px;
 }
-
-.lp-course-side {
+.lp-course-header-side {
 	text-align: center;
 	padding: 1em;
 	margin: 0;
@@ -143,8 +176,7 @@ section.lp-course-wrapper {
 		@include span-columns(3);
 	}
 }
-
-.lp-course-side img {
+.lp-course-header-side img {
 	display: block;
 	height: 3.3em;
 	margin: auto;
@@ -157,8 +189,7 @@ section.lp-course-wrapper {
 		height: 4em;
 	}
 }
-
-.lp-course-side h1 {
+.lp-course-header-side h1 {
 	font-family: 'thaisans_neueblack', 'Noto Sans Thai', 'sans-serif';
 	font-size: 1.4em;
 	margin-top: 0.7em;
@@ -173,15 +204,14 @@ section.lp-course-wrapper {
 		font-size: 2em;
 		margin-top: 0.35em;
 	}
-
 }
 
-.lp-course-info {
+.lp-course-header-info {
 	height: 130px;
 	background-color: #FBFDD4;
 	padding: 20px 50px;
 }
-.lp-course-info h1 {
+.lp-course-header-info h1 {
 	font-family: 'thaisans_neuebold', 'Noto Sans Thai', 'sans-serif';
 	font-size: 1em;
 	margin-top: 0.45em;
@@ -192,6 +222,38 @@ section.lp-course-wrapper {
 		margin-top: 0em;
 		line-height: 1.2em;
 	}
+}
+
+.lp-course-content-slide {
+	margin-top:100px;
+	text-align:center;
+}
+
+.lp-course-content-slide p {
+  font-size: 18px !important;
+  line-height: 25px;
+  margin: 20px 50px;
+  color: black !important;
+  text-align: center;  
+}
+
+.lp-close-modal-btn {
+	cursor:pointer;
+	// background:red;
+	position: fixed;
+	z-index: 1;
+	top: 20px;
+	right: 5%;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	
+	background: rgba(#000, .3) url(../img/cd-icon-close.svg) no-repeat center center;	
+}
+
+.lp-course-quiz {
+	@include outer-container;	
+	margin-top:50px;
 }
 
 // .cd-tabs-content [data-content="1"] {
@@ -206,72 +268,36 @@ section.lp-course-wrapper {
 // 	background: #FEF6D1;
 // }
 
-#lp-course-1 .lp-course-side {
+#lp-course-1 .lp-course-header-side {
 	background: #7CBF5B;
 }
 
-#lp-course-1 .lp-course-info {
+#lp-course-1 .lp-course-header-info {
 	background: #D6F5C7;
 }
 
-#lp-course-2 .lp-course-side {
+#lp-course-2 .lp-course-header-side {
 	background: #5B79BF;
 }
 
-#lp-course-2 .lp-course-info {
+#lp-course-2 .lp-course-header-info {
 	background: #D5E2FF;
 }
 
-#lp-course-3 .lp-course-side {
+#lp-course-3 .lp-course-header-side {
 	background: #F3D43C;
 }
 
-#lp-course-3 .lp-course-info {
+#lp-course-3 .lp-course-header-info {
 	background: #FEF6D1;
 }
 
-#lp-course-pre-achievement-quiz .lp-course-side {
+#lp-course-pre-achievement-quiz .lp-course-header-side {
 	background: #2B9BD3;
 }
 
-#lp-course-pre-achievement-quiz .lp-course-info {
+#lp-course-pre-achievement-quiz .lp-course-header-info {
 	background: #61C4F6;
-}
-
-#lp-course-pre-achievement-quiz-intro-wrapper {
-  // /*@include fill-parent;*/
-	// @include outer-container;  
-	@include fill-parent;		
-	height: calc(100vh - 130px);	
-
-	// http://stackoverflow.com/a/7421801/4382179	
-	position: relative;
-	z-index: 10;	
-}
-
-#lp-course-pre-achievement-quiz-intro {
-	// @include span-columns(6);
-	// @include shift(3);	
-	// @include row();	
-}
-
-.btn-close-modal {
-	cursor:pointer;
-	// background:red;
-	position: fixed;
-	z-index: 1;
-	top: 20px;
-	right: 5%;
-	height: 50px;
-	width: 50px;
-	border-radius: 50%;
-	
-	background: rgba(#000, .3) url(../img/cd-icon-close.svg) no-repeat center center;	
-}
-
-.lp-course-quiz-wrapper {
-	@include outer-container;	
-	margin-top:50px;
 }
 
 /*--------------------------------
@@ -379,15 +405,6 @@ Override RoyalSlider Video Gallery
 
 -------------------------------- */
 
-#video-gallery-1,
-#video-gallery-2,
-#video-gallery-3 {
-  @include fill-parent;
-	// height: 74vh;
-	height: calc(100vh - 130px);
-}
-
-
 .iOSdevicesPortrait {
 	height: 82vh !important;
 }
@@ -459,27 +476,6 @@ Override RoyalSlider Video Gallery
 	height: 40px;
 }
 
-.lpContentSlide {
-  @include fill-parent;
-	// height: 74vh;
-	height: calc(100vh - 130px);
-	margin-top:100px;
-}
-
-.lpContentSlide h3 {
-  font-size: 24px;
-  line-height: 31px;
-  margin: 20px 50px;
-  font-weight: bold;
-  color: black;
-}
-
-.lpContentSlide p {
-  font-size: 18px !important;
-  line-height: 25px;
-  margin: 20px 50px;
-  color: black !important;
-}
 
 /*--------------------------------
 
@@ -550,8 +546,6 @@ Multiple Choice Quiz Engine
 .mcq-col-12 {
 	@include outer-container;
 	@include span-columns(12);
-	// @include shift(1);
-	// background-color:red;
 }
 
 .mcq-row-table {
