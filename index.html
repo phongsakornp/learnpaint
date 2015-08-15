@@ -41,8 +41,9 @@
   	<link rel="stylesheet" href="assets/royalslider/skins/default/rs-default.css" />
 	<link rel="stylesheet" href="assets/royalslider/skins/minimal-white/rs-minimal-white.css" />
 	<link rel="stylesheet" href="bower_components/nprogress/nprogress.css" />
-	<link rel="stylesheet" href="bower_components/jbox/Source/jBox.css" />
+	<link rel="stylesheet" href="bower_components/jbox/Source/jBox.css" />	
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/animatedModal/animate.min.css" />	
 
 	<script type="application/javascript" src="bower_components/fastclick/lib/fastclick.js"></script>
 	<script type="application/javascript" src="assets/js/modernizr.js"></script> <!-- Modernizr -->
@@ -152,13 +153,28 @@
 							<h1>ฉันคือเพ้นท์</h1>
 						</div>
 						<div class="lp-course-info">
-							<h1>รู้จักวิธีการเปิด, การปิด, การบันทึกภาพ และเครื่องมือต่างๆ ของโปรแกรม</h1>
+							<h1>รู้จักวิธีการเปิด, การปิด, การบันทึกภาพ และเครื่องมือต่างๆ ของโปรแกรม</h1>						
 						</div>
 					</div>
 
 					<div id="video-gallery-1" class="royalSlider videoGallery rsDefault">
+
+						<div class="lpContentSlide">
+							<section id="lp-course1-pre-quiz" class="lp-course-wrapper">
+
+								<div id="lp-course1-pre-quiz-intro-wrapper">
+									<div id="lp-course1-pre-quiz-intro">
+										<a id="lp-course1-pre-quiz-modal-link" href="#lp-course1-pre-quiz-modal">เริ่มทำแบบทดสอบ</a>
+									</div>
+								</div>				
+							
+							</section>						
+							<div class="rsTmb">
+								<h5>แบบบทดสอบก่อนเรียน</h5>
+							</div>
+						</div>
 						<a class="rsImg" data-rsw="1920" data-rsh="900" data-rsvideo="https://vimeo.com/128063072" href="assets/img/video-backdrop.png">
-						<div class="rsTmb">
+							<div class="rsTmb">
 								<h5>โปรแกรมเพ้นท์คือ?</h5>
 							</div>
 						</a>
@@ -441,6 +457,7 @@
 				  </div>
 				</section>
 			</li>
+
 	</div> <!-- cd-tabs -->
 
 	<div style="display: none" id="jNotify">
@@ -454,6 +471,21 @@
     	</p>
 	</div>
 
+	<div id="lp-course1-pre-quiz-modal">
+	<!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+
+		<div id="btn-close-modal" class="close-lp-course1-pre-quiz-modal btn-close-modal"> 
+		</div>
+		    
+		<div class="modal-content lp-course-quiz-wrapper">
+			<div class="" id="lp-course1-pre-quiz-content-wrapper">
+				<div id="lp-course1-pre-quiz-content">
+				</div>
+			</div>
+		</div>
+	</div>	
+
+
 	<script type="application/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
 	<script type="application/javascript" src="bower_components/nprogress/nprogress.js"></script>
 	<script type="application/javascript" src="bower_components/jbox/Source/jBox.min.js"></script>
@@ -466,6 +498,7 @@
 	<script type="application/javascript" src="assets/js/min/main-min.js"></script>
 	<script type="application/javascript" src="assets/js/velocity.min.js"></script>	
 	<script type="application/javascript" src="assets/js/min/modal.morphing-min.js"></script>
+	<script type="application/javascript" src="assets/animatedModal/animatedModal.min.js"></script>
 
 	<script type="application/javascript">
 
@@ -495,7 +528,10 @@
 			var quiz = new Screen({id:"preAchivementQuiz", xmlPath:"assets/quiz/preAchievement/quiz.xml"});
 
 			var targetDiv = get("lp-course-pre-achievement-quiz-content");					
-			quiz.load(targetDiv, false);
+			// quiz.load(targetDiv, false);
+
+			var targetDiv2 = get("lp-course1-pre-quiz-content");
+			// quiz.load(targetDiv2);
 
 			$(".cd-tabs-navigation li a").click(function(){
 				// console.log($(this));
@@ -507,6 +543,27 @@
 			});
 		});
 
+
+	</script>
+
+	<script>
+		var isLoadedCoursePreQuiz1 = false;
+
+		$("#lp-course1-pre-quiz-modal-link").animatedModal({
+			modalTarget:'lp-course1-pre-quiz-modal',
+            animatedIn:'bounceIn',
+            animatedOut:'bounceOut',
+            color:'#f2f2f2',
+			beforeOpen: function() {
+                    console.log("The animation was called");
+                    if(!isLoadedCoursePreQuiz1) {
+                    	var quiz = new Screen({id:"preAchivementQuiz", xmlPath:"assets/quiz/preAchievement/quiz.xml"});   
+						var targetDiv2 = get("lp-course1-pre-quiz-content");
+						quiz.load(targetDiv2);
+						isLoadedCoursePreQuiz1 = true;
+                    }
+                }, 
+		});
 	</script>
 </body>
 </html>
