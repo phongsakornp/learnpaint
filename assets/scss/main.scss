@@ -142,6 +142,28 @@ LearnPaint
 	}
 }
 
+.lp-page-wrapper {
+	@include fill-parent;
+}
+.lp-page-header {
+	@include row();
+	margin: 0;
+	height: 90px;
+	background: #E77C26;
+	color: white;
+}
+.lp-page-header h1 {
+	font-family: 'thaisans_neueblack', 'Noto Sans Thai', 'sans-serif';
+	font-size: 1.4em;
+	text-align: center;
+	line-height: 3.7em;
+
+	@include MQ(M) {
+		font-size: 2em;
+		line-height: 2.9em;
+	}
+}
+
 .lp-course {
 	@include fill-parent;
 }
@@ -327,34 +349,6 @@ iOS Safari viewport fixed
 	}
 	@media all and (orientation:landscape) {
 		height: 92.4vh !important;
-	}
-}
-
-/*--------------------------------
-
-General Page
-
--------------------------------- */
-
-section.lp-page-wrapper {
-	@include fill-parent;
-}
-.lp-page-header {
-	@include row();
-	margin: 0;
-	height: 90px;
-	background: #E77C26;
-	color: white;
-}
-.lp-page-header h1 {
-	font-family: 'thaisans_neueblack', 'Noto Sans Thai', 'sans-serif';
-	font-size: 1.4em;
-	text-align: center;
-	line-height: 3.7em;
-
-	@include MQ(M) {
-		font-size: 2em;
-		line-height: 2.9em;
 	}
 }
 

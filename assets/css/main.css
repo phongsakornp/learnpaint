@@ -635,6 +635,30 @@ LearnPaint
     -moz-transition: color 0.2s 0s, width 0.3s 0.2s;
     transition: color 0.2s 0s, width 0.3s 0.2s; }
 
+.lp-page-wrapper {
+  width: 100%; }
+
+.lp-page-header {
+  display: block;
+  margin: 0;
+  height: 90px;
+  background: #E77C26;
+  color: white; }
+  .lp-page-header::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.lp-page-header h1 {
+  font-family: 'thaisans_neueblack', 'Noto Sans Thai', 'sans-serif';
+  font-size: 1.4em;
+  text-align: center;
+  line-height: 3.7em; }
+  @media only screen and (min-width: 768px) {
+    .lp-page-header h1 {
+      font-size: 2em;
+      line-height: 2.9em; } }
+
 .lp-course {
   width: 100%; }
 
@@ -802,35 +826,6 @@ iOS Safari viewport fixed
   @media all and (orientation: landscape) {
     .iOSdevicesFullSlideFixed {
       height: 92.4vh !important; } }
-
-/*--------------------------------
-
-General Page
-
--------------------------------- */
-section.lp-page-wrapper {
-  width: 100%; }
-
-.lp-page-header {
-  display: block;
-  margin: 0;
-  height: 90px;
-  background: #E77C26;
-  color: white; }
-  .lp-page-header::after {
-    clear: both;
-    content: "";
-    display: table; }
-
-.lp-page-header h1 {
-  font-family: 'thaisans_neueblack', 'Noto Sans Thai', 'sans-serif';
-  font-size: 1.4em;
-  text-align: center;
-  line-height: 3.7em; }
-  @media only screen and (min-width: 768px) {
-    .lp-page-header h1 {
-      font-size: 2em;
-      line-height: 2.9em; } }
 
 /*--------------------------------
 
