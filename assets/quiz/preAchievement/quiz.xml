@@ -6,15 +6,6 @@
 				<function name="begin"></function>
 			</click>
 		</event>
-		<event id="btnover">
-			<rollover>
-				<css name="mcq-btnOver">this</css>
-			</rollover>
-			
-			<rollout>
-				<css name="mcq-btnOut">this</css>
-			</rollout>
-		</event>
 		<event id="optionover">
 			<rollover>
 				<css name="lp-quiz-option-over">this</css>

@@ -118,24 +118,14 @@
 
 					<div class="lp-course-content">
 
-						<section class="cd-section">
+						<div class="lp-course-content-slide">
 							<p>
 								แบบทดสอบวัดผลสัมฤทธิ์ทางการเรียนก่อนเรียน หน่วยการเรียนรู้ที่ 4 การวาดภาพด้วยโปรแกรมเพ้นท์ <br> จำนวน 40 ข้อ
 							</p>
 
-							<div class="cd-modal-action">
-								<a href="#0" class="btn" data-type="modal-trigger">เริ่มทำแบบทดสอบ</a>
-								<span class="cd-modal-bg"></span>
-							</div>
+							<a class="lp-btn" id="lp-course-pre-achievement-quiz-modal-link" href="#lp-course-pre-achievement-quiz-modal">เริ่มทำแบบทดสอบ</a>							
 
-							<div class="cd-modal">
-								<div class="cd-modal-content">
-									<div id="lp-course-pre-achievement-quiz-content"></div>									
-								</div>
-							</div>
-
-							<a href="#0" class="cd-modal-close">Close</a>
-						</section>
+						</div>
 
 					</div>				
 				
@@ -467,6 +457,19 @@
     	</p>
 	</div>
 
+	<div id="lp-course-pre-achievement-quiz-modal">
+		<!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->	
+		<div id="btn-close-modal" class="close-lp-course-pre-achievement-quiz-modal lp-close-modal-btn"> 
+		</div>
+		    
+		<div class="modal-content lp-course-quiz">
+			<div class="" id="lp-course-pre-achievement-quiz-content-wrapper">
+				<div id="lp-course-pre-achievement-quiz-content">
+				</div>
+			</div>
+		</div>
+	</div>	
+
 	<div id="lp-course1-pre-quiz-modal">
 		<!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
 		<div id="btn-close-modal" class="close-lp-course1-pre-quiz-modal lp-close-modal-btn"> 
@@ -519,43 +522,68 @@
 	<script>
 
 		$(document).ready(function() {
+			// $(".cd-tabs-navigation li a").click(function(){
+			// 	// console.log($(this));
+			// 	var index = $(this).data('conent');
 
-			var quiz = new Screen({id:"preAchivementQuiz", xmlPath:"assets/quiz/preAchievement/quiz.xml"});
-
-			var targetDiv = get("lp-course-pre-achievement-quiz-content");					
-			quiz.load(targetDiv, false);
-
-			$(".cd-tabs-navigation li a").click(function(){
-				// console.log($(this));
-				var index = $(this).data('conent');
-
-				if (index == 1) {
-					// quiz.restart();
-				};
-			});
+			// 	if (index == 1) {
+			// 		// quiz.restart();
+			// 	};
+			// });
 		});
 
 
 	</script>
 
 	<script>
-		var isLoadedCoursePreQuiz1 = false;
 
-		$("#lp-course1-pre-quiz-modal-link").animatedModal({
-			modalTarget:'lp-course1-pre-quiz-modal',
-            animatedIn:'bounceIn',
-            animatedOut:'bounceOut',
-            color:'#f2f2f2',
-			beforeOpen: function() {
-                    console.log("The animation was called");
-                    if(!isLoadedCoursePreQuiz1) {
-                    	var quiz = new Screen({id:"preAchivementQuiz", xmlPath:"assets/quiz/preAchievement/quiz.xml"});   
-						var targetDiv2 = get("lp-course1-pre-quiz-content");
-						quiz.load(targetDiv2);
-						isLoadedCoursePreQuiz1 = true;
-                    }
-                }, 
-		});
+		$(document).ready(function() {
+
+			var preAchivementQuiz = new Screen({id:"preAchivementQuiz", xmlPath:"assets/quiz/preAchievement/quiz.xml"});
+			var preCourse1Quiz = new Screen({id:"preCourse1Quiz", xmlPath:"assets/quiz/preCourse1/quiz.xml"});  
+
+			var preAchivementQuizTargetDiv = get("lp-course-pre-achievement-quiz-content");					
+			var preCourse1QuizTargetDiv = get("lp-course1-pre-quiz-content");
+
+			$("#lp-course-pre-achievement-quiz-modal-link").animatedModal({
+
+				modalTarget:'lp-course-pre-achievement-quiz-modal',
+
+	            animatedIn:'bounceIn',
+
+	            animatedOut:'bounceOut',
+
+	            color:'#f2f2f2',
+
+				beforeOpen: function() {         
+					console.log("Before Open pre-achievement-quiz");
+					preAchivementQuiz.load(preAchivementQuizTargetDiv, false);															
+	            }, 
+
+                afterClose: function() {
+                    preAchivementQuiz.unload(preAchivementQuizTargetDiv);
+                }
+			});			
+
+			$("#lp-course1-pre-quiz-modal-link").animatedModal({
+
+				modalTarget:'lp-course1-pre-quiz-modal',
+
+	            animatedIn:'bounceIn',
+
+	            animatedOut:'bounceOut',
+
+	            color:'#f2f2f2',
+
+				beforeOpen: function() {         
+					preCourse1Quiz.load(preCourse1QuizTargetDiv, false);															
+	            }, 
+
+                afterClose: function() {
+                    preCourse1Quiz.unload(preCourse1QuizTargetDiv);
+                }
+			});
+		});		
 	</script>
 </body>
 </html>
