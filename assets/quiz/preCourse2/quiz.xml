@@ -38,7 +38,7 @@
         </event>
 	</events>
 
-	<custom type="quiz" id="preCourse1Quiz" position="relative" x="0" y="0" class="">
+	<custom type="quiz" id="preCourse2Quiz" position="relative" x="0" y="0" class="">
 
 		<settings timer="false" timerx="-300" timery="0" />
 
@@ -52,34 +52,34 @@
     		<box id="row3" position="relative" class="lp-quiz-layout-column12" />				
 
 			<text id="q1-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="lp-quiz-p24">1. โปรแกรม paint คือโปรแกรมประเภทใด?</p>]]>
+				<![CDATA[<p class="lp-quiz-p24">1. รูปร่างใดใช้วาดภาพบ้าน จึงจะเหมาะสมที่สุด?</p>]]>
 			</text>
 
 			<!--option 1 -->
 			<option correct="false">
 				<image id="q1-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q1-a1.png]]>
+					<![CDATA[assets/quiz/preCourse2/q1-a1.png]]>
 				</image>				
 			</option>
 			
 			<!--option 2 -->	
-			<option correct="true">
+			<option correct="false">
 				<image id="q1-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q1-a2.png]]>
+					<![CDATA[assets/quiz/preCourse2/q1-a2.png]]>
 				</image>				
 			</option>
 
 			<!--option 3 -->	
-			<option correct="false">
+			<option correct="true">
 				<image id="q1-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q1-a3.png]]>
+					<![CDATA[assets/quiz/preCourse2/q1-a3.png]]>
 				</image>				
 			</option>
 
 			<!--option 4 -->	
 			<option correct="false">
 				<image id="q1-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q1-a4.png]]>
+					<![CDATA[assets/quiz/preCourse2/q1-a4.png]]>
 				</image>				
 			</option>			
 			<!--/options -->
@@ -113,34 +113,34 @@
     		<box id="row3" position="relative" class="lp-quiz-layout-column12" />				
 
 			<text id="q2-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="lp-quiz-p24">2. การเปิดโปรแกรม Paint ต้องทำอย่างไร?</p>]]>
+				<![CDATA[<p class="lp-quiz-p24">2. เครื่องมือแปรงทาสี มีลักษณะการใช้งานคล้ายกับเครื่องมือใด?</p>]]>
 			</text>
 
 			<!--option 1 -->
-			<option correct="true">
+			<option correct="false">
 				<image id="q2-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q2-a1.png]]>
+					<![CDATA[assets/quiz/preCourse2/q2-a1.png]]>
 				</image>				
 			</option>
 			
 			<!--option 2 -->	
 			<option correct="false">
 				<image id="q2-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q2-a2.png]]>
+					<![CDATA[assets/quiz/preCourse2/q2-a2.png]]>
 				</image>				
 			</option>
 
 			<!--option 3 -->	
 			<option correct="false">
 				<image id="q2-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q2-a3.png]]>
+					<![CDATA[assets/quiz/preCourse2/q2-a3.png]]>
 				</image>				
 			</option>
 
 			<!--option 4 -->	
-			<option correct="false">
+			<option correct="true">
 				<image id="q2-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q2-a4.png]]>
+					<![CDATA[assets/quiz/preCourse2/q2-a4.png]]>
 				</image>				
 			</option>			
 			<!--/options -->
@@ -174,34 +174,34 @@
     		<box id="row3" position="relative" class="lp-quiz-layout-column12" />				
 
 			<text id="q3-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="lp-quiz-p24">3. ถ้าต้องการขยายหน้าต่างโปรแกรม Paint ต้องทำอย่างไร?</p>]]>
+				<![CDATA[<p class="lp-quiz-p24">3. เครื่องมือใดใช้ระบายสีภาพ?</p>]]>
 			</text>
 
 			<!--option 1 -->
-			<option correct="false">
+			<option correct="true">
 				<image id="q3-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q3-a1.png]]>
+					<![CDATA[assets/quiz/preCourse2/q3-a1.png]]>
 				</image>				
 			</option>
 			
 			<!--option 2 -->	
 			<option correct="false">
 				<image id="q3-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q3-a2.png]]>
+					<![CDATA[assets/quiz/preCourse2/q3-a2.png]]>
 				</image>				
 			</option>
 
 			<!--option 3 -->	
 			<option correct="false">
 				<image id="q3-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q3-a3.png]]>
+					<![CDATA[assets/quiz/preCourse2/q3-a3.png]]>
 				</image>				
 			</option>
 
 			<!--option 4 -->	
-			<option correct="true">
+			<option correct="false">
 				<image id="q3-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q3-a4.png]]>
+					<![CDATA[assets/quiz/preCourse2/q3-a4.png]]>
 				</image>				
 			</option>			
 			<!--/options -->
@@ -235,34 +235,34 @@
     		<box id="row3" position="relative" class="lp-quiz-layout-column12" />				
 
 			<text id="q4-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="lp-quiz-p24">4. ไตเติลบาร์ คืออะไร?</p>]]>
+				<![CDATA[<p class="lp-quiz-p24">4. รูปร่างใดใช้วาดภาพก้อนเมฆ จึงจะเหมาะสมที่สุด?</p>]]>
 			</text>
 
 			<!--option 1 -->
 			<option correct="false">
 				<image id="q4-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q4-a1.png]]>
+					<![CDATA[assets/quiz/preCourse2/q4-a1.png]]>
 				</image>				
 			</option>
 			
 			<!--option 2 -->	
 			<option correct="false">
 				<image id="q4-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q4-a2.png]]>
+					<![CDATA[assets/quiz/preCourse2/q4-a2.png]]>
 				</image>				
 			</option>
 
 			<!--option 3 -->	
 			<option correct="true">
 				<image id="q4-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q4-a3.png]]>
+					<![CDATA[assets/quiz/preCourse2/q4-a3.png]]>
 				</image>				
 			</option>
 
 			<!--option 4 -->	
 			<option correct="false">
 				<image id="q4-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q4-a4.png]]>
+					<![CDATA[assets/quiz/preCourse2/q4-a4.png]]>
 				</image>				
 			</option>			
 			<!--/options -->
@@ -296,34 +296,34 @@
     		<box id="row3" position="relative" class="lp-quiz-layout-column12" />				
 
 			<text id="q5-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="lp-quiz-p24">5. คำสั่ง Undo มีหน้าที่อย่างไร?</p>]]>
+				<![CDATA[<p class="lp-quiz-p24">5. เครื่องมือใดใช้สำหรับพิมพ์ข้อความ?</p>]]>
 			</text>
 
 			<!--option 1 -->
 			<option correct="false">
 				<image id="q5-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q5-a1.png]]>
+					<![CDATA[assets/quiz/preCourse2/q5-a1.png]]>
 				</image>				
 			</option>
 			
 			<!--option 2 -->	
-			<option correct="false">
+			<option correct="true">
 				<image id="q5-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q5-a2.png]]>
+					<![CDATA[assets/quiz/preCourse2/q5-a2.png]]>
 				</image>				
 			</option>
 
 			<!--option 3 -->	
 			<option correct="false">
 				<image id="q5-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q5-a3.png]]>
+					<![CDATA[assets/quiz/preCourse2/q5-a3.png]]>
 				</image>				
 			</option>
 
 			<!--option 4 -->	
-			<option correct="true">
+			<option correct="false">
 				<image id="q5-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q5-a4.png]]>
+					<![CDATA[assets/quiz/preCourse2/q5-a4.png]]>
 				</image>				
 			</option>			
 			<!--/options -->
@@ -357,34 +357,34 @@
     		<box id="row3" position="relative" class="lp-quiz-layout-column12" />				
 
 			<text id="q6-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="lp-quiz-p24">6. คำสั่งใดไม่ได้อยู่ในเมนูหลัก?</p>]]>
+				<![CDATA[<p class="lp-quiz-p24">6. ถ้าต้องการวาดรูปวงกลมควรทำอย่างไร?</p>]]>
 			</text>
 
 			<!--option 1 -->
-			<option correct="false">
+			<option correct="true">
 				<image id="q6-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q6-a1.png]]>
+					<![CDATA[assets/quiz/preCourse2/q6-a1.png]]>
 				</image>				
 			</option>
 			
 			<!--option 2 -->	
 			<option correct="false">
 				<image id="q6-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q6-a2.png]]>
+					<![CDATA[assets/quiz/preCourse2/q6-a2.png]]>
 				</image>				
 			</option>
 
 			<!--option 3 -->	
-			<option correct="true">
+			<option correct="false">
 				<image id="q6-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q6-a3.png]]>
+					<![CDATA[assets/quiz/preCourse2/q6-a3.png]]>
 				</image>				
 			</option>
 
 			<!--option 4 -->	
 			<option correct="false">
 				<image id="q6-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q6-a4.png]]>
+					<![CDATA[assets/quiz/preCourse2/q6-a4.png]]>
 				</image>				
 			</option>			
 			<!--/options -->
@@ -418,34 +418,34 @@
     		<box id="row3" position="relative" class="lp-quiz-layout-column12" />				
 
 			<text id="q7-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="lp-quiz-p24">7. คำสั่ง Save มีหน้าที่อย่างไร?</p>]]>
+				<![CDATA[<p class="lp-quiz-p24">7. เครื่องมือใดใช้สำหรับย้ายภาพ?</p>]]>
 			</text>
 
 			<!--option 1 -->
-			<option correct="true">
+			<option correct="false">
 				<image id="q7-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q7-a1.png]]>
+					<![CDATA[assets/quiz/preCourse2/q7-a1.png]]>
 				</image>				
 			</option>
 			
 			<!--option 2 -->	
 			<option correct="false">
 				<image id="q7-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q7-a2.png]]>
+					<![CDATA[assets/quiz/preCourse2/q7-a2.png]]>
 				</image>				
 			</option>
 
 			<!--option 3 -->	
 			<option correct="false">
 				<image id="q7-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q7-a3.png]]>
+					<![CDATA[assets/quiz/preCourse2/q7-a3.png]]>
 				</image>				
 			</option>
 
 			<!--option 4 -->	
-			<option correct="false">
+			<option correct="true">
 				<image id="q7-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q7-a4.png]]>
+					<![CDATA[assets/quiz/preCourse2/q7-a4.png]]>
 				</image>				
 			</option>			
 			<!--/options -->
@@ -479,34 +479,34 @@
     		<box id="row3" position="relative" class="lp-quiz-layout-column12" />				
 
 			<text id="q8-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="lp-quiz-p24">8. ข้อใดเป็นเครื่องมือที่อยู่ในกลุ่มทูล (Tools)?</p>]]>
+				<![CDATA[<p class="lp-quiz-p24">8. การคัดลอกภาพมีประโยชน์อย่างไร?</p>]]>
 			</text>
 
 			<!--option 1 -->
 			<option correct="false">
 				<image id="q8-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q8-a1.png]]>
+					<![CDATA[assets/quiz/preCourse2/q8-a1.png]]>
 				</image>				
 			</option>
 			
 			<!--option 2 -->	
-			<option correct="true">
+			<option correct="false">
 				<image id="q8-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q8-a2.png]]>
+					<![CDATA[assets/quiz/preCourse2/q8-a2.png]]>
 				</image>				
 			</option>
 
 			<!--option 3 -->	
-			<option correct="false">
+			<option correct="true">
 				<image id="q8-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q8-a3.png]]>
+					<![CDATA[assets/quiz/preCourse2/q8-a3.png]]>
 				</image>				
 			</option>
 
 			<!--option 4 -->	
 			<option correct="false">
 				<image id="q8-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q8-a4.png]]>
+					<![CDATA[assets/quiz/preCourse2/q8-a4.png]]>
 				</image>				
 			</option>			
 			<!--/options -->
@@ -540,34 +540,34 @@
     		<box id="row3" position="relative" class="lp-quiz-layout-column12" />				
 
 			<text id="q9-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="lp-quiz-p24">9. คำสั่ง Save as ใช้ในกรณีใด?</p>]]>
+				<![CDATA[<p class="lp-quiz-p24">9. คำสั่งใดใช้สำหรับหมุนหรือพลิกภาพ?</p>]]>
 			</text>
 
 			<!--option 1 -->
 			<option correct="false">
 				<image id="q9-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q9-a1.png]]>
+					<![CDATA[assets/quiz/preCourse2/q9-a1.png]]>
 				</image>				
 			</option>
 			
 			<!--option 2 -->	
 			<option correct="false">
 				<image id="q9-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q9-a2.png]]>
+					<![CDATA[assets/quiz/preCourse2/q9-a2.png]]>
 				</image>				
 			</option>
 
 			<!--option 3 -->	
-			<option correct="true">
+			<option correct="false">
 				<image id="q9-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q9-a3.png]]>
+					<![CDATA[assets/quiz/preCourse2/q9-a3.png]]>
 				</image>				
 			</option>
 
 			<!--option 4 -->	
-			<option correct="false">
+			<option correct="true">
 				<image id="q9-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q9-a4.png]]>
+					<![CDATA[assets/quiz/preCourse2/q9-a4.png]]>
 				</image>				
 			</option>			
 			<!--/options -->
@@ -601,34 +601,38 @@
     		<box id="row3" position="relative" class="lp-quiz-layout-column12" />				
 
 			<text id="q10-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="lp-quiz-p24">10. ถ้าต้องการเปิดภาพขึ้นมาแก้ไขควรใช้คำสั่งใด?</p>]]>
+				<![CDATA[<p class="lp-quiz-p24">10. จากภาพ คือเครื่องมืออะไร?</p>]]>
 			</text>
+
+			<image id="q10-img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="none" animtime="1" animdelay="0" class="">
+				<![CDATA[assets/quiz/preCourse2/q10.png]]>
+			</image>			
 
 			<!--option 1 -->
 			<option correct="false">
 				<image id="q10-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q10-a1.png]]>
+					<![CDATA[assets/quiz/preCourse2/q10-a1.png]]>
 				</image>				
 			</option>
 			
 			<!--option 2 -->	
-			<option correct="false">
+			<option correct="true">
 				<image id="q10-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q10-a2.png]]>
+					<![CDATA[assets/quiz/preCourse2/q10-a2.png]]>
 				</image>				
 			</option>
 
 			<!--option 3 -->	
 			<option correct="false">
 				<image id="q10-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q10-a3.png]]>
+					<![CDATA[assets/quiz/preCourse2/q10-a3.png]]>
 				</image>				
 			</option>
 
 			<!--option 4 -->	
-			<option correct="true">
+			<option correct="false">
 				<image id="q10-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q10-a4.png]]>
+					<![CDATA[assets/quiz/preCourse2/q10-a4.png]]>
 				</image>				
 			</option>			
 			<!--/options -->
