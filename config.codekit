@@ -1252,7 +1252,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 22241,
+		"initialSize": 10067,
 		"inputAbbreviatedPath": "\/assets\/quiz\/achievement\/q27.png",
 		"outputAbbreviatedPath": "\/assets\/quiz\/achievement\/q27.png",
 		"outputPathIsOutsideProject": 0,
@@ -1299,17 +1299,6 @@
 		"initialSize": 4182,
 		"inputAbbreviatedPath": "\/assets\/quiz\/achievement\/q28-a4.png",
 		"outputAbbreviatedPath": "\/assets\/quiz\/achievement\/q28-a4.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/quiz\/achievement\/q28.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 8395,
-		"inputAbbreviatedPath": "\/assets\/quiz\/achievement\/q28.png",
-		"outputAbbreviatedPath": "\/assets\/quiz\/achievement\/q28.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
