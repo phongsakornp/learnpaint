@@ -483,7 +483,7 @@
     		<box id="row3" position="relative" class="lp-quiz-layout-column12" />				
 
 			<text id="q11-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="lp-quiz-p24">8. ประโยชน์ของโปรแกรม  Paint  คือข้อใด?</p>]]>
+				<![CDATA[<p class="lp-quiz-p24">8. ประโยชน์ของโปรแกรมเพ้นท์คือข้อใด?</p>]]>
 			</text>
 
 			<!--option 1 -->

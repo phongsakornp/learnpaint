@@ -113,7 +113,7 @@
     		<box id="row3" position="relative" class="lp-quiz-layout-column12" />				
 
 			<text id="q2-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="lp-quiz-p24">2. การเปิดโปรแกรม Paint ต้องทำอย่างไร?</p>]]>
+				<![CDATA[<p class="lp-quiz-p24">2. การเปิดโปรแกรมเพ้นท์ ต้องทำอย่างไร?</p>]]>
 			</text>
 
 			<!--option 1 -->
@@ -174,7 +174,7 @@
     		<box id="row3" position="relative" class="lp-quiz-layout-column12" />				
 
 			<text id="q3-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="lp-quiz-p24">3. ถ้าต้องการขยายหน้าต่างโปรแกรม Paint ต้องทำอย่างไร?</p>]]>
+				<![CDATA[<p class="lp-quiz-p24">3. ถ้าต้องการขยายหน้าต่างโปรแกรมเพ้นท์ ต้องทำอย่างไร?</p>]]>
 			</text>
 
 			<!--option 1 -->
