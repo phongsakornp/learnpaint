@@ -38,255 +38,11 @@
         </event>
 	</events>
 
-	<custom type="quiz" id="preCourse2Quiz" position="relative" x="0" y="0" class="">
+	<custom type="quiz" id="postCourse3Quiz" position="relative" x="0" y="0" class="">
 
 		<settings timer="false" timerx="-300" timery="0" />
 
-		<!-- Question 1 -->
-		<question id="q1" event="">
-
-    		<box id="row1" position="relative" class="lp-quiz-layout-column12" />
-    		<box id="row2" position="relative" class="lp-quiz-layout-table-row" />		    		
-			<box id="row2-col1" target="row2" position="relative" class="lp-quiz-layout-table-row-column6" />
-			<box id="row2-col2" target="row2" position="relative" class="lp-quiz-layout-table-row-column6" />    		
-    		<box id="row3" position="relative" class="lp-quiz-layout-column12" />				
-
-			<text id="q1-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="lp-quiz-p24">1. รูปร่างใดใช้วาดภาพบ้าน จึงจะเหมาะสมที่สุด?</p>]]>
-			</text>
-
-			<!--option 1 -->
-			<option correct="false">
-				<image id="q1-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse2/q1-a1.png]]>
-				</image>				
-			</option>
-			
-			<!--option 2 -->	
-			<option correct="false">
-				<image id="q1-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse2/q1-a2.png]]>
-				</image>				
-			</option>
-
-			<!--option 3 -->	
-			<option correct="true">
-				<image id="q1-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse2/q1-a3.png]]>
-				</image>				
-			</option>
-
-			<!--option 4 -->	
-			<option correct="false">
-				<image id="q1-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse2/q1-a4.png]]>
-				</image>				
-			</option>			
-			<!--/options -->
-
-			<!-- feedbacks -->
-			<fb id="pass" event="">	
-				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">		
-					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
-						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
-					</text>					
-				</box>
-			</fb>
-			
-			<fb id="fail" event="">				
-				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">
-					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
-						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
-					</text>							
-				</box>
-			</fb>			
-		</question>
-		<!-- End Question 1 -->	
-
-		<!-- Question 2 -->
-		<question id="q2" event="">
-
-    		<box id="row1" position="relative" class="lp-quiz-layout-column12" />
-    		<box id="row2" position="relative" class="lp-quiz-layout-table-row" />		    		
-			<box id="row2-col1" target="row2" position="relative" class="lp-quiz-layout-table-row-column6" />
-			<box id="row2-col2" target="row2" position="relative" class="lp-quiz-layout-table-row-column6" />    		
-    		<box id="row3" position="relative" class="lp-quiz-layout-column12" />				
-
-			<text id="q2-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="lp-quiz-p24">2. เครื่องมือแปรงทาสี มีลักษณะการใช้งานคล้ายกับเครื่องมือใด?</p>]]>
-			</text>
-
-			<!--option 1 -->
-			<option correct="false">
-				<image id="q2-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse2/q2-a1.png]]>
-				</image>				
-			</option>
-			
-			<!--option 2 -->	
-			<option correct="false">
-				<image id="q2-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse2/q2-a2.png]]>
-				</image>				
-			</option>
-
-			<!--option 3 -->	
-			<option correct="false">
-				<image id="q2-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse2/q2-a3.png]]>
-				</image>				
-			</option>
-
-			<!--option 4 -->	
-			<option correct="true">
-				<image id="q2-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse2/q2-a4.png]]>
-				</image>				
-			</option>			
-			<!--/options -->
-
-			<!-- feedbacks -->
-			<fb id="pass" event="">	
-				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">		
-					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
-						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
-					</text>					
-				</box>
-			</fb>
-			
-			<fb id="fail" event="">				
-				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">
-					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
-						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
-					</text>							
-				</box>
-			</fb>			
-		</question>
-		<!-- End Question 2 -->	
-
-		<!-- Question 3 -->
-		<question id="q3" event="">
-
-    		<box id="row1" position="relative" class="lp-quiz-layout-column12" />
-    		<box id="row2" position="relative" class="lp-quiz-layout-table-row" />		    		
-			<box id="row2-col1" target="row2" position="relative" class="lp-quiz-layout-table-row-column6" />
-			<box id="row2-col2" target="row2" position="relative" class="lp-quiz-layout-table-row-column6" />    		
-    		<box id="row3" position="relative" class="lp-quiz-layout-column12" />				
-
-			<text id="q3-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="lp-quiz-p24">3. เครื่องมือใดใช้ระบายสีภาพ?</p>]]>
-			</text>
-
-			<!--option 1 -->
-			<option correct="true">
-				<image id="q3-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse2/q3-a1.png]]>
-				</image>				
-			</option>
-			
-			<!--option 2 -->	
-			<option correct="false">
-				<image id="q3-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse2/q3-a2.png]]>
-				</image>				
-			</option>
-
-			<!--option 3 -->	
-			<option correct="false">
-				<image id="q3-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse2/q3-a3.png]]>
-				</image>				
-			</option>
-
-			<!--option 4 -->	
-			<option correct="false">
-				<image id="q3-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse2/q3-a4.png]]>
-				</image>				
-			</option>			
-			<!--/options -->
-
-			<!-- feedbacks -->
-			<fb id="pass" event="">	
-				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">		
-					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
-						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
-					</text>					
-				</box>
-			</fb>
-			
-			<fb id="fail" event="">				
-				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">
-					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
-						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
-					</text>							
-				</box>
-			</fb>			
-		</question>
-		<!-- End Question 3 -->
-
-		<!-- Question 4 -->
-		<question id="q4" event="">
-
-    		<box id="row1" position="relative" class="lp-quiz-layout-column12" />
-    		<box id="row2" position="relative" class="lp-quiz-layout-table-row" />		    		
-			<box id="row2-col1" target="row2" position="relative" class="lp-quiz-layout-table-row-column6" />
-			<box id="row2-col2" target="row2" position="relative" class="lp-quiz-layout-table-row-column6" />    		
-    		<box id="row3" position="relative" class="lp-quiz-layout-column12" />				
-
-			<text id="q4-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="lp-quiz-p24">4. รูปร่างใดใช้วาดภาพก้อนเมฆ จึงจะเหมาะสมที่สุด?</p>]]>
-			</text>
-
-			<!--option 1 -->
-			<option correct="false">
-				<image id="q4-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse2/q4-a1.png]]>
-				</image>				
-			</option>
-			
-			<!--option 2 -->	
-			<option correct="false">
-				<image id="q4-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse2/q4-a2.png]]>
-				</image>				
-			</option>
-
-			<!--option 3 -->	
-			<option correct="true">
-				<image id="q4-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse2/q4-a3.png]]>
-				</image>				
-			</option>
-
-			<!--option 4 -->	
-			<option correct="false">
-				<image id="q4-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse2/q4-a4.png]]>
-				</image>				
-			</option>			
-			<!--/options -->
-
-			<!-- feedbacks -->
-			<fb id="pass" event="">	
-				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">		
-					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
-						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
-					</text>					
-				</box>
-			</fb>
-			
-			<fb id="fail" event="">				
-				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">
-					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
-						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
-					</text>							
-				</box>
-			</fb>			
-		</question>
-		<!-- End Question 4 -->	
-
-		<!-- Question 5 -->
+		<!-- Question 1 (from 5) -->
 		<question id="q5" event="">
 
     		<box id="row1" position="relative" class="lp-quiz-layout-column12" />
@@ -296,34 +52,34 @@
     		<box id="row3" position="relative" class="lp-quiz-layout-column12" />				
 
 			<text id="q5-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="lp-quiz-p24">5. เครื่องมือใดใช้สำหรับพิมพ์ข้อความ?</p>]]>
+				<![CDATA[<p class="lp-quiz-p24">1. ภาพในข้อใดใช้เครื่องมือแปรงทาสี?</p>]]>
 			</text>
 
 			<!--option 1 -->
 			<option correct="false">
 				<image id="q5-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse2/q5-a1.png]]>
+					<![CDATA[assets/quiz/course3/q5-a1.png]]>
 				</image>				
 			</option>
 			
 			<!--option 2 -->	
-			<option correct="true">
+			<option correct="false">
 				<image id="q5-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse2/q5-a2.png]]>
+					<![CDATA[assets/quiz/course3/q5-a2.png]]>
 				</image>				
 			</option>
 
 			<!--option 3 -->	
 			<option correct="false">
 				<image id="q5-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse2/q5-a3.png]]>
+					<![CDATA[assets/quiz/course3/q5-a3.png]]>
 				</image>				
 			</option>
 
 			<!--option 4 -->	
-			<option correct="false">
+			<option correct="true">
 				<image id="q5-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse2/q5-a4.png]]>
+					<![CDATA[assets/quiz/course3/q5-a4.png]]>
 				</image>				
 			</option>			
 			<!--/options -->
@@ -345,10 +101,10 @@
 				</box>
 			</fb>			
 		</question>
-		<!-- End Question 5 -->		
+		<!-- End Question 1 (from 5) -->	
 
-		<!-- Question 6 -->
-		<question id="q6" event="">
+		<!-- Question 2 (from 3) -->
+		<question id="q3" event="">
 
     		<box id="row1" position="relative" class="lp-quiz-layout-column12" />
     		<box id="row2" position="relative" class="lp-quiz-layout-table-row" />		    		
@@ -356,35 +112,35 @@
 			<box id="row2-col2" target="row2" position="relative" class="lp-quiz-layout-table-row-column6" />    		
     		<box id="row3" position="relative" class="lp-quiz-layout-column12" />				
 
-			<text id="q6-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="lp-quiz-p24">6. ถ้าต้องการวาดรูปวงกลมควรทำอย่างไร?</p>]]>
+			<text id="q3-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
+				<![CDATA[<p class="lp-quiz-p24">2. ภาพในข้อใดใช้เส้นโค้ง?</p>]]>
 			</text>
 
 			<!--option 1 -->
 			<option correct="true">
-				<image id="q6-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse2/q6-a1.png]]>
+				<image id="q3-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
+					<![CDATA[assets/quiz/course3/q3-a1.png]]>
 				</image>				
 			</option>
 			
 			<!--option 2 -->	
 			<option correct="false">
-				<image id="q6-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse2/q6-a2.png]]>
+				<image id="q3-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
+					<![CDATA[assets/quiz/course3/q3-a2.png]]>
 				</image>				
 			</option>
 
 			<!--option 3 -->	
 			<option correct="false">
-				<image id="q6-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse2/q6-a3.png]]>
+				<image id="q3-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
+					<![CDATA[assets/quiz/course3/q3-a3.png]]>
 				</image>				
 			</option>
 
 			<!--option 4 -->	
 			<option correct="false">
-				<image id="q6-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse2/q6-a4.png]]>
+				<image id="q3-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
+					<![CDATA[assets/quiz/course3/q3-a4.png]]>
 				</image>				
 			</option>			
 			<!--/options -->
@@ -406,192 +162,9 @@
 				</box>
 			</fb>			
 		</question>
-		<!-- End Question 6 -->
+		<!-- End Question 2 (from 3) -->
 
-		<!-- Question 7 -->
-		<question id="q7" event="">
-
-    		<box id="row1" position="relative" class="lp-quiz-layout-column12" />
-    		<box id="row2" position="relative" class="lp-quiz-layout-table-row" />		    		
-			<box id="row2-col1" target="row2" position="relative" class="lp-quiz-layout-table-row-column6" />
-			<box id="row2-col2" target="row2" position="relative" class="lp-quiz-layout-table-row-column6" />    		
-    		<box id="row3" position="relative" class="lp-quiz-layout-column12" />				
-
-			<text id="q7-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="lp-quiz-p24">7. เครื่องมือใดใช้สำหรับย้ายภาพ?</p>]]>
-			</text>
-
-			<!--option 1 -->
-			<option correct="false">
-				<image id="q7-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse2/q7-a1.png]]>
-				</image>				
-			</option>
-			
-			<!--option 2 -->	
-			<option correct="false">
-				<image id="q7-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse2/q7-a2.png]]>
-				</image>				
-			</option>
-
-			<!--option 3 -->	
-			<option correct="false">
-				<image id="q7-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse2/q7-a3.png]]>
-				</image>				
-			</option>
-
-			<!--option 4 -->	
-			<option correct="true">
-				<image id="q7-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse2/q7-a4.png]]>
-				</image>				
-			</option>			
-			<!--/options -->
-
-			<!-- feedbacks -->
-			<fb id="pass" event="">	
-				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">		
-					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
-						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
-					</text>					
-				</box>
-			</fb>
-			
-			<fb id="fail" event="">				
-				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">
-					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
-						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
-					</text>							
-				</box>
-			</fb>			
-		</question>
-		<!-- End Question 7 -->		
-
-		<!-- Question 8 -->
-		<question id="q8" event="">
-
-    		<box id="row1" position="relative" class="lp-quiz-layout-column12" />
-    		<box id="row2" position="relative" class="lp-quiz-layout-table-row" />		    		
-			<box id="row2-col1" target="row2" position="relative" class="lp-quiz-layout-table-row-column6" />
-			<box id="row2-col2" target="row2" position="relative" class="lp-quiz-layout-table-row-column6" />    		
-    		<box id="row3" position="relative" class="lp-quiz-layout-column12" />				
-
-			<text id="q8-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="lp-quiz-p24">8. การคัดลอกภาพมีประโยชน์อย่างไร?</p>]]>
-			</text>
-
-			<!--option 1 -->
-			<option correct="false">
-				<image id="q8-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse2/q8-a1.png]]>
-				</image>				
-			</option>
-			
-			<!--option 2 -->	
-			<option correct="false">
-				<image id="q8-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse2/q8-a2.png]]>
-				</image>				
-			</option>
-
-			<!--option 3 -->	
-			<option correct="true">
-				<image id="q8-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse2/q8-a3.png]]>
-				</image>				
-			</option>
-
-			<!--option 4 -->	
-			<option correct="false">
-				<image id="q8-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse2/q8-a4.png]]>
-				</image>				
-			</option>			
-			<!--/options -->
-
-			<!-- feedbacks -->
-			<fb id="pass" event="">	
-				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">		
-					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
-						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
-					</text>					
-				</box>
-			</fb>
-			
-			<fb id="fail" event="">				
-				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">
-					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
-						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
-					</text>							
-				</box>
-			</fb>			
-		</question>
-		<!-- End Question 8 -->	
-
-		<!-- Question 9 -->
-		<question id="q9" event="">
-
-    		<box id="row1" position="relative" class="lp-quiz-layout-column12" />
-    		<box id="row2" position="relative" class="lp-quiz-layout-table-row" />		    		
-			<box id="row2-col1" target="row2" position="relative" class="lp-quiz-layout-table-row-column6" />
-			<box id="row2-col2" target="row2" position="relative" class="lp-quiz-layout-table-row-column6" />    		
-    		<box id="row3" position="relative" class="lp-quiz-layout-column12" />				
-
-			<text id="q9-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="lp-quiz-p24">9. คำสั่งใดใช้สำหรับหมุนหรือพลิกภาพ?</p>]]>
-			</text>
-
-			<!--option 1 -->
-			<option correct="false">
-				<image id="q9-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse2/q9-a1.png]]>
-				</image>				
-			</option>
-			
-			<!--option 2 -->	
-			<option correct="false">
-				<image id="q9-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse2/q9-a2.png]]>
-				</image>				
-			</option>
-
-			<!--option 3 -->	
-			<option correct="false">
-				<image id="q9-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse2/q9-a3.png]]>
-				</image>				
-			</option>
-
-			<!--option 4 -->	
-			<option correct="true">
-				<image id="q9-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse2/q9-a4.png]]>
-				</image>				
-			</option>			
-			<!--/options -->
-
-			<!-- feedbacks -->
-			<fb id="pass" event="">	
-				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">		
-					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
-						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
-					</text>					
-				</box>
-			</fb>
-			
-			<fb id="fail" event="">				
-				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">
-					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
-						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
-					</text>							
-				</box>
-			</fb>			
-		</question>
-		<!-- End Question 9 -->	
-
-		<!-- Question 10 -->
+		<!-- Question 3 (from 10) -->
 		<question id="q10" event="">
 
     		<box id="row1" position="relative" class="lp-quiz-layout-column12" />
@@ -601,38 +174,38 @@
     		<box id="row3" position="relative" class="lp-quiz-layout-column12" />				
 
 			<text id="q10-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="lp-quiz-p24">10. จากภาพ คือเครื่องมืออะไร?</p>]]>
+				<![CDATA[<p class="lp-quiz-p24">3. จากภาพใช้เครื่องมือใดวาด?</p>]]>
 			</text>
 
 			<image id="q10-img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="none" animtime="1" animdelay="0" class="">
-				<![CDATA[assets/quiz/preCourse2/q10.png]]>
+				<![CDATA[assets/quiz/course3/q10.png]]>
 			</image>			
 
 			<!--option 1 -->
 			<option correct="false">
 				<image id="q10-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse2/q10-a1.png]]>
+					<![CDATA[assets/quiz/course3/q10-a1.png]]>
 				</image>				
 			</option>
 			
 			<!--option 2 -->	
-			<option correct="true">
+			<option correct="false">
 				<image id="q10-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse2/q10-a2.png]]>
+					<![CDATA[assets/quiz/course3/q10-a2.png]]>
 				</image>				
 			</option>
 
 			<!--option 3 -->	
 			<option correct="false">
 				<image id="q10-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse2/q10-a3.png]]>
+					<![CDATA[assets/quiz/course3/q10-a3.png]]>
 				</image>				
 			</option>
 
 			<!--option 4 -->	
-			<option correct="false">
+			<option correct="true">
 				<image id="q10-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse2/q10-a4.png]]>
+					<![CDATA[assets/quiz/course3/q10-a4.png]]>
 				</image>				
 			</option>			
 			<!--/options -->
@@ -654,7 +227,455 @@
 				</box>
 			</fb>			
 		</question>
-		<!-- End Question 10 -->			
+		<!-- End Question 3 (from 10) -->
+
+		<!-- Question 4 (from 2) -->
+		<question id="q2" event="">
+
+    		<box id="row1" position="relative" class="lp-quiz-layout-column12" />
+    		<box id="row2" position="relative" class="lp-quiz-layout-table-row" />		    		
+			<box id="row2-col1" target="row2" position="relative" class="lp-quiz-layout-table-row-column6" />
+			<box id="row2-col2" target="row2" position="relative" class="lp-quiz-layout-table-row-column6" />    		
+    		<box id="row3" position="relative" class="lp-quiz-layout-column12" />				
+
+			<text id="q2-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
+				<![CDATA[<p class="lp-quiz-p24">4. จากภาพ ใช้เครื่องมือใดวาด?</p>]]>
+			</text>
+
+			<image id="q2-img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="none" animtime="1" animdelay="0" class="">
+				<![CDATA[assets/quiz/course3/q2.png]]>
+			</image>				
+
+			<!--option 1 -->
+			<option correct="false">
+				<image id="q2-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
+					<![CDATA[assets/quiz/course3/q2-a1.png]]>
+				</image>				
+			</option>
+			
+			<!--option 2 -->	
+			<option correct="true">
+				<image id="q2-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
+					<![CDATA[assets/quiz/course3/q2-a2.png]]>
+				</image>				
+			</option>
+
+			<!--option 3 -->	
+			<option correct="false">
+				<image id="q2-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
+					<![CDATA[assets/quiz/course3/q2-a3.png]]>
+				</image>				
+			</option>
+
+			<!--option 4 -->	
+			<option correct="false">
+				<image id="q2-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
+					<![CDATA[assets/quiz/course3/q2-a4.png]]>
+				</image>				
+			</option>			
+			<!--/options -->
+
+			<!-- feedbacks -->
+			<fb id="pass" event="">	
+				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">		
+					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
+						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
+					</text>					
+				</box>
+			</fb>
+			
+			<fb id="fail" event="">				
+				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">
+					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
+						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
+					</text>							
+				</box>
+			</fb>			
+		</question>
+		<!-- End Question 4 (from 2) -->	
+
+		<!-- Question 5 (from 8) -->
+		<question id="q8" event="">
+
+    		<box id="row1" position="relative" class="lp-quiz-layout-column12" />
+    		<box id="row2" position="relative" class="lp-quiz-layout-table-row" />		    		
+			<box id="row2-col1" target="row2" position="relative" class="lp-quiz-layout-table-row-column6" />
+			<box id="row2-col2" target="row2" position="relative" class="lp-quiz-layout-table-row-column6" />    		
+    		<box id="row3" position="relative" class="lp-quiz-layout-column12" />				
+
+			<text id="q8-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
+				<![CDATA[<p class="lp-quiz-p24">5. เครื่องมือวงรี ใช้วาดส่วนใดของภาพ?</p>]]>
+			</text>
+
+			<image id="q8-img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="none" animtime="1" animdelay="0" class="">
+				<![CDATA[assets/quiz/course3/q8.png]]>
+			</image>
+
+			<!--option 1 -->
+			<option correct="true">
+				<image id="q8-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
+					<![CDATA[assets/quiz/course3/q8-a1.png]]>
+				</image>				
+			</option>
+			
+			<!--option 2 -->	
+			<option correct="false">
+				<image id="q8-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
+					<![CDATA[assets/quiz/course3/q8-a2.png]]>
+				</image>				
+			</option>
+
+			<!--option 3 -->	
+			<option correct="false">
+				<image id="q8-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
+					<![CDATA[assets/quiz/course3/q8-a3.png]]>
+				</image>				
+			</option>
+
+			<!--option 4 -->	
+			<option correct="false">
+				<image id="q8-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
+					<![CDATA[assets/quiz/course3/q8-a4.png]]>
+				</image>				
+			</option>			
+			<!--/options -->
+
+			<!-- feedbacks -->
+			<fb id="pass" event="">	
+				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">		
+					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
+						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
+					</text>					
+				</box>
+			</fb>
+			
+			<fb id="fail" event="">				
+				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">
+					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
+						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
+					</text>							
+				</box>
+			</fb>			
+		</question>
+		<!-- End Question 5 (from 8) -->	
+
+		<!-- Question 6 (from 9) -->
+		<question id="q9" event="">
+
+    		<box id="row1" position="relative" class="lp-quiz-layout-column12" />
+    		<box id="row2" position="relative" class="lp-quiz-layout-table-row" />		    		
+			<box id="row2-col1" target="row2" position="relative" class="lp-quiz-layout-table-row-column6" />
+			<box id="row2-col2" target="row2" position="relative" class="lp-quiz-layout-table-row-column6" />    		
+    		<box id="row3" position="relative" class="lp-quiz-layout-column12" />				
+
+			<text id="q9-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
+				<![CDATA[<p class="lp-quiz-p24">6. ภาพในข้อใดใช้เครื่องมือในการวาดแตกต่างจากพวก?</p>]]>
+			</text>
+
+			<!--option 1 -->
+			<option correct="false">
+				<image id="q9-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
+					<![CDATA[assets/quiz/course3/q9-a1.png]]>
+				</image>				
+			</option>
+			
+			<!--option 2 -->	
+			<option correct="true">
+				<image id="q9-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
+					<![CDATA[assets/quiz/course3/q9-a2.png]]>
+				</image>				
+			</option>
+
+			<!--option 3 -->	
+			<option correct="false">
+				<image id="q9-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
+					<![CDATA[assets/quiz/course3/q9-a3.png]]>
+				</image>				
+			</option>
+
+			<!--option 4 -->	
+			<option correct="false">
+				<image id="q9-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
+					<![CDATA[assets/quiz/course3/q9-a4.png]]>
+				</image>				
+			</option>			
+			<!--/options -->
+
+			<!-- feedbacks -->
+			<fb id="pass" event="">	
+				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">		
+					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
+						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
+					</text>					
+				</box>
+			</fb>
+			
+			<fb id="fail" event="">				
+				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">
+					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
+						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
+					</text>							
+				</box>
+			</fb>			
+		</question>
+		<!-- End Question 6 (from 9) -->	
+
+		<!-- Question 7 (from 6) -->
+		<question id="q6" event="">
+
+    		<box id="row1" position="relative" class="lp-quiz-layout-column12" />
+    		<box id="row2" position="relative" class="lp-quiz-layout-table-row" />		    		
+			<box id="row2-col1" target="row2" position="relative" class="lp-quiz-layout-table-row-column6" />
+			<box id="row2-col2" target="row2" position="relative" class="lp-quiz-layout-table-row-column6" />    		
+    		<box id="row3" position="relative" class="lp-quiz-layout-column12" />				
+
+			<text id="q6-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
+				<![CDATA[<p class="lp-quiz-p24">7. ข้อใดคือผลที่ได้จากการใช้คำสั่ง copy?</p>]]>
+			</text>
+
+			<image id="q6-img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="none" animtime="1" animdelay="0" class="">
+				<![CDATA[assets/quiz/course3/q6.png]]>
+			</image>
+
+			<!--option 1 -->
+			<option correct="false">
+				<image id="q6-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
+					<![CDATA[assets/quiz/course3/q6-a1.png]]>
+				</image>				
+			</option>
+			
+			<!--option 2 -->	
+			<option correct="true">
+				<image id="q6-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
+					<![CDATA[assets/quiz/course3/q6-a2.png]]>
+				</image>				
+			</option>
+
+			<!--option 3 -->	
+			<option correct="false">
+				<image id="q6-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
+					<![CDATA[assets/quiz/course3/q6-a3.png]]>
+				</image>				
+			</option>
+
+			<!--option 4 -->	
+			<option correct="false">
+				<image id="q6-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
+					<![CDATA[assets/quiz/course3/q6-a4.png]]>
+				</image>				
+			</option>			
+			<!--/options -->
+
+			<!-- feedbacks -->
+			<fb id="pass" event="">	
+				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">		
+					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
+						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
+					</text>					
+				</box>
+			</fb>
+			
+			<fb id="fail" event="">				
+				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">
+					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
+						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
+					</text>							
+				</box>
+			</fb>			
+		</question>
+		<!-- End Question 7 (from 6) -->
+
+		<!-- Question 8 (from 4) -->
+		<question id="q4" event="">
+
+    		<box id="row1" position="relative" class="lp-quiz-layout-column12" />
+    		<box id="row2" position="relative" class="lp-quiz-layout-table-row" />		    		
+			<box id="row2-col1" target="row2" position="relative" class="lp-quiz-layout-table-row-column6" />
+			<box id="row2-col2" target="row2" position="relative" class="lp-quiz-layout-table-row-column6" />    		
+    		<box id="row3" position="relative" class="lp-quiz-layout-column12" />				
+
+			<text id="q4-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
+				<![CDATA[<p class="lp-quiz-p24">8. เครื่องมือชนิดใด ไม่ได้ ใช้วาดภาพดวงอาทิตย์?</p>]]>
+			</text>
+
+			<image id="q4-img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="none" animtime="1" animdelay="0" class="">
+				<![CDATA[assets/quiz/course3/q4.png]]>
+			</image>	
+
+			<!--option 1 -->
+			<option correct="true">
+				<image id="q4-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
+					<![CDATA[assets/quiz/course3/q4-a1.png]]>
+				</image>				
+			</option>
+			
+			<!--option 2 -->	
+			<option correct="false">
+				<image id="q4-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
+					<![CDATA[assets/quiz/course3/q4-a2.png]]>
+				</image>				
+			</option>
+
+			<!--option 3 -->	
+			<option correct="false">
+				<image id="q4-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
+					<![CDATA[assets/quiz/course3/q4-a3.png]]>
+				</image>				
+			</option>
+
+			<!--option 4 -->	
+			<option correct="false">
+				<image id="q4-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
+					<![CDATA[assets/quiz/course3/q4-a4.png]]>
+				</image>				
+			</option>			
+			<!--/options -->
+
+			<!-- feedbacks -->
+			<fb id="pass" event="">	
+				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">		
+					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
+						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
+					</text>					
+				</box>
+			</fb>
+			
+			<fb id="fail" event="">				
+				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">
+					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
+						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
+					</text>							
+				</box>
+			</fb>			
+		</question>
+		<!-- End Question 8 (from 4) -->	
+
+		<!-- Question 9 (from 7) -->
+		<question id="q7" event="">
+
+    		<box id="row1" position="relative" class="lp-quiz-layout-column12" />
+    		<box id="row2" position="relative" class="lp-quiz-layout-table-row" />		    		
+			<box id="row2-col1" target="row2" position="relative" class="lp-quiz-layout-table-row-column6" />
+			<box id="row2-col2" target="row2" position="relative" class="lp-quiz-layout-table-row-column6" />    		
+    		<box id="row3" position="relative" class="lp-quiz-layout-column12" />				
+
+			<text id="q7-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
+				<![CDATA[<p class="lp-quiz-p24">9. จากภาพ ใช้เครื่องมือใดวาด?</p>]]>
+			</text>
+
+			<image id="q7-img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="none" animtime="1" animdelay="0" class="">
+				<![CDATA[assets/quiz/course3/q7.png]]>
+			</image>
+
+			<!--option 1 -->
+			<option correct="false">
+				<image id="q7-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
+					<![CDATA[assets/quiz/course3/q7-a1.png]]>
+				</image>				
+			</option>
+			
+			<!--option 2 -->	
+			<option correct="false">
+				<image id="q7-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
+					<![CDATA[assets/quiz/course3/q7-a2.png]]>
+				</image>				
+			</option>
+
+			<!--option 3 -->	
+			<option correct="true">
+				<image id="q7-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
+					<![CDATA[assets/quiz/course3/q7-a3.png]]>
+				</image>				
+			</option>
+
+			<!--option 4 -->	
+			<option correct="false">
+				<image id="q7-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
+					<![CDATA[assets/quiz/course3/q7-a4.png]]>
+				</image>				
+			</option>			
+			<!--/options -->
+
+			<!-- feedbacks -->
+			<fb id="pass" event="">	
+				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">		
+					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
+						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
+					</text>					
+				</box>
+			</fb>
+			
+			<fb id="fail" event="">				
+				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">
+					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
+						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
+					</text>							
+				</box>
+			</fb>			
+		</question>
+		<!-- End Question 9 (from 7) -->	
+
+		<!-- Question 10 (from 1) -->
+		<question id="q1" event="">
+
+    		<box id="row1" position="relative" class="lp-quiz-layout-column12" />
+    		<box id="row2" position="relative" class="lp-quiz-layout-table-row" />		    		
+			<box id="row2-col1" target="row2" position="relative" class="lp-quiz-layout-table-row-column6" />
+			<box id="row2-col2" target="row2" position="relative" class="lp-quiz-layout-table-row-column6" />    		
+    		<box id="row3" position="relative" class="lp-quiz-layout-column12" />				
+
+			<text id="q1-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
+				<![CDATA[<p class="lp-quiz-p24">10. ภาพในข้อใดใช้เครื่องมือดินสอ?</p>]]>
+			</text>
+
+			<!--option 1 -->
+			<option correct="false">
+				<image id="q1-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
+					<![CDATA[assets/quiz/course3/q1-a1.png]]>
+				</image>				
+			</option>
+			
+			<!--option 2 -->	
+			<option correct="false">
+				<image id="q1-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
+					<![CDATA[assets/quiz/course3/q1-a2.png]]>
+				</image>				
+			</option>
+
+			<!--option 3 -->	
+			<option correct="true">
+				<image id="q1-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
+					<![CDATA[assets/quiz/course3/q1-a3.png]]>
+				</image>				
+			</option>
+
+			<!--option 4 -->	
+			<option correct="false">
+				<image id="q1-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
+					<![CDATA[assets/quiz/course3/q1-a4.png]]>
+				</image>				
+			</option>			
+			<!--/options -->
+
+			<!-- feedbacks -->
+			<fb id="pass" event="">	
+				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">		
+					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
+						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
+					</text>					
+				</box>
+			</fb>
+			
+			<fb id="fail" event="">				
+				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">
+					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
+						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
+					</text>							
+				</box>
+			</fb>			
+		</question>
+		<!-- End Question 10 (from 1) -->	
+		
 
 		<!--Score screen-->
         <score masteryscore="70">

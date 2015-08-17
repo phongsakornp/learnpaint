@@ -58,28 +58,28 @@
 			<!--option 1 -->
 			<option correct="false">
 				<image id="q1-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q1-a1.png]]>
+					<![CDATA[assets/quiz/course1/q1-a1.png]]>
 				</image>				
 			</option>
 			
 			<!--option 2 -->	
 			<option correct="true">
 				<image id="q1-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q1-a2.png]]>
+					<![CDATA[assets/quiz/course1/q1-a2.png]]>
 				</image>				
 			</option>
 
 			<!--option 3 -->	
 			<option correct="false">
 				<image id="q1-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q1-a3.png]]>
+					<![CDATA[assets/quiz/course1/q1-a3.png]]>
 				</image>				
 			</option>
 
 			<!--option 4 -->	
 			<option correct="false">
 				<image id="q1-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q1-a4.png]]>
+					<![CDATA[assets/quiz/course1/q1-a4.png]]>
 				</image>				
 			</option>			
 			<!--/options -->
@@ -119,28 +119,28 @@
 			<!--option 1 -->
 			<option correct="true">
 				<image id="q2-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q2-a1.png]]>
+					<![CDATA[assets/quiz/course1/q2-a1.png]]>
 				</image>				
 			</option>
 			
 			<!--option 2 -->	
 			<option correct="false">
 				<image id="q2-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q2-a2.png]]>
+					<![CDATA[assets/quiz/course1/q2-a2.png]]>
 				</image>				
 			</option>
 
 			<!--option 3 -->	
 			<option correct="false">
 				<image id="q2-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q2-a3.png]]>
+					<![CDATA[assets/quiz/course1/q2-a3.png]]>
 				</image>				
 			</option>
 
 			<!--option 4 -->	
 			<option correct="false">
 				<image id="q2-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q2-a4.png]]>
+					<![CDATA[assets/quiz/course1/q2-a4.png]]>
 				</image>				
 			</option>			
 			<!--/options -->
@@ -180,28 +180,28 @@
 			<!--option 1 -->
 			<option correct="false">
 				<image id="q3-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q3-a1.png]]>
+					<![CDATA[assets/quiz/course1/q3-a1.png]]>
 				</image>				
 			</option>
 			
 			<!--option 2 -->	
 			<option correct="false">
 				<image id="q3-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q3-a2.png]]>
+					<![CDATA[assets/quiz/course1/q3-a2.png]]>
 				</image>				
 			</option>
 
 			<!--option 3 -->	
 			<option correct="false">
 				<image id="q3-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q3-a3.png]]>
+					<![CDATA[assets/quiz/course1/q3-a3.png]]>
 				</image>				
 			</option>
 
 			<!--option 4 -->	
 			<option correct="true">
 				<image id="q3-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q3-a4.png]]>
+					<![CDATA[assets/quiz/course1/q3-a4.png]]>
 				</image>				
 			</option>			
 			<!--/options -->
@@ -241,28 +241,28 @@
 			<!--option 1 -->
 			<option correct="false">
 				<image id="q4-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q4-a1.png]]>
+					<![CDATA[assets/quiz/course1/q4-a1.png]]>
 				</image>				
 			</option>
 			
 			<!--option 2 -->	
 			<option correct="false">
 				<image id="q4-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q4-a2.png]]>
+					<![CDATA[assets/quiz/course1/q4-a2.png]]>
 				</image>				
 			</option>
 
 			<!--option 3 -->	
 			<option correct="true">
 				<image id="q4-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q4-a3.png]]>
+					<![CDATA[assets/quiz/course1/q4-a3.png]]>
 				</image>				
 			</option>
 
 			<!--option 4 -->	
 			<option correct="false">
 				<image id="q4-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q4-a4.png]]>
+					<![CDATA[assets/quiz/course1/q4-a4.png]]>
 				</image>				
 			</option>			
 			<!--/options -->
@@ -302,28 +302,28 @@
 			<!--option 1 -->
 			<option correct="false">
 				<image id="q5-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q5-a1.png]]>
+					<![CDATA[assets/quiz/course1/q5-a1.png]]>
 				</image>				
 			</option>
 			
 			<!--option 2 -->	
 			<option correct="false">
 				<image id="q5-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q5-a2.png]]>
+					<![CDATA[assets/quiz/course1/q5-a2.png]]>
 				</image>				
 			</option>
 
 			<!--option 3 -->	
 			<option correct="false">
 				<image id="q5-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q5-a3.png]]>
+					<![CDATA[assets/quiz/course1/q5-a3.png]]>
 				</image>				
 			</option>
 
 			<!--option 4 -->	
 			<option correct="true">
 				<image id="q5-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q5-a4.png]]>
+					<![CDATA[assets/quiz/course1/q5-a4.png]]>
 				</image>				
 			</option>			
 			<!--/options -->
@@ -363,28 +363,28 @@
 			<!--option 1 -->
 			<option correct="false">
 				<image id="q6-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q6-a1.png]]>
+					<![CDATA[assets/quiz/course1/q6-a1.png]]>
 				</image>				
 			</option>
 			
 			<!--option 2 -->	
 			<option correct="false">
 				<image id="q6-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q6-a2.png]]>
+					<![CDATA[assets/quiz/course1/q6-a2.png]]>
 				</image>				
 			</option>
 
 			<!--option 3 -->	
 			<option correct="true">
 				<image id="q6-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q6-a3.png]]>
+					<![CDATA[assets/quiz/course1/q6-a3.png]]>
 				</image>				
 			</option>
 
 			<!--option 4 -->	
 			<option correct="false">
 				<image id="q6-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q6-a4.png]]>
+					<![CDATA[assets/quiz/course1/q6-a4.png]]>
 				</image>				
 			</option>			
 			<!--/options -->
@@ -424,28 +424,28 @@
 			<!--option 1 -->
 			<option correct="true">
 				<image id="q7-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q7-a1.png]]>
+					<![CDATA[assets/quiz/course1/q7-a1.png]]>
 				</image>				
 			</option>
 			
 			<!--option 2 -->	
 			<option correct="false">
 				<image id="q7-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q7-a2.png]]>
+					<![CDATA[assets/quiz/course1/q7-a2.png]]>
 				</image>				
 			</option>
 
 			<!--option 3 -->	
 			<option correct="false">
 				<image id="q7-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q7-a3.png]]>
+					<![CDATA[assets/quiz/course1/q7-a3.png]]>
 				</image>				
 			</option>
 
 			<!--option 4 -->	
 			<option correct="false">
 				<image id="q7-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q7-a4.png]]>
+					<![CDATA[assets/quiz/course1/q7-a4.png]]>
 				</image>				
 			</option>			
 			<!--/options -->
@@ -485,28 +485,28 @@
 			<!--option 1 -->
 			<option correct="false">
 				<image id="q8-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q8-a1.png]]>
+					<![CDATA[assets/quiz/course1/q8-a1.png]]>
 				</image>				
 			</option>
 			
 			<!--option 2 -->	
 			<option correct="true">
 				<image id="q8-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q8-a2.png]]>
+					<![CDATA[assets/quiz/course1/q8-a2.png]]>
 				</image>				
 			</option>
 
 			<!--option 3 -->	
 			<option correct="false">
 				<image id="q8-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q8-a3.png]]>
+					<![CDATA[assets/quiz/course1/q8-a3.png]]>
 				</image>				
 			</option>
 
 			<!--option 4 -->	
 			<option correct="false">
 				<image id="q8-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q8-a4.png]]>
+					<![CDATA[assets/quiz/course1/q8-a4.png]]>
 				</image>				
 			</option>			
 			<!--/options -->
@@ -546,28 +546,28 @@
 			<!--option 1 -->
 			<option correct="false">
 				<image id="q9-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q9-a1.png]]>
+					<![CDATA[assets/quiz/course1/q9-a1.png]]>
 				</image>				
 			</option>
 			
 			<!--option 2 -->	
 			<option correct="false">
 				<image id="q9-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q9-a2.png]]>
+					<![CDATA[assets/quiz/course1/q9-a2.png]]>
 				</image>				
 			</option>
 
 			<!--option 3 -->	
 			<option correct="true">
 				<image id="q9-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q9-a3.png]]>
+					<![CDATA[assets/quiz/course1/q9-a3.png]]>
 				</image>				
 			</option>
 
 			<!--option 4 -->	
 			<option correct="false">
 				<image id="q9-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q9-a4.png]]>
+					<![CDATA[assets/quiz/course1/q9-a4.png]]>
 				</image>				
 			</option>			
 			<!--/options -->
@@ -607,28 +607,28 @@
 			<!--option 1 -->
 			<option correct="false">
 				<image id="q10-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q10-a1.png]]>
+					<![CDATA[assets/quiz/course1/q10-a1.png]]>
 				</image>				
 			</option>
 			
 			<!--option 2 -->	
 			<option correct="false">
 				<image id="q10-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q10-a2.png]]>
+					<![CDATA[assets/quiz/course1/q10-a2.png]]>
 				</image>				
 			</option>
 
 			<!--option 3 -->	
 			<option correct="false">
 				<image id="q10-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q10-a3.png]]>
+					<![CDATA[assets/quiz/course1/q10-a3.png]]>
 				</image>				
 			</option>
 
 			<!--option 4 -->	
 			<option correct="true">
 				<image id="q10-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
-					<![CDATA[assets/quiz/preCourse1/q10-a4.png]]>
+					<![CDATA[assets/quiz/course1/q10-a4.png]]>
 				</image>				
 			</option>			
 			<!--/options -->

@@ -179,6 +179,11 @@ $tabs-btn-width-L: auto;  // tab button width on large devices
 		}
 
 		&[data-content='5']::before {
+			// background-position: 0 0;
+      		background-image: url('../img/pre-achievement-quiz@32px.svg');
+		}		
+
+		&[data-content='6']::before {
 			background-image: url('../img/student-portfolio@32px.svg');
 		}
 
@@ -202,7 +207,11 @@ $tabs-btn-width-L: auto;  // tab button width on large devices
       		background-image: url('../img/draw-selected@32px.svg');
 		}
 
-		&[data-content='5'].selected::before {
+	    &[data-content='5'].selected::before {
+      		background-image: url('../img/pre-achievement-quiz-selected@32px.svg');
+		}		
+
+		&[data-content='6'].selected::before {
 			background-image: url('../img/student-portfolio-selected@32px.svg');
 		}
 	}

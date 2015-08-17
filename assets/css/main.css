@@ -329,6 +329,8 @@ Modified by: PhongsakornP.
     .cd-tabs-navigation a[data-content='4']::before {
       background-image: url("../img/draw@32px.svg"); }
     .cd-tabs-navigation a[data-content='5']::before {
+      background-image: url("../img/pre-achievement-quiz@32px.svg"); }
+    .cd-tabs-navigation a[data-content='6']::before {
       background-image: url("../img/student-portfolio@32px.svg"); }
     .cd-tabs-navigation a[data-content='0'].selected::before {
       background-image: url("../img/home-selected@32px.svg"); }
@@ -341,6 +343,8 @@ Modified by: PhongsakornP.
     .cd-tabs-navigation a[data-content='4'].selected::before {
       background-image: url("../img/draw-selected@32px.svg"); }
     .cd-tabs-navigation a[data-content='5'].selected::before {
+      background-image: url("../img/pre-achievement-quiz-selected@32px.svg"); }
+    .cd-tabs-navigation a[data-content='6'].selected::before {
       background-image: url("../img/student-portfolio-selected@32px.svg"); }
 
 .cd-tabs-content {
@@ -800,6 +804,12 @@ LearnPaint
   background: #2B9BD3; }
 
 #lp-course-pre-achievement-quiz .lp-course-header-info {
+  background: #61C4F6; }
+
+#lp-course-post-achievement-quiz .lp-course-header-side {
+  background: #2B9BD3; }
+
+#lp-course-post-achievement-quiz .lp-course-header-info {
   background: #61C4F6; }
 
 /*--------------------------------

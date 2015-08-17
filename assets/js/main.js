@@ -104,7 +104,6 @@ jQuery(document).ready(function($) {
   initCourseSlider(2);
   initCourseSlider(3);
 
-
   /*---	Tabbed Navigation	---*/
   var tabItems = $('.cd-tabs-navigation a'),
     tabContentWrapper = $('.cd-tabs-content');
@@ -136,7 +135,7 @@ jQuery(document).ready(function($) {
             slider.updateSliderSize(true);
           }
 
-        });
+        });      
     }
 
   }); // End Tab Click function
