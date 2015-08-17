@@ -187,6 +187,10 @@ $tabs-btn-width-L: auto;  // tab button width on large devices
 			background-image: url('../img/student-portfolio@32px.svg');
 		}
 
+		&[data-content='7']::before {
+			background-image: url('../img/manual@32px.svg');
+		}		
+
 	    &[data-content='0'].selected::before {
 	    	background-image: url('../img/home-selected@32px.svg');
 	    }
@@ -214,6 +218,10 @@ $tabs-btn-width-L: auto;  // tab button width on large devices
 		&[data-content='6'].selected::before {
 			background-image: url('../img/student-portfolio-selected@32px.svg');
 		}
+
+		&[data-content='7'].selected::before {
+			background-image: url('../img/manual-selected@32px.svg');
+		}		
 	}
 
 	// @include MQ(M) {

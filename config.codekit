@@ -3701,6 +3701,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/assets\/royalslider\/jquery.royalslider.custom.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/royalslider\/jquery.royalslider.custom.min.js",
+		"outputAbbreviatedPath": "\/assets\/royalslider\/min\/jquery.royalslider.custom.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/assets\/royalslider\/jquery.royalslider.min.js": {
 		"fileType": 64,
 		"ignore": 0,

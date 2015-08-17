@@ -332,6 +332,8 @@ Modified by: PhongsakornP.
       background-image: url("../img/pre-achievement-quiz@32px.svg"); }
     .cd-tabs-navigation a[data-content='6']::before {
       background-image: url("../img/student-portfolio@32px.svg"); }
+    .cd-tabs-navigation a[data-content='7']::before {
+      background-image: url("../img/manual@32px.svg"); }
     .cd-tabs-navigation a[data-content='0'].selected::before {
       background-image: url("../img/home-selected@32px.svg"); }
     .cd-tabs-navigation a[data-content='1'].selected::before {
@@ -346,6 +348,8 @@ Modified by: PhongsakornP.
       background-image: url("../img/pre-achievement-quiz-selected@32px.svg"); }
     .cd-tabs-navigation a[data-content='6'].selected::before {
       background-image: url("../img/student-portfolio-selected@32px.svg"); }
+    .cd-tabs-navigation a[data-content='7'].selected::before {
+      background-image: url("../img/manual-selected@32px.svg"); }
 
 .cd-tabs-content {
   background: #ffffff;
@@ -811,6 +815,12 @@ LearnPaint
 
 #lp-course-post-achievement-quiz .lp-course-header-info {
   background: #61C4F6; }
+
+#lp-manual .lp-course-header-side {
+  background: #A15BC5; }
+
+#lp-manual .lp-course-header-info {
+  background: #E0B7F5; }
 
 /*--------------------------------
 
