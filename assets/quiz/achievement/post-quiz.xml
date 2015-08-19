@@ -2472,7 +2472,7 @@
     		<box id="row3" position="relative" class="lp-quiz-layout-column12" />				
 
 			<text id="q39-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="lp-quiz-p24">39. เครื่องมือดินสอใช้วาดส่วนใดของภาพ</p>]]>
+				<![CDATA[<p class="lp-quiz-p24">40. เครื่องมือดินสอใช้วาดส่วนใดของภาพ</p>]]>
 			</text>
 			<image id="q39-img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="none" animtime="1" animdelay="0" class="">
 				<![CDATA[assets/quiz/achievement/q39.png]]>
@@ -2531,12 +2531,12 @@
         <score masteryscore="70">
            <fb id="pass" event="">
             	<box id="center" position="relative" height="100%">
-	            	<box id="passTextBox" position="relative" height="350" margin-top="0" margin-bottom="20" anim="left" animtime="0.5" 
+	            	<box id="passTextBox" position="relative" height="350" margin-top="100" margin-bottom="20" anim="left" animtime="0.5" 
 	            		class="">
 						
-					<text id="pass_txt" position="relative" x="10" margin-top="30" margin-bottom="20" anim="none">
-						<![CDATA[<p class="lp-quiz-p30 lp-quiz-text-glow">สรุปผลการทำแบบทดสอบวัดผลสัมฤทธิ์ทางการเรียนหลังเรียน</p><p class="lp-quiz-p30 lp-quiz-text-glow">คะแนนเต็ม 40 คะแนน</p><p class="lp-quiz-p30 lp-quiz-text-glow">นักเรียนทำได้ [score] คะแนน</p>]]>
-					</text>
+						<text id="pass_txt" position="relative" x="10" margin-top="70" margin-bottom="20" anim="none">
+							<![CDATA[<p class="lp-quiz-p30 lp-quiz-text-blue lp-quiz-text-glow lp-center-text">สรุปผลการทำแบบทดสอบวัดผลสัมฤทธิ์ทางการเรียนหลังเรียน</p><p class="lp-quiz-p30 lp-center-text">คะแนนเต็ม 40 คะแนน</p><p class="lp-quiz-p30 lp-center-text">นักเรียนทำได้ [score] คะแนน</p>]]>
+						</text>
 
 	                </box>
                 </box>
@@ -2544,12 +2544,12 @@
             
             <fb id="fail" event="">
   				<box id="center" position="relative" height="100%">
-	            	<box id="failTextBox" position="relative" height="350" margin-top="0" margin-bottom="20" anim="left" animtime="0.5" 
+	            	<box id="failTextBox" position="relative" height="350" margin-top="100" margin-bottom="20" anim="left" animtime="0.5" 
 	            		class="">
 
-					<text id="pass_txt" position="relative" x="10" margin-top="30" margin-bottom="20" anim="none">
-						<![CDATA[<p class="lp-quiz-p30 lp-quiz-text-glow">สรุปผลการทำแบบทดสอบวัดผลสัมฤทธิ์ทางการเรียนหลังเรียน</p><p class="lp-quiz-p30 lp-quiz-text-glow">คะแนนเต็ม 40 คะแนน</p><p class="lp-quiz-p30 lp-quiz-text-glow">นักเรียนทำได้ [score] คะแนน</p>]]>
-					</text>
+						<text id="failed_txt" position="relative" x="10" margin-top="70" margin-bottom="20" anim="none">
+							<![CDATA[<p class="lp-quiz-p30 lp-quiz-text-blue lp-quiz-text-glow lp-center-text">สรุปผลการทำแบบทดสอบวัดผลสัมฤทธิ์ทางการเรียนหลังเรียน</p><p class="lp-quiz-p30 lp-center-text">คะแนนเต็ม 40 คะแนน</p><p class="lp-quiz-p30 lp-center-text">นักเรียนทำได้ [score] คะแนน</p>]]>
+						</text>
 
 	                </box> 
                 </box> 

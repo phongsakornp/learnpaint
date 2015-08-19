@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<events>
+    	<event id="screenloaded">
+			<click>
+				<function name="begin"></function>
+			</click>
+		</event>
+		<event id="optionover">
+			<rollover>
+				<css name="lp-quiz-option-over">this</css>
+			</rollover>
+			
+			<rollout>
+				<css name="lp-quiz-option-out">this</css>
+			</rollout>
+		</event>
+		<event id="selectandsubmit">
+			<click>
+				<css name="lp-quiz-option-over">this</css>
+				<function name="select">this</function>
+				<function name="submit">this</function>
+			</click>
+		</event>
+		<event id="nextQuestionOver">
+			<rollover>
+				<css name="lp-quiz-next-question-over">this</css>
+			</rollover>
+			
+			<rollout>
+				<css name="lp-quiz-next-question-out">this</css>
+			</rollout>
+		</event>		
+		<event id="loadNextQuestion">
+            <click>
+                <function name="loadNextQuestion">this</function>
+            </click>
+        </event>
+	</events>
+
+	<custom type="quiz" id="preAchievementQuiz" position="relative" x="0" y="0" class="">
+		
+		<settings timer="false" timerx="-300" timery="0" />
+
+		<!-- Question 1 -->
+		<question id="q1" event="">
+
+    		<box id="row1" position="relative" class="lp-quiz-layout-column12" />
+    		<box id="row2" position="relative" class="lp-quiz-layout-table-row" />		    		
+			<box id="row2-col1" target="row2" position="relative" class="lp-quiz-layout-table-row-column6" />
+			<box id="row2-col2" target="row2" position="relative" class="lp-quiz-layout-table-row-column6" />    		
+    		<box id="row3" position="relative" class="lp-quiz-layout-column12" />				
+
+			<text id="q1-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
+				<![CDATA[<p class="lp-quiz-p24">1. ขั้นตอนการเปิดโปรแกรมเพ้นท์ เรียงลำดับอย่างไร</p>]]>
+			</text>
+
+			<image id="q1-img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="none" animtime="1" animdelay="0" class="">
+				<![CDATA[assets/quiz/achievement/q1.png]]>
+			</image>
+
+			<!--option 1 -->
+			<option correct="false">
+				<image id="q1-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
+					<![CDATA[assets/quiz/achievement/q1-a1.png]]>
+				</image>				
+			</option>
+			
+			<!--option 2 -->	
+			<option correct="false">
+				<image id="q1-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
+					<![CDATA[assets/quiz/achievement/q1-a2.png]]>
+				</image>				
+			</option>
+
+			<!--option 3 -->	
+			<option correct="false">
+				<image id="q1-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
+					<![CDATA[assets/quiz/achievement/q1-a3.png]]>
+				</image>				
+			</option>
+
+			<!--option 4 -->	
+			<option correct="true">
+				<image id="q1-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
+					<![CDATA[assets/quiz/achievement/q1-a4.png]]>
+				</image>				
+			</option>			
+			<!--/options -->
+
+			<!-- feedbacks -->
+			<fb id="pass" event="">	
+				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">		
+					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
+						<![CDATA[<p class="lp-quiz-p24 white">ข้อถัดไป</p>]]>
+					</text>					
+				</box>
+			</fb>
+			
+			<fb id="fail" event="">				
+				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">
+					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
+						<![CDATA[<p class="lp-quiz-p24 white">ข้อถัดไป</p>]]>
+					</text>							
+				</box>
+			</fb>			
+		</question>
+		<!-- End Question 1 -->
+
+		<!-- Question 2 -->
+		<question id="q2" event="">
+
+    		<box id="row1" position="relative" class="lp-quiz-layout-column12" />
+    		<box id="row2" position="relative" class="lp-quiz-layout-table-row" />		    		
+			<box id="row2-col1" target="row2" position="relative" class="lp-quiz-layout-table-row-column6" />
+			<box id="row2-col2" target="row2" position="relative" class="lp-quiz-layout-table-row-column6" />    		
+    		<box id="row3" position="relative" class="lp-quiz-layout-column12" />				
+
+			<text id="q2-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
+				<![CDATA[<p class="lp-quiz-p24">2. ขั้นตอนแรกของการคัดลอกภาพคือข้อใด</p>]]>
+			</text>
+
+			<!--option 1 -->
+			<option correct="false">
+				<image id="q2-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
+					<![CDATA[assets/quiz/achievement/q2-a1.png]]>
+				</image>				
+			</option>
+			
+			<!--option 2 -->	
+			<option correct="true">
+				<image id="q2-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
+					<![CDATA[assets/quiz/achievement/q2-a2.png]]>
+				</image>				
+			</option>
+
+			<!--option 3 -->	
+			<option correct="false">
+				<image id="q2-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
+					<![CDATA[assets/quiz/achievement/q2-a3.png]]>
+				</image>				
+			</option>
+
+			<!--option 4 -->	
+			<option correct="false">
+				<image id="q2-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
+					<![CDATA[assets/quiz/achievement/q2-a4.png]]>
+				</image>				
+			</option>			
+			<!--/options -->
+
+			<!-- feedbacks -->
+			<fb id="pass" event="">	
+				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">		
+					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
+						<![CDATA[<p class="lp-quiz-p24 white">ข้อถัดไป</p>]]>
+					</text>					
+				</box>
+			</fb>
+			
+			<fb id="fail" event="">				
+				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">
+					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
+						<![CDATA[<p class="lp-quiz-p24 white">ข้อถัดไป</p>]]>
+					</text>							
+				</box>
+			</fb>			
+		</question>
+		<!-- End Question 2 -->
+
+		<!-- Question 40 -->
+		<question id="q40" event="">
+
+    		<box id="row1" position="relative" class="lp-quiz-layout-column12" />
+    		<box id="row2" position="relative" class="lp-quiz-layout-table-row" />		    		
+			<box id="row2-col1" target="row2" position="relative" class="lp-quiz-layout-table-row-column6" />
+			<box id="row2-col2" target="row2" position="relative" class="lp-quiz-layout-table-row-column6" />    		
+    		<box id="row3" position="relative" class="lp-quiz-layout-column12" />				
+
+			<text id="q40-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
+				<![CDATA[<p class="lp-quiz-p24">40. ภาพในข้อใดใช้รูปร่างสี่เหลี่ยมมน</p>]]>
+			</text>
+
+			<!--option 1 -->
+			<option correct="true">
+				<image id="q40-opt1" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
+					<![CDATA[assets/quiz/achievement/q40-a1.png]]>
+				</image>				
+			</option>
+			
+			<!--option 2 -->	
+			<option correct="false">
+				<image id="q40-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
+					<![CDATA[assets/quiz/achievement/q40-a2.png]]>
+				</image>				
+			</option>
+
+			<!--option 3 -->	
+			<option correct="false">
+				<image id="q40-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
+					<![CDATA[assets/quiz/achievement/q40-a3.png]]>
+				</image>				
+			</option>
+
+			<!--option 4 -->	
+			<option correct="false">
+				<image id="q40-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
+					<![CDATA[assets/quiz/achievement/q40-a4.png]]>
+				</image>				
+			</option>			
+			<!--/options -->
+
+			<!-- feedbacks -->
+			<fb id="pass" event="">	
+				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">		
+					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
+						<![CDATA[<p class="lp-quiz-p24 white">สรุปคะแนน</p>]]>
+					</text>					
+				</box>
+			</fb>
+			
+			<fb id="fail" event="">				
+				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">
+					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
+						<![CDATA[<p class="lp-quiz-p24 white">สรุปคะแนน</p>]]>
+					</text>							
+				</box>
+			</fb>			
+		</question>
+		<!-- End Question 40 -->		
+
+		<!--Score screen-->
+        <score masteryscore="70">
+           <fb id="pass" event="">
+            	<box id="center" position="relative" height="100%">
+	            	<box id="passTextBox" position="relative" height="350" margin-top="100" margin-bottom="20" anim="left" animtime="0.5" 
+	            		class="">
+						
+						<text id="pass_txt" position="relative" x="10" margin-top="70" margin-bottom="20" anim="none">
+							<![CDATA[<p class="lp-quiz-p30 lp-quiz-text-blue lp-quiz-text-glow lp-center-text">สรุปผลการทำแบบทดสอบวัดผลสัมฤทธิ์ทางการเรียนก่อนเรียน</p><p class="lp-quiz-p30 lp-center-text">คะแนนเต็ม 40 คะแนน</p><p class="lp-quiz-p30 lp-center-text">นักเรียนทำได้ [score] คะแนน</p>]]>
+						</text>
+
+	                </box>
+                </box>
+            </fb>
+            
+            <fb id="fail" event="">
+  				<box id="center" position="relative" height="100%">
+	            	<box id="failTextBox" position="relative" height="350" margin-top="100" margin-bottom="20" anim="left" animtime="0.5" 
+	            		class="">
+
+						<text id="failed_txt" position="relative" x="10" margin-top="70" margin-bottom="20" anim="none">
+							<![CDATA[<p class="lp-quiz-p30 lp-quiz-text-blue lp-quiz-text-glow lp-center-text">สรุปผลการทำแบบทดสอบวัดผลสัมฤทธิ์ทางการเรียนก่อนเรียน</p><p class="lp-quiz-p30 lp-center-text">คะแนนเต็ม 40 คะแนน</p><p class="lp-quiz-p30 lp-center-text">นักเรียนทำได้ [score] คะแนน</p>]]>
+						</text>
+
+	                </box> 
+                </box> 
+            </fb>
+        </score>
+
+	</custom>
+</data>

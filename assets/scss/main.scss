@@ -117,6 +117,10 @@ LearnPaint
 
 -------------------------------- */
 
+.lp-center-text {
+	text-align:center !important;
+}
+
 .lp-btn {
 	display: inline-block;
 	height: 3em;
@@ -431,11 +435,15 @@ With Multiple Choice Quiz Engine
 }
 
 .lp-quiz-text-glow {
-	text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+	text-shadow: 0px 0px 30px rgba(223, 213, 8, 1);
 }
 
 .lp-quiz-text-orange { 
 	color:#f7c160;
+}
+
+.lp-quiz-text-blue { 
+	color:#0055AD;
 }
 
 .lp-quiz-p16 {
@@ -534,7 +542,6 @@ With Multiple Choice Quiz Engine
 	margin:7px 0 !important;
 	text-align:center !important;	
 }
-
 
 /*--------------------------------
 
