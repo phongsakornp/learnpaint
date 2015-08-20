@@ -162,66 +162,83 @@ $tabs-btn-width-L: auto;  // tab button width on large devices
 	    }
 
 		&[data-content='1']::before {
-			// background-position: 0 0;
-      		background-image: url('../img/pre-achievement-quiz@32px.svg');
-		}
+			background-image: url('../img/manual@32px.svg');
+		}		    
 
 		&[data-content='2']::before {
-      		background-image: url('../img/paint@32px.svg');
+			// background-position: 0 0;
+      		background-image: url('../img/pre-achievement-quiz@32px.svg');
 		}
 
 		&[data-content='3']::before {
-      		background-image: url('../img/tools@32px.svg');
+      		background-image: url('../img/paint@32px.svg');
 		}
 
 		&[data-content='4']::before {
-      		background-image: url('../img/draw@32px.svg');
+      		background-image: url('../img/tools@32px.svg');
 		}
 
 		&[data-content='5']::before {
+      		background-image: url('../img/draw@32px.svg');
+		}
+
+		&[data-content='6']::before {
 			// background-position: 0 0;
       		background-image: url('../img/pre-achievement-quiz@32px.svg');
 		}		
 
-		&[data-content='6']::before {
+		&[data-content='7']::before {
 			background-image: url('../img/student-portfolio@32px.svg');
 		}
 
-		&[data-content='7']::before {
-			background-image: url('../img/manual@32px.svg');
-		}		
+		&[data-content='8']::before {
+			background-image: url('../img/creator@32px.svg');
+		}
+
+		&[data-content='9']::before {
+			background-image: url('../img/like@32px.svg');
+		}
 
 	    &[data-content='0'].selected::before {
 	    	background-image: url('../img/home-selected@32px.svg');
 	    }
 
-	    &[data-content='1'].selected::before {
-      		background-image: url('../img/pre-achievement-quiz-selected@32px.svg');
-		}
+		&[data-content='1'].selected::before {
+			background-image: url('../img/manual-selected@32px.svg');
+		}		    
 
-		&[data-content='2'].selected::before {
-      		background-image: url('../img/paint-selected@32px.svg');
+	    &[data-content='2'].selected::before {
+      		background-image: url('../img/pre-achievement-quiz-selected@32px.svg');
 		}
 
 		&[data-content='3'].selected::before {
-      		background-image: url('../img/tools-selected@32px.svg');
+      		background-image: url('../img/paint-selected@32px.svg');
 		}
 
 		&[data-content='4'].selected::before {
+      		background-image: url('../img/tools-selected@32px.svg');
+		}
+
+		&[data-content='5'].selected::before {
       		background-image: url('../img/draw-selected@32px.svg');
 		}
 
-	    &[data-content='5'].selected::before {
+	    &[data-content='6'].selected::before {
       		background-image: url('../img/pre-achievement-quiz-selected@32px.svg');
 		}		
 
-		&[data-content='6'].selected::before {
+		&[data-content='7'].selected::before {
 			background-image: url('../img/student-portfolio-selected@32px.svg');
 		}
+	
+		&[data-content='8'].selected::before {
+			background-image: url('../img/creator-selected@32px.svg');
+		}
 
-		&[data-content='7'].selected::before {
-			background-image: url('../img/manual-selected@32px.svg');
+		&[data-content='9'].selected::before {
+			background-image: url('../img/like-selected@32px.svg');
 		}		
+
 	}
 
 	// @include MQ(M) {

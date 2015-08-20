@@ -327,11 +327,11 @@ LearnPaint
 }
 
 #lp-course-post-achievement-quiz .lp-course-header-side {
-	background: #2B9BD3;
+	background: #70BBB4;
 }
 
 #lp-course-post-achievement-quiz .lp-course-header-info {
-	background: #61C4F6;
+	background: #AFF4EE;
 }
 
 #lp-manual .lp-course-header-side {
@@ -341,6 +341,75 @@ LearnPaint
 #lp-manual .lp-course-header-info {
 	background: #E0B7F5;
 }
+
+#lp-creator .lp-course-header-side {
+	background: #C979AD;
+}
+
+#lp-creator .lp-course-header-info {
+	background: #F7C9E7;
+}
+
+#lp-credits .lp-course-header-side {
+	background: #EE4131;
+}
+
+#lp-credits .lp-course-header-info {
+	background: #FBCAC6;
+}
+
+.lp-creator-content  {
+
+	img.profile-image {
+		display: block;
+		height: 100px;
+		margin: 20px auto;
+
+		@include MQ(M){
+			height: 150px;
+			margin-top: 50px;
+			margin-bottom: 50px;		
+		}
+	
+	}
+
+	.record-table-row {
+		@include fill-parent();
+		@include row(table);
+		margin-top: 25px;
+	}
+
+	.header-column {
+		@include span-columns(3);
+		// background:red;
+
+		h4 {
+			font-family: 'Noto Sans Thai', 'sans-serif';
+			font-size: 18px;
+			font-weight: 700;
+			color: #808080;
+			line-height: 25px;
+			text-align: right;
+			margin-right: 40px !important;			
+		}
+	}
+
+	.details-column {
+		@include span-columns(9);
+
+		// background:blue;
+		h4 {
+			font-family: 'Noto Sans Thai', 'sans-serif';
+			font-size: 18px;
+			font-weight: 700;
+			color: #484848;
+			line-height: 25px;
+			// margin-left: 10px !important;			
+		}		
+	}
+
+}
+
 
 /*--------------------------------
 
@@ -594,9 +663,9 @@ Override RoyalSlider Video Gallery
 
 .videoGallery .rsTmb h5 {
 	font-family: 'Noto Sans Thai', 'sans-serif';
-  font-size: 18px;
-  font-weight: 700;
-  color: #484848;
+	font-size: 18px;
+	font-weight: 700;
+	color: #484848;
 	line-height: 25px;
 }
 

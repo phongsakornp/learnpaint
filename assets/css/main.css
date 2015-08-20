@@ -321,35 +321,43 @@ Modified by: PhongsakornP.
     .cd-tabs-navigation a[data-content='0']::before {
       background-image: url("../img/home@32px.svg"); }
     .cd-tabs-navigation a[data-content='1']::before {
-      background-image: url("../img/pre-achievement-quiz@32px.svg"); }
-    .cd-tabs-navigation a[data-content='2']::before {
-      background-image: url("../img/paint@32px.svg"); }
-    .cd-tabs-navigation a[data-content='3']::before {
-      background-image: url("../img/tools@32px.svg"); }
-    .cd-tabs-navigation a[data-content='4']::before {
-      background-image: url("../img/draw@32px.svg"); }
-    .cd-tabs-navigation a[data-content='5']::before {
-      background-image: url("../img/pre-achievement-quiz@32px.svg"); }
-    .cd-tabs-navigation a[data-content='6']::before {
-      background-image: url("../img/student-portfolio@32px.svg"); }
-    .cd-tabs-navigation a[data-content='7']::before {
       background-image: url("../img/manual@32px.svg"); }
+    .cd-tabs-navigation a[data-content='2']::before {
+      background-image: url("../img/pre-achievement-quiz@32px.svg"); }
+    .cd-tabs-navigation a[data-content='3']::before {
+      background-image: url("../img/paint@32px.svg"); }
+    .cd-tabs-navigation a[data-content='4']::before {
+      background-image: url("../img/tools@32px.svg"); }
+    .cd-tabs-navigation a[data-content='5']::before {
+      background-image: url("../img/draw@32px.svg"); }
+    .cd-tabs-navigation a[data-content='6']::before {
+      background-image: url("../img/pre-achievement-quiz@32px.svg"); }
+    .cd-tabs-navigation a[data-content='7']::before {
+      background-image: url("../img/student-portfolio@32px.svg"); }
+    .cd-tabs-navigation a[data-content='8']::before {
+      background-image: url("../img/creator@32px.svg"); }
+    .cd-tabs-navigation a[data-content='9']::before {
+      background-image: url("../img/like@32px.svg"); }
     .cd-tabs-navigation a[data-content='0'].selected::before {
       background-image: url("../img/home-selected@32px.svg"); }
     .cd-tabs-navigation a[data-content='1'].selected::before {
-      background-image: url("../img/pre-achievement-quiz-selected@32px.svg"); }
-    .cd-tabs-navigation a[data-content='2'].selected::before {
-      background-image: url("../img/paint-selected@32px.svg"); }
-    .cd-tabs-navigation a[data-content='3'].selected::before {
-      background-image: url("../img/tools-selected@32px.svg"); }
-    .cd-tabs-navigation a[data-content='4'].selected::before {
-      background-image: url("../img/draw-selected@32px.svg"); }
-    .cd-tabs-navigation a[data-content='5'].selected::before {
-      background-image: url("../img/pre-achievement-quiz-selected@32px.svg"); }
-    .cd-tabs-navigation a[data-content='6'].selected::before {
-      background-image: url("../img/student-portfolio-selected@32px.svg"); }
-    .cd-tabs-navigation a[data-content='7'].selected::before {
       background-image: url("../img/manual-selected@32px.svg"); }
+    .cd-tabs-navigation a[data-content='2'].selected::before {
+      background-image: url("../img/pre-achievement-quiz-selected@32px.svg"); }
+    .cd-tabs-navigation a[data-content='3'].selected::before {
+      background-image: url("../img/paint-selected@32px.svg"); }
+    .cd-tabs-navigation a[data-content='4'].selected::before {
+      background-image: url("../img/tools-selected@32px.svg"); }
+    .cd-tabs-navigation a[data-content='5'].selected::before {
+      background-image: url("../img/draw-selected@32px.svg"); }
+    .cd-tabs-navigation a[data-content='6'].selected::before {
+      background-image: url("../img/pre-achievement-quiz-selected@32px.svg"); }
+    .cd-tabs-navigation a[data-content='7'].selected::before {
+      background-image: url("../img/student-portfolio-selected@32px.svg"); }
+    .cd-tabs-navigation a[data-content='8'].selected::before {
+      background-image: url("../img/creator-selected@32px.svg"); }
+    .cd-tabs-navigation a[data-content='9'].selected::before {
+      background-image: url("../img/like-selected@32px.svg"); }
 
 .cd-tabs-content {
   background: #ffffff;
@@ -814,16 +822,64 @@ LearnPaint
   background: #61C4F6; }
 
 #lp-course-post-achievement-quiz .lp-course-header-side {
-  background: #2B9BD3; }
+  background: #70BBB4; }
 
 #lp-course-post-achievement-quiz .lp-course-header-info {
-  background: #61C4F6; }
+  background: #AFF4EE; }
 
 #lp-manual .lp-course-header-side {
   background: #A15BC5; }
 
 #lp-manual .lp-course-header-info {
   background: #E0B7F5; }
+
+#lp-creator .lp-course-header-side {
+  background: #C979AD; }
+
+#lp-creator .lp-course-header-info {
+  background: #F7C9E7; }
+
+#lp-credits .lp-course-header-side {
+  background: #EE4131; }
+
+#lp-credits .lp-course-header-info {
+  background: #FBCAC6; }
+
+.lp-creator-content img.profile-image {
+  display: block;
+  height: 100px;
+  margin: 20px auto; }
+  @media only screen and (min-width: 768px) {
+    .lp-creator-content img.profile-image {
+      height: 150px;
+      margin-top: 50px;
+      margin-bottom: 50px; } }
+.lp-creator-content .record-table-row {
+  width: 100%;
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  margin-top: 25px; }
+.lp-creator-content .header-column {
+  display: table-cell;
+  width: 25%; }
+  .lp-creator-content .header-column h4 {
+    font-family: 'Noto Sans Thai', 'sans-serif';
+    font-size: 18px;
+    font-weight: 700;
+    color: #808080;
+    line-height: 25px;
+    text-align: right;
+    margin-right: 40px !important; }
+.lp-creator-content .details-column {
+  display: table-cell;
+  width: 75%; }
+  .lp-creator-content .details-column h4 {
+    font-family: 'Noto Sans Thai', 'sans-serif';
+    font-size: 18px;
+    font-weight: 700;
+    color: #484848;
+    line-height: 25px; }
 
 /*--------------------------------
 
@@ -885,16 +941,12 @@ With Multiple Choice Quiz Engine
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  float: left;
-  display: block;
-  margin-right: 2.3576515979%;
+  display: table-cell;
   width: 100%; }
   .lp-quiz-layout-column12::after {
     clear: both;
     content: "";
     display: table; }
-  .lp-quiz-layout-column12:last-child {
-    margin-right: 0; }
 
 .lp-quiz-layout-table-row {
   max-width: 68em;
