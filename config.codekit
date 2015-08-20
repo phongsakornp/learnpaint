@@ -2260,453 +2260,442 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/quiz\/course2\/q1-a1.png": {
+	"\/assets\/quiz\/course1\/q1-a1.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2952,
-		"inputAbbreviatedPath": "\/assets\/quiz\/course2\/q1-a1.png",
-		"outputAbbreviatedPath": "\/assets\/quiz\/course2\/q1-a1.png",
+		"initialSize": 4975,
+		"inputAbbreviatedPath": "\/assets\/quiz\/course1\/q1-a1.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/course1\/q1-a1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/quiz\/course2\/q1-a2.png": {
+	"\/assets\/quiz\/course1\/q1-a2.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2784,
-		"inputAbbreviatedPath": "\/assets\/quiz\/course2\/q1-a2.png",
-		"outputAbbreviatedPath": "\/assets\/quiz\/course2\/q1-a2.png",
+		"initialSize": 4564,
+		"inputAbbreviatedPath": "\/assets\/quiz\/course1\/q1-a2.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/course1\/q1-a2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/quiz\/course2\/q1-a3.png": {
+	"\/assets\/quiz\/course1\/q1-a3.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/quiz\/course2\/q1-a3.png",
-		"outputAbbreviatedPath": "\/assets\/quiz\/course2\/q1-a3.png",
+		"initialSize": 5075,
+		"inputAbbreviatedPath": "\/assets\/quiz\/course1\/q1-a3.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/course1\/q1-a3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/quiz\/course2\/q1-a4.png": {
+	"\/assets\/quiz\/course1\/q1-a4.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/quiz\/course2\/q1-a4.png",
-		"outputAbbreviatedPath": "\/assets\/quiz\/course2\/q1-a4.png",
+		"initialSize": 5126,
+		"inputAbbreviatedPath": "\/assets\/quiz\/course1\/q1-a4.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/course1\/q1-a4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/quiz\/course2\/q10-a1.png": {
+	"\/assets\/quiz\/course1\/q10-a1.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/quiz\/course2\/q10-a1.png",
-		"outputAbbreviatedPath": "\/assets\/quiz\/course2\/q10-a1.png",
+		"initialSize": 5854,
+		"inputAbbreviatedPath": "\/assets\/quiz\/course1\/q10-a1.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/course1\/q10-a1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/quiz\/course2\/q10-a2.png": {
+	"\/assets\/quiz\/course1\/q10-a2.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/quiz\/course2\/q10-a2.png",
-		"outputAbbreviatedPath": "\/assets\/quiz\/course2\/q10-a2.png",
+		"initialSize": 1912,
+		"inputAbbreviatedPath": "\/assets\/quiz\/course1\/q10-a2.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/course1\/q10-a2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/quiz\/course2\/q10-a3.png": {
+	"\/assets\/quiz\/course1\/q10-a3.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/quiz\/course2\/q10-a3.png",
-		"outputAbbreviatedPath": "\/assets\/quiz\/course2\/q10-a3.png",
+		"initialSize": 5965,
+		"inputAbbreviatedPath": "\/assets\/quiz\/course1\/q10-a3.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/course1\/q10-a3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/quiz\/course2\/q10-a4.png": {
+	"\/assets\/quiz\/course1\/q10-a4.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/quiz\/course2\/q10-a4.png",
-		"outputAbbreviatedPath": "\/assets\/quiz\/course2\/q10-a4.png",
+		"initialSize": 4876,
+		"inputAbbreviatedPath": "\/assets\/quiz\/course1\/q10-a4.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/course1\/q10-a4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/quiz\/course2\/q10.png": {
+	"\/assets\/quiz\/course1\/q2-a1.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/quiz\/course2\/q10.png",
-		"outputAbbreviatedPath": "\/assets\/quiz\/course2\/q10.png",
+		"initialSize": 7451,
+		"inputAbbreviatedPath": "\/assets\/quiz\/course1\/q2-a1.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/course1\/q2-a1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/quiz\/course2\/q2-a1.png": {
+	"\/assets\/quiz\/course1\/q2-a2.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/quiz\/course2\/q2-a1.png",
-		"outputAbbreviatedPath": "\/assets\/quiz\/course2\/q2-a1.png",
+		"initialSize": 8113,
+		"inputAbbreviatedPath": "\/assets\/quiz\/course1\/q2-a2.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/course1\/q2-a2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/quiz\/course2\/q2-a2.png": {
+	"\/assets\/quiz\/course1\/q2-a3.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/quiz\/course2\/q2-a2.png",
-		"outputAbbreviatedPath": "\/assets\/quiz\/course2\/q2-a2.png",
+		"initialSize": 7456,
+		"inputAbbreviatedPath": "\/assets\/quiz\/course1\/q2-a3.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/course1\/q2-a3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/quiz\/course2\/q2-a3.png": {
+	"\/assets\/quiz\/course1\/q2-a4.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/quiz\/course2\/q2-a3.png",
-		"outputAbbreviatedPath": "\/assets\/quiz\/course2\/q2-a3.png",
+		"initialSize": 8620,
+		"inputAbbreviatedPath": "\/assets\/quiz\/course1\/q2-a4.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/course1\/q2-a4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/quiz\/course2\/q2-a4.png": {
+	"\/assets\/quiz\/course1\/q3-a1.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/quiz\/course2\/q2-a4.png",
-		"outputAbbreviatedPath": "\/assets\/quiz\/course2\/q2-a4.png",
+		"initialSize": 3697,
+		"inputAbbreviatedPath": "\/assets\/quiz\/course1\/q3-a1.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/course1\/q3-a1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/quiz\/course2\/q3-a1.png": {
+	"\/assets\/quiz\/course1\/q3-a2.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/quiz\/course2\/q3-a1.png",
-		"outputAbbreviatedPath": "\/assets\/quiz\/course2\/q3-a1.png",
+		"initialSize": 3537,
+		"inputAbbreviatedPath": "\/assets\/quiz\/course1\/q3-a2.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/course1\/q3-a2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/quiz\/course2\/q3-a2.png": {
+	"\/assets\/quiz\/course1\/q3-a3.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/quiz\/course2\/q3-a2.png",
-		"outputAbbreviatedPath": "\/assets\/quiz\/course2\/q3-a2.png",
+		"initialSize": 3611,
+		"inputAbbreviatedPath": "\/assets\/quiz\/course1\/q3-a3.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/course1\/q3-a3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/quiz\/course2\/q3-a3.png": {
+	"\/assets\/quiz\/course1\/q3-a4.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/quiz\/course2\/q3-a3.png",
-		"outputAbbreviatedPath": "\/assets\/quiz\/course2\/q3-a3.png",
+		"initialSize": 3492,
+		"inputAbbreviatedPath": "\/assets\/quiz\/course1\/q3-a4.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/course1\/q3-a4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/quiz\/course2\/q3-a4.png": {
+	"\/assets\/quiz\/course1\/q4-a1.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/quiz\/course2\/q3-a4.png",
-		"outputAbbreviatedPath": "\/assets\/quiz\/course2\/q3-a4.png",
+		"initialSize": 4309,
+		"inputAbbreviatedPath": "\/assets\/quiz\/course1\/q4-a1.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/course1\/q4-a1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/quiz\/course2\/q4-a1.png": {
+	"\/assets\/quiz\/course1\/q4-a2.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/quiz\/course2\/q4-a1.png",
-		"outputAbbreviatedPath": "\/assets\/quiz\/course2\/q4-a1.png",
+		"initialSize": 4840,
+		"inputAbbreviatedPath": "\/assets\/quiz\/course1\/q4-a2.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/course1\/q4-a2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/quiz\/course2\/q4-a2.png": {
+	"\/assets\/quiz\/course1\/q4-a3.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/quiz\/course2\/q4-a2.png",
-		"outputAbbreviatedPath": "\/assets\/quiz\/course2\/q4-a2.png",
+		"initialSize": 4624,
+		"inputAbbreviatedPath": "\/assets\/quiz\/course1\/q4-a3.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/course1\/q4-a3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/quiz\/course2\/q4-a3.png": {
+	"\/assets\/quiz\/course1\/q4-a4.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/quiz\/course2\/q4-a3.png",
-		"outputAbbreviatedPath": "\/assets\/quiz\/course2\/q4-a3.png",
+		"initialSize": 5283,
+		"inputAbbreviatedPath": "\/assets\/quiz\/course1\/q4-a4.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/course1\/q4-a4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/quiz\/course2\/q4-a4.png": {
+	"\/assets\/quiz\/course1\/q5-a1.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/quiz\/course2\/q4-a4.png",
-		"outputAbbreviatedPath": "\/assets\/quiz\/course2\/q4-a4.png",
+		"initialSize": 1979,
+		"inputAbbreviatedPath": "\/assets\/quiz\/course1\/q5-a1.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/course1\/q5-a1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/quiz\/course2\/q5-a1.png": {
+	"\/assets\/quiz\/course1\/q5-a2.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/quiz\/course2\/q5-a1.png",
-		"outputAbbreviatedPath": "\/assets\/quiz\/course2\/q5-a1.png",
+		"initialSize": 3069,
+		"inputAbbreviatedPath": "\/assets\/quiz\/course1\/q5-a2.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/course1\/q5-a2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/quiz\/course2\/q5-a2.png": {
+	"\/assets\/quiz\/course1\/q5-a3.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/quiz\/course2\/q5-a2.png",
-		"outputAbbreviatedPath": "\/assets\/quiz\/course2\/q5-a2.png",
+		"initialSize": 3297,
+		"inputAbbreviatedPath": "\/assets\/quiz\/course1\/q5-a3.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/course1\/q5-a3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/quiz\/course2\/q5-a3.png": {
+	"\/assets\/quiz\/course1\/q5-a4.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/quiz\/course2\/q5-a3.png",
-		"outputAbbreviatedPath": "\/assets\/quiz\/course2\/q5-a3.png",
+		"initialSize": 4838,
+		"inputAbbreviatedPath": "\/assets\/quiz\/course1\/q5-a4.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/course1\/q5-a4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/quiz\/course2\/q5-a4.png": {
+	"\/assets\/quiz\/course1\/q6-a1.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/quiz\/course2\/q5-a4.png",
-		"outputAbbreviatedPath": "\/assets\/quiz\/course2\/q5-a4.png",
+		"initialSize": 2574,
+		"inputAbbreviatedPath": "\/assets\/quiz\/course1\/q6-a1.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/course1\/q6-a1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/quiz\/course2\/q6-a1.png": {
+	"\/assets\/quiz\/course1\/q6-a2.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/quiz\/course2\/q6-a1.png",
-		"outputAbbreviatedPath": "\/assets\/quiz\/course2\/q6-a1.png",
+		"initialSize": 5423,
+		"inputAbbreviatedPath": "\/assets\/quiz\/course1\/q6-a2.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/course1\/q6-a2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/quiz\/course2\/q6-a2.png": {
+	"\/assets\/quiz\/course1\/q6-a3.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/quiz\/course2\/q6-a2.png",
-		"outputAbbreviatedPath": "\/assets\/quiz\/course2\/q6-a2.png",
+		"initialSize": 4487,
+		"inputAbbreviatedPath": "\/assets\/quiz\/course1\/q6-a3.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/course1\/q6-a3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/quiz\/course2\/q6-a3.png": {
+	"\/assets\/quiz\/course1\/q6-a4.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/quiz\/course2\/q6-a3.png",
-		"outputAbbreviatedPath": "\/assets\/quiz\/course2\/q6-a3.png",
+		"initialSize": 5943,
+		"inputAbbreviatedPath": "\/assets\/quiz\/course1\/q6-a4.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/course1\/q6-a4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/quiz\/course2\/q6-a4.png": {
+	"\/assets\/quiz\/course1\/q7-a1.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/quiz\/course2\/q6-a4.png",
-		"outputAbbreviatedPath": "\/assets\/quiz\/course2\/q6-a4.png",
+		"initialSize": 1967,
+		"inputAbbreviatedPath": "\/assets\/quiz\/course1\/q7-a1.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/course1\/q7-a1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/quiz\/course2\/q7-a1.png": {
+	"\/assets\/quiz\/course1\/q7-a2.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/quiz\/course2\/q7-a1.png",
-		"outputAbbreviatedPath": "\/assets\/quiz\/course2\/q7-a1.png",
+		"initialSize": 2373,
+		"inputAbbreviatedPath": "\/assets\/quiz\/course1\/q7-a2.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/course1\/q7-a2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/quiz\/course2\/q7-a2.png": {
+	"\/assets\/quiz\/course1\/q7-a3.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/quiz\/course2\/q7-a2.png",
-		"outputAbbreviatedPath": "\/assets\/quiz\/course2\/q7-a2.png",
+		"initialSize": 2410,
+		"inputAbbreviatedPath": "\/assets\/quiz\/course1\/q7-a3.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/course1\/q7-a3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/quiz\/course2\/q7-a3.png": {
+	"\/assets\/quiz\/course1\/q7-a4.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/quiz\/course2\/q7-a3.png",
-		"outputAbbreviatedPath": "\/assets\/quiz\/course2\/q7-a3.png",
+		"initialSize": 3060,
+		"inputAbbreviatedPath": "\/assets\/quiz\/course1\/q7-a4.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/course1\/q7-a4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/quiz\/course2\/q7-a4.png": {
+	"\/assets\/quiz\/course1\/q8-a1.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/quiz\/course2\/q7-a4.png",
-		"outputAbbreviatedPath": "\/assets\/quiz\/course2\/q7-a4.png",
+		"initialSize": 1802,
+		"inputAbbreviatedPath": "\/assets\/quiz\/course1\/q8-a1.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/course1\/q8-a1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/quiz\/course2\/q8-a1.png": {
+	"\/assets\/quiz\/course1\/q8-a2.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/quiz\/course2\/q8-a1.png",
-		"outputAbbreviatedPath": "\/assets\/quiz\/course2\/q8-a1.png",
+		"initialSize": 3143,
+		"inputAbbreviatedPath": "\/assets\/quiz\/course1\/q8-a2.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/course1\/q8-a2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/quiz\/course2\/q8-a2.png": {
+	"\/assets\/quiz\/course1\/q8-a3.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/quiz\/course2\/q8-a2.png",
-		"outputAbbreviatedPath": "\/assets\/quiz\/course2\/q8-a2.png",
+		"initialSize": 2328,
+		"inputAbbreviatedPath": "\/assets\/quiz\/course1\/q8-a3.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/course1\/q8-a3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/quiz\/course2\/q8-a3.png": {
+	"\/assets\/quiz\/course1\/q8-a4.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/quiz\/course2\/q8-a3.png",
-		"outputAbbreviatedPath": "\/assets\/quiz\/course2\/q8-a3.png",
+		"initialSize": 2250,
+		"inputAbbreviatedPath": "\/assets\/quiz\/course1\/q8-a4.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/course1\/q8-a4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/quiz\/course2\/q8-a4.png": {
+	"\/assets\/quiz\/course1\/q9-a1.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/quiz\/course2\/q8-a4.png",
-		"outputAbbreviatedPath": "\/assets\/quiz\/course2\/q8-a4.png",
+		"initialSize": 2245,
+		"inputAbbreviatedPath": "\/assets\/quiz\/course1\/q9-a1.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/course1\/q9-a1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/quiz\/course2\/q9-a1.png": {
+	"\/assets\/quiz\/course1\/q9-a2.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/quiz\/course2\/q9-a1.png",
-		"outputAbbreviatedPath": "\/assets\/quiz\/course2\/q9-a1.png",
+		"initialSize": 3565,
+		"inputAbbreviatedPath": "\/assets\/quiz\/course1\/q9-a2.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/course1\/q9-a2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/quiz\/course2\/q9-a2.png": {
+	"\/assets\/quiz\/course1\/q9-a3.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/quiz\/course2\/q9-a2.png",
-		"outputAbbreviatedPath": "\/assets\/quiz\/course2\/q9-a2.png",
+		"initialSize": 4459,
+		"inputAbbreviatedPath": "\/assets\/quiz\/course1\/q9-a3.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/course1\/q9-a3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/quiz\/course2\/q9-a3.png": {
+	"\/assets\/quiz\/course1\/q9-a4.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/quiz\/course2\/q9-a3.png",
-		"outputAbbreviatedPath": "\/assets\/quiz\/course2\/q9-a3.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/quiz\/course2\/q9-a4.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/quiz\/course2\/q9-a4.png",
-		"outputAbbreviatedPath": "\/assets\/quiz\/course2\/q9-a4.png",
+		"initialSize": 4896,
+		"inputAbbreviatedPath": "\/assets\/quiz\/course1\/q9-a4.png",
+		"outputAbbreviatedPath": "\/assets\/quiz\/course1\/q9-a4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
