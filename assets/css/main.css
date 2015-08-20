@@ -916,6 +916,16 @@ LearnPaint
     line-height: 25px;
     vertical-align: middle; }
 
+.lp-manual-content {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px; }
+  .lp-manual-content::after {
+    clear: both;
+    content: "";
+    display: table; }
+
 /*--------------------------------
 
 iOS Safari viewport fixed
