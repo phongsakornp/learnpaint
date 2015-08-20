@@ -52,7 +52,7 @@
     		<box id="row3" position="relative" class="lp-quiz-layout-column12" />				
 
 			<text id="q5-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="lp-quiz-p24">1. ภาพในข้อใดใช้เครื่องมือแปรงทาสี?</p>]]>
+				<![CDATA[<p class="lp-quiz-p24">1. ภาพในข้อใดใช้เครื่องมือแปรงทาสี</p>]]>
 			</text>
 
 			<!--option 1 -->
@@ -88,7 +88,7 @@
 			<fb id="pass" event="">	
 				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">		
 					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
-						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
+						<![CDATA[<p class="lp-quiz-p24 white">ข้อถัดไป</p>]]>
 					</text>					
 				</box>
 			</fb>
@@ -96,7 +96,7 @@
 			<fb id="fail" event="">				
 				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">
 					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
-						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
+						<![CDATA[<p class="lp-quiz-p24 white">ข้อถัดไป</p>]]>
 					</text>							
 				</box>
 			</fb>			
@@ -113,7 +113,7 @@
     		<box id="row3" position="relative" class="lp-quiz-layout-column12" />				
 
 			<text id="q3-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="lp-quiz-p24">2. ภาพในข้อใดใช้เส้นโค้ง?</p>]]>
+				<![CDATA[<p class="lp-quiz-p24">2. ภาพในข้อใดใช้เส้นโค้ง</p>]]>
 			</text>
 
 			<!--option 1 -->
@@ -149,7 +149,7 @@
 			<fb id="pass" event="">	
 				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">		
 					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
-						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
+						<![CDATA[<p class="lp-quiz-p24 white">ข้อถัดไป</p>]]>
 					</text>					
 				</box>
 			</fb>
@@ -157,7 +157,7 @@
 			<fb id="fail" event="">				
 				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">
 					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
-						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
+						<![CDATA[<p class="lp-quiz-p24 white">ข้อถัดไป</p>]]>
 					</text>							
 				</box>
 			</fb>			
@@ -174,7 +174,7 @@
     		<box id="row3" position="relative" class="lp-quiz-layout-column12" />				
 
 			<text id="q10-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="lp-quiz-p24">3. จากภาพใช้เครื่องมือใดวาด?</p>]]>
+				<![CDATA[<p class="lp-quiz-p24">3. จากภาพใช้เครื่องมือใดวาด</p>]]>
 			</text>
 
 			<image id="q10-img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="none" animtime="1" animdelay="0" class="">
@@ -210,11 +210,12 @@
 			</option>			
 			<!--/options -->
 
+
 			<!-- feedbacks -->
 			<fb id="pass" event="">	
 				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">		
 					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
-						<![CDATA[<p class="lp-quiz-p16 white">สรุปคะแนน</p>]]>
+						<![CDATA[<p class="lp-quiz-p24 white">ข้อถัดไป</p>]]>
 					</text>					
 				</box>
 			</fb>
@@ -222,10 +223,11 @@
 			<fb id="fail" event="">				
 				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">
 					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
-						<![CDATA[<p class="lp-quiz-p16 white">สรุปคะแนน</p>]]>
+						<![CDATA[<p class="lp-quiz-p24 white">ข้อถัดไป</p>]]>
 					</text>							
 				</box>
-			</fb>			
+			</fb>	
+		
 		</question>
 		<!-- End Question 3 (from 10) -->
 
@@ -239,7 +241,7 @@
     		<box id="row3" position="relative" class="lp-quiz-layout-column12" />				
 
 			<text id="q2-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="lp-quiz-p24">4. จากภาพ ใช้เครื่องมือใดวาด?</p>]]>
+				<![CDATA[<p class="lp-quiz-p24">4. จากภาพ ใช้เครื่องมือใดวาด</p>]]>
 			</text>
 
 			<image id="q2-img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="none" animtime="1" animdelay="0" class="">
@@ -279,7 +281,7 @@
 			<fb id="pass" event="">	
 				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">		
 					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
-						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
+						<![CDATA[<p class="lp-quiz-p24 white">ข้อถัดไป</p>]]>
 					</text>					
 				</box>
 			</fb>
@@ -287,7 +289,7 @@
 			<fb id="fail" event="">				
 				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">
 					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
-						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
+						<![CDATA[<p class="lp-quiz-p24 white">ข้อถัดไป</p>]]>
 					</text>							
 				</box>
 			</fb>			
@@ -304,7 +306,7 @@
     		<box id="row3" position="relative" class="lp-quiz-layout-column12" />				
 
 			<text id="q8-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="lp-quiz-p24">5. เครื่องมือวงรี ใช้วาดส่วนใดของภาพ?</p>]]>
+				<![CDATA[<p class="lp-quiz-p24">5. เครื่องมือวงรี ใช้วาดส่วนใดของภาพ</p>]]>
 			</text>
 
 			<image id="q8-img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="none" animtime="1" animdelay="0" class="">
@@ -344,7 +346,7 @@
 			<fb id="pass" event="">	
 				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">		
 					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
-						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
+						<![CDATA[<p class="lp-quiz-p24 white">ข้อถัดไป</p>]]>
 					</text>					
 				</box>
 			</fb>
@@ -352,7 +354,7 @@
 			<fb id="fail" event="">				
 				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">
 					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
-						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
+						<![CDATA[<p class="lp-quiz-p24 white">ข้อถัดไป</p>]]>
 					</text>							
 				</box>
 			</fb>			
@@ -369,7 +371,7 @@
     		<box id="row3" position="relative" class="lp-quiz-layout-column12" />				
 
 			<text id="q9-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="lp-quiz-p24">6. ภาพในข้อใดใช้เครื่องมือในการวาดแตกต่างจากพวก?</p>]]>
+				<![CDATA[<p class="lp-quiz-p24">6. ภาพในข้อใดใช้เครื่องมือในการวาดแตกต่างจากพวก</p>]]>
 			</text>
 
 			<!--option 1 -->
@@ -405,7 +407,7 @@
 			<fb id="pass" event="">	
 				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">		
 					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
-						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
+						<![CDATA[<p class="lp-quiz-p24 white">ข้อถัดไป</p>]]>
 					</text>					
 				</box>
 			</fb>
@@ -413,7 +415,7 @@
 			<fb id="fail" event="">				
 				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">
 					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
-						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
+						<![CDATA[<p class="lp-quiz-p24 white">ข้อถัดไป</p>]]>
 					</text>							
 				</box>
 			</fb>			
@@ -430,7 +432,7 @@
     		<box id="row3" position="relative" class="lp-quiz-layout-column12" />				
 
 			<text id="q6-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="lp-quiz-p24">7. ข้อใดคือผลที่ได้จากการใช้คำสั่ง copy?</p>]]>
+				<![CDATA[<p class="lp-quiz-p24">7. ข้อใดคือผลที่ได้จากการใช้คำสั่ง copy</p>]]>
 			</text>
 
 			<image id="q6-img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="none" animtime="1" animdelay="0" class="">
@@ -470,7 +472,7 @@
 			<fb id="pass" event="">	
 				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">		
 					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
-						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
+						<![CDATA[<p class="lp-quiz-p24 white">ข้อถัดไป</p>]]>
 					</text>					
 				</box>
 			</fb>
@@ -478,7 +480,7 @@
 			<fb id="fail" event="">				
 				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">
 					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
-						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
+						<![CDATA[<p class="lp-quiz-p24 white">ข้อถัดไป</p>]]>
 					</text>							
 				</box>
 			</fb>			
@@ -495,7 +497,7 @@
     		<box id="row3" position="relative" class="lp-quiz-layout-column12" />				
 
 			<text id="q4-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="lp-quiz-p24">8. เครื่องมือชนิดใด ไม่ได้ ใช้วาดภาพดวงอาทิตย์?</p>]]>
+				<![CDATA[<p class="lp-quiz-p24">8. เครื่องมือชนิดใด ไม่ได้ ใช้วาดภาพดวงอาทิตย์</p>]]>
 			</text>
 
 			<image id="q4-img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="none" animtime="1" animdelay="0" class="">
@@ -535,7 +537,7 @@
 			<fb id="pass" event="">	
 				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">		
 					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
-						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
+						<![CDATA[<p class="lp-quiz-p24 white">ข้อถัดไป</p>]]>
 					</text>					
 				</box>
 			</fb>
@@ -543,7 +545,7 @@
 			<fb id="fail" event="">				
 				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">
 					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
-						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
+						<![CDATA[<p class="lp-quiz-p24 white">ข้อถัดไป</p>]]>
 					</text>							
 				</box>
 			</fb>			
@@ -560,7 +562,7 @@
     		<box id="row3" position="relative" class="lp-quiz-layout-column12" />				
 
 			<text id="q7-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="lp-quiz-p24">9. จากภาพ ใช้เครื่องมือใดวาด?</p>]]>
+				<![CDATA[<p class="lp-quiz-p24">9. จากภาพ ใช้เครื่องมือใดวาด</p>]]>
 			</text>
 
 			<image id="q7-img" position="relative" target="row1" margin-top="0" margin-bottom="10" anim="none" animtime="1" animdelay="0" class="">
@@ -600,7 +602,7 @@
 			<fb id="pass" event="">	
 				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">		
 					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
-						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
+						<![CDATA[<p class="lp-quiz-p24 white">ข้อถัดไป</p>]]>
 					</text>					
 				</box>
 			</fb>
@@ -608,7 +610,7 @@
 			<fb id="fail" event="">				
 				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">
 					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
-						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
+						<![CDATA[<p class="lp-quiz-p24 white">ข้อถัดไป</p>]]>
 					</text>							
 				</box>
 			</fb>			
@@ -625,7 +627,7 @@
     		<box id="row3" position="relative" class="lp-quiz-layout-column12" />				
 
 			<text id="q1-q" position="relative" target="row1" margin-bottom="10" anim="none" animtime="1" animdelay="0.1" clear="both">
-				<![CDATA[<p class="lp-quiz-p24">10. ภาพในข้อใดใช้เครื่องมือดินสอ?</p>]]>
+				<![CDATA[<p class="lp-quiz-p24">10. ภาพในข้อใดใช้เครื่องมือดินสอ</p>]]>
 			</text>
 
 			<!--option 1 -->
@@ -655,13 +657,13 @@
 					<![CDATA[assets/quiz/course3/q1-a4.png]]>
 				</image>				
 			</option>			
-			<!--/options -->
+			<!--/options -->		
 
 			<!-- feedbacks -->
 			<fb id="pass" event="">	
 				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">		
 					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
-						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
+						<![CDATA[<p class="lp-quiz-p24 white">สรุปคะแนน</p>]]>
 					</text>					
 				</box>
 			</fb>
@@ -669,24 +671,24 @@
 			<fb id="fail" event="">				
 				<box id="fb" position="relative" target="row3" margin-top="30" margin-bottom="30" anim="show" animtime="0.5">
 					<text id="nextQBtn" position="relative" anim="none" event="nextQuestionOver,loadNextQuestion" class="lp-quiz-next-question-box">
-						<![CDATA[<p class="lp-quiz-p16 white">ข้อถัดไป</p>]]>
+						<![CDATA[<p class="lp-quiz-p24 white">สรุปคะแนน</p>]]>
 					</text>							
 				</box>
-			</fb>			
+			</fb>	
+
 		</question>
 		<!-- End Question 10 (from 1) -->	
-		
 
 		<!--Score screen-->
         <score masteryscore="70">
            <fb id="pass" event="">
             	<box id="center" position="relative" height="100%">
-	            	<box id="passTextBox" position="relative" height="350" margin-top="0" margin-bottom="20" anim="left" animtime="0.5" 
+	            	<box id="passTextBox" position="relative" height="350" margin-top="100" margin-bottom="20" anim="left" animtime="0.5" 
 	            		class="">
 						
-					<text id="pass_txt" position="relative" x="10" margin-top="30" margin-bottom="20" anim="none">
-						<![CDATA[<p class="lp-quiz-p30 lp-quiz-text-orange lp-quiz-text-glow">นักเรียนได้คะแนน [score]/10</p>]]>
-					</text>
+						<text id="pass_txt" position="relative" x="10" margin-top="70" margin-bottom="20" anim="none">
+							<![CDATA[<p class="lp-quiz-p30 lp-quiz-text-blue lp-quiz-text-glow lp-center-text">สรุปผลการทำแบบทดสอบหลังเรียน เรื่องที่ 3 ภาพสวยด้วยเพ้นท์</p><p class="lp-quiz-p30 lp-center-text">คะแนนเต็ม 10 คะแนน</p><p class="lp-quiz-p30 lp-center-text">นักเรียนทำได้ [score] คะแนน</p>]]>
+						</text>
 
 	                </box>
                 </box>
@@ -694,17 +696,17 @@
             
             <fb id="fail" event="">
   				<box id="center" position="relative" height="100%">
-	            	<box id="failTextBox" position="relative" height="350" margin-top="0" margin-bottom="20" anim="left" animtime="0.5" 
+	            	<box id="failTextBox" position="relative" height="350" margin-top="100" margin-bottom="20" anim="left" animtime="0.5" 
 	            		class="">
 
-	                    <text id="fail_txt" position="relative" x="10" margin-top="30" margin-bottom="20" anim="none">
-						<![CDATA[<p class="lp-quiz-p30 lp-quiz-text-orange lp-quiz-text-glow">นักเรียนได้คะแนน [score]/10</p>]]>
-	                    </text>
+						<text id="failed_txt" position="relative" x="10" margin-top="70" margin-bottom="20" anim="none">
+							<![CDATA[<p class="lp-quiz-p30 lp-quiz-text-blue lp-quiz-text-glow lp-center-text">สรุปผลการทำแบบทดสอบหลังเรียน เรื่องที่ 3 ภาพสวยด้วยเพ้นท์</p><p class="lp-quiz-p30 lp-center-text">คะแนนเต็ม 10 คะแนน</p><p class="lp-quiz-p30 lp-center-text">นักเรียนทำได้ [score] คะแนน</p>]]>
+						</text>
 
 	                </box> 
                 </box> 
             </fb>
-        </score>
+        </score>     
 
 	</custom>
 
