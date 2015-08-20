@@ -82,6 +82,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/creator-profile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37726,
+		"inputAbbreviatedPath": "\/assets\/img\/creator-profile.png",
+		"outputAbbreviatedPath": "\/assets\/img\/creator-profile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/freepik-credits.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6767,
+		"inputAbbreviatedPath": "\/assets\/img\/freepik-credits.png",
+		"outputAbbreviatedPath": "\/assets\/img\/freepik-credits.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/google-chrome-64.png": {
 		"fileType": 32768,
 		"ignore": 0,

@@ -410,6 +410,63 @@ LearnPaint
 
 }
 
+.lp-credits-content  {
+
+	// @include fill-parent;		
+	// height: 100vh !important;
+	// background:red;
+
+	img.preview {
+		display: block;
+		height: 70px;
+		margin: 20px auto;
+
+		@include MQ(M){
+			height: 150px;
+			// margin-top: 50px;
+			// margin-bottom: 50px;		
+		}
+	
+	}
+
+	.record-table-row {
+		@include fill-parent();
+		@include row(table);
+		// margin-top: 25px;
+		background:white;
+	}
+
+	.header-column {
+		@include span-columns(4);
+		// background:red;
+
+		h4 {
+			font-family: 'Noto Sans Thai', 'sans-serif';
+			font-size: 18px;
+			font-weight: 700;
+			color: #808080;
+			line-height: 25px;
+			text-align: right;
+			margin-right: 40px !important;			
+		}
+	}
+
+	.details-small-column {
+		@include span-columns(3);
+
+		// background:blue;
+		h4 {
+			font-family: 'Noto Sans Thai', 'sans-serif';
+			font-size: 18px;
+			font-weight: 700;
+			color: #484848;
+			line-height: 25px;
+			// margin-left: 10px !important;
+			vertical-align: middle;			
+		}		
+	}
+
+}
 
 /*--------------------------------
 

@@ -881,6 +881,41 @@ LearnPaint
     color: #484848;
     line-height: 25px; }
 
+.lp-credits-content img.preview {
+  display: block;
+  height: 70px;
+  margin: 20px auto; }
+  @media only screen and (min-width: 768px) {
+    .lp-credits-content img.preview {
+      height: 150px; } }
+.lp-credits-content .record-table-row {
+  width: 100%;
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  background: white; }
+.lp-credits-content .header-column {
+  display: table-cell;
+  width: 33.3333333333%; }
+  .lp-credits-content .header-column h4 {
+    font-family: 'Noto Sans Thai', 'sans-serif';
+    font-size: 18px;
+    font-weight: 700;
+    color: #808080;
+    line-height: 25px;
+    text-align: right;
+    margin-right: 40px !important; }
+.lp-credits-content .details-small-column {
+  display: table-cell;
+  width: 25%; }
+  .lp-credits-content .details-small-column h4 {
+    font-family: 'Noto Sans Thai', 'sans-serif';
+    font-size: 18px;
+    font-weight: 700;
+    color: #484848;
+    line-height: 25px;
+    vertical-align: middle; }
+
 /*--------------------------------
 
 iOS Safari viewport fixed
