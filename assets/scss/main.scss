@@ -240,13 +240,11 @@ LearnPaint
 .lp-course-header-info h1 {
 	font-family: 'thaisans_neuebold', 'Noto Sans Thai', 'sans-serif';
 	font-size: 1em;
-	margin-top: 0.45em;
-	line-height: 1.2em;
+	line-height: 2em;
 
 	@include MQ(M) {
 		font-size: 1.6em;
-		margin-top: 0em;
-		line-height: 1.2em;
+		line-height: 3.2em;
 	}
 }
 

@@ -757,13 +757,11 @@ LearnPaint
 .lp-course-header-info h1 {
   font-family: 'thaisans_neuebold', 'Noto Sans Thai', 'sans-serif';
   font-size: 1em;
-  margin-top: 0.45em;
-  line-height: 1.2em; }
+  line-height: 2em; }
   @media only screen and (min-width: 768px) {
     .lp-course-header-info h1 {
       font-size: 1.6em;
-      margin-top: 0em;
-      line-height: 1.2em; } }
+      line-height: 3.2em; } }
 
 .lp-course-content-slide {
   margin-top: 100px;
