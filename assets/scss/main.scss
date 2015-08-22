@@ -553,7 +553,7 @@ With Multiple Choice Quiz Engine
 
 .lp-quiz-layout-column12 {
 	@include outer-container;
-	@include span-columns(12);
+	// @include span-columns(12);
 }
 
 .lp-quiz-layout-table-row {
@@ -628,36 +628,42 @@ With Multiple Choice Quiz Engine
 }
 .lp-quiz-next-question-box {
 	background:#DD2843;
-	padding:2px;
+	padding:7px;
 	border:none;
 	border-radius:30px; 
 	-moz-border-radius:30px;
 	overflow:hidden !important;	
-	height:50px !important;
+	height:50px !important;	
+	width:200px;
+	float: right;	
 } 
 
 .lp-quiz-next-question-box p {
 	color:white !important;
-	margin:7px 0 !important;
-	text-align:center !important;
+	margin:10px 12px !important;
+	text-align: center !important;
+	line-height: 0.5em;		
 }
 .lp-quiz-next-question-over {
 	background:#BA2C41;
-	padding:2px;
+	padding:7px;
 	border:none;
 	border-radius:30px; 
 	-moz-border-radius:30px;
 	height:50px !important;	
+	width:200px;
+	float: right;	
 }
 .lp-quiz-next-question-over p {
 	color:white !important;
-	margin:7px 0 !important;	
-	text-align:center !important;	
+	margin:10px 12px !important;	
+	text-align: center !important;	
+	line-height: 0.5em;	
 }
 .lp-quiz-next-question-out {
 	background:#DD2843;
 	color:white;
-	padding:2px;
+	padding:7px;
 	border:none;
 	border-radius:30px; 
 	-moz-border-radius:30px;
@@ -667,11 +673,14 @@ With Multiple Choice Quiz Engine
     -ms-transition: background-color 500ms linear;
     transition: background-color 500ms linear;
 	height:50px !important;    
+	width:200px;
+	float: right;
 } 
 .lp-quiz-next-question-out p {
 	color:white !important;
-	margin:7px 0 !important;
-	text-align:center !important;	
+	margin:10px 12px !important;
+	text-align: center !important;	
+	line-height: 0.5em;
 }
 
 /*--------------------------------
