@@ -738,14 +738,14 @@
 			</option>
 			
 			<!--option 2 -->	
-			<option correct="false">
+			<option correct="true">
 				<image id="q14-opt2" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
 					<![CDATA[assets/quiz/achievement/q14-a2.png]]>
 				</image>				
 			</option>
 
 			<!--option 3 -->	
-			<option correct="true">
+			<option correct="false">
 				<image id="q14-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
 					<![CDATA[assets/quiz/achievement/q14-a3.png]]>
 				</image>				
@@ -1737,14 +1737,14 @@
 			</option>
 
 			<!--option 3 -->	
-			<option correct="true">
+			<option correct="false">
 				<image id="q25-opt3" target="row2-col1" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
 					<![CDATA[assets/quiz/achievement/q25-a3.png]]>
 				</image>				
 			</option>
 
 			<!--option 4 -->	
-			<option correct="false">
+			<option correct="true">
 				<image id="q25-opt4" target="row2-col2" position="relative" anim="none" animtime="1" animdelay="0" event="optionover,selectandsubmit" class="lp-quiz-option-box">
 					<![CDATA[assets/quiz/achievement/q25-a4.png]]>
 				</image>				
